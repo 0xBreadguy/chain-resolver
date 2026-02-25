@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chain Info Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0a0a0f;
+      --bg-secondary: #12121a;
+      --bg-card: #1a1a24;
+      --text-primary: #f0f0f5;
+      --text-secondary: #8888a0;
+      --accent: #6366f1;
+      --accent-glow: rgba(99, 102, 241, 0.3);
+      --border: #2a2a3a;
+      --success: #22c55e;
+      --warning: #f59e0b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    /* Animated background */
+    .bg-grid {
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+      background-size: 60px 60px;
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    /* Preview banner */
+    .preview-banner {
+      background: linear-gradient(135deg, var(--warning) 0%, #d97706 100%);
+      color: #000;
+      padding: 0.75rem 1rem;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      border-radius: 12px;
+    }
+
+    /* Top bar */
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .top-bar-title {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .top-bar-title .chain-label {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* Header section */
+    .header {
+      position: relative;
+      margin-bottom: 2rem;
+      border-radius: 24px;
+      overflow: hidden;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+    }
+
+    .header-image {
+      width: 100%;
+      /* Aspect ratio ~3:1 to fit wide banners (1920x600-800) */
+      aspect-ratio: 3 / 1;
+      background: var(--bg-secondary);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .header-content {
+      padding: 0 2rem 2rem;
+      position: relative;
+    }
+
+    .avatar-wrapper {
+      margin-top: -60px;
+      margin-bottom: 1rem;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 24px;
+      border: 4px solid var(--bg-card);
+      background: var(--bg-secondary);
+      object-fit: cover;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .avatar-placeholder {
+      width: 120px;
+      height: 120px;
+      border-radius: 24px;
+      border: 4px solid var(--bg-card);
+      background: linear-gradient(135deg, var(--accent) 0%, #8b5cf6 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      font-weight: 700;
+      color: white;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .chain-name {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+      letter-spacing: -0.02em;
+    }
+
+    .ens-name {
+      font-family: 'Space Mono', monospace;
+      font-size: 1rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    .description {
+      color: var(--text-secondary);
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+
+    .aliases {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+    }
+
+    .alias-tag {
+      display: inline-block;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--accent);
+      margin-left: 0.25rem;
+    }
+
+    /* Cards */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .card-title a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--text-secondary);
+      transition: all 0.2s;
+    }
+
+    .card-title a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    /* Interoperable Address */
+    .interop-address {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.9rem;
+      background: var(--bg-secondary);
+      padding: 1rem;
+      border-radius: 12px;
+      word-break: break-all;
+      color: var(--accent);
+      border: 1px solid var(--border);
+    }
+
+    /* Records grid */
+    .records-grid {
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .record-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 0.75rem 1rem;
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      gap: 1rem;
+    }
+
+    .record-key {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      flex-shrink: 0;
+    }
+
+    .record-value {
+      font-size: 0.9rem;
+      text-align: right;
+      word-break: break-all;
+      color: var(--text-primary);
+    }
+
+    .record-value a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .record-value a:hover {
+      text-decoration: underline;
+    }
+
+    /* Social links */
+    .social-links {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: var(--text-primary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+
+    .social-link:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    /* Back button */
+    .back-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: var(--text-primary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-bottom: 1.5rem;
+    }
+
+    .back-button:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    /* Chain list */
+    .chain-list-container {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .chain-list-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .chain-list-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .chain-list-pagination {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .chain-list-pagination button {
+      padding: 0.5rem 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-primary);
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .chain-list-pagination button:hover:not(:disabled) {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .chain-list-pagination button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .chain-list-pagination span {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+
+    .chain-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .chain-item {
+      padding: 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .chain-item:hover {
+      background: var(--bg-card);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .chain-item-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    .chain-item-avatar-placeholder {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--accent) 0%, #8b5cf6 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: white;
+      flex-shrink: 0;
+    }
+
+    .chain-item-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .chain-item-label {
+      font-weight: 600;
+      color: var(--accent);
+      font-size: 0.95rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .chain-item-name {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+
+    .chain-list-loading {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-secondary);
+    }
+
+    /* Search input */
+    .search-container {
+      margin-bottom: 1rem;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      font-size: 0.9rem;
+      font-family: 'Space Mono', monospace;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: var(--text-primary);
+      outline: none;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .search-input::placeholder {
+      color: var(--text-secondary);
+    }
+
+    /* Loading state */
+    .loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      gap: 1.5rem;
+    }
+
+    .spinner {
+      width: 48px;
+      height: 48px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .loading-text {
+      color: var(--text-secondary);
+      font-size: 1.1rem;
+    }
+
+    /* Input form - full height layout */
+    .input-form-container {
+      display: flex;
+      flex-direction: column;
+      min-height: calc(100vh - 4rem);
+    }
+
+    .input-form {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .form-title {
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+    }
+
+    .input-error {
+      color: #ef4444;
+      font-size: 0.9rem;
+      margin-top: 0.75rem;
+    }
+
+    .erc-links {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+    }
+
+    .erc-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--text-secondary);
+      transition: all 0.2s;
+    }
+
+    .erc-links a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .erc-links .separator {
+      color: var(--text-secondary);
+      margin: 0 0.5rem;
+    }
+
+    /* Input for manual name entry */
+    .name-input-section {
+      max-width: 450px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .name-input-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .name-input {
+      width: 100%;
+      padding: 1rem 1.25rem;
+      font-size: 1rem;
+      font-family: 'Space Mono', monospace;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: var(--text-primary);
+      outline: none;
+      text-align: center;
+    }
+
+    .name-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .name-input::placeholder {
+      color: var(--text-secondary);
+    }
+
+    .load-btn {
+      width: 100%;
+      padding: 1rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      background: var(--accent);
+      border: none;
+      border-radius: 12px;
+      color: white;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .load-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 20px var(--accent-glow);
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+    }
+
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .footer .built-by {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .footer .unruggable-logo {
+      height: 24px;
+      width: auto;
+      vertical-align: middle;
+      filter: invert(1);
+      opacity: 0.8;
+      transition: opacity 0.2s;
+    }
+
+    .footer .unruggable-logo:hover {
+      opacity: 1;
+    }
+
+    .footer .powered-by {
+      opacity: 0.7;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        padding: 1rem;
+      }
+
+      .chain-name {
+        font-size: 1.75rem;
+      }
+
+      .header-content {
+        padding: 0 1.25rem 1.5rem;
+      }
+
+      .record-item {
+        flex-direction: column;
+        gap: 0.25rem;
+      }
+
+      .record-value {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <div id="app" class="container">
+    <div class="loading">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading chain data...</div>
+    </div>
+  </div>
+
+  <script>
+    // Configuration
+    const CONFIG = {
+      dataUrl: '../data/chains.approved.json',
+      defaultDomain: 'cid.eth',
+      // Base URL for resolving relative image paths
+      imageBaseUrl: '../',
+    };
+
+    // Global chain data
+    let chainsData = [];
+
+    // Known keys with formatting
+    const KNOWN_KEYS = {
+      // Social/links - will be shown as buttons
+      'url': { icon: '🔗', label: 'Website', type: 'link' },
+      'com.github': { icon: '📦', label: 'GitHub', type: 'link' },
+      'com.twitter': { icon: '𝕏', label: 'Twitter', type: 'link' },
+      'com.x': { icon: '𝕏', label: 'X', type: 'link' },
+      'com.discord': { icon: '💬', label: 'Discord', type: 'link' },
+      'org.telegram': { icon: '✈️', label: 'Telegram', type: 'link' },
+      'email': { icon: '✉️', label: 'Email', type: 'email' },
+      'com.youtube': { icon: '📺', label: 'YouTube', type: 'link' },
+      'com.medium': { icon: '📝', label: 'Medium', type: 'link' },
+      'com.reddit': { icon: '🔴', label: 'Reddit', type: 'link' },
+      'com.instagram': { icon: '📷', label: 'Instagram', type: 'link' },
+      'com.linkedin': { icon: '💼', label: 'LinkedIn', type: 'link' },
+      'com.coingecko': { icon: '🦎', label: 'CoinGecko', type: 'link' },
+      'com.coinmarketcap': { icon: '📊', label: 'CoinMarketCap', type: 'link' },
+      // Display fields - shown in header area
+      'avatar': { type: 'avatar' },
+      'header': { type: 'header' },
+      'banner': { type: 'header' },
+      'description': { type: 'description' },
+      'name': { type: 'name' },
+      'aliases': { type: 'aliases' },
+      // Info fields - shown as formatted records
+      'notice': { icon: '📢', label: 'Notice', type: 'text' },
+      'keywords': { icon: '🏷️', label: 'Keywords', type: 'text' },
+      'location': { icon: '📍', label: 'Location', type: 'text' },
+      'phone': { icon: '📞', label: 'Phone', type: 'text' },
+      'mail': { icon: '🏠', label: 'Mail', type: 'text' },
+      'contentHash': { icon: '📁', label: 'contenthash', type: 'contenthash' },
+      'chainId': { icon: '🔗', label: 'Chain ID', type: 'text' },
+      'shortName': { icon: '🏷️', label: 'Short Name', type: 'text' },
+      'isTestnet': { icon: '🧪', label: 'Testnet', type: 'text' },
+    };
+
+    // Detect chain label from URL
+    function detectChainLabel() {
+      const params = new URLSearchParams(window.location.search);
+      if (params.has('label')) {
+        return params.get('label');
+      }
+      return null;
+    }
+
+    // Shared footer HTML
+    const FOOTER_HTML = `
+      <div class="footer">
+        <div class="built-by">
+          Built by
+          <a href="https://unruggable.com" target="_blank" rel="noopener">
+            <img src="https://ipfs.io/ipfs/bafkreihdpqv324h6j6yuvyzynrqy25i4ifphnvz6ktzbcp6siq5vee3d6a" alt="Unruggable" class="unruggable-logo">
+          </a>
+        </div>
+        <div class="powered-by">
+          Preview Mode - Data from <a href="${CONFIG.dataUrl}" target="_blank">chains.approved.json</a>
+        </div>
+      </div>
+    `;
+
+    // Render loading state
+    function renderLoading(message = 'Loading chain data...') {
+      document.getElementById('app').innerHTML = `
+        <div class="loading">
+          <div class="spinner"></div>
+          <div class="loading-text">${message}</div>
+        </div>
+      `;
+    }
+
+    // Render input form for entering chain label
+    function renderInputForm(errorMessage = null, inputValue = '') {
+      document.getElementById('app').innerHTML = `
+        <div class="preview-banner">
+          Preview Mode - Viewing data from chains.approved.json
+        </div>
+        <div class="input-form-container">
+          <div class="input-form">
+            <h1 class="form-title">Preview chain data before submitting on-chain.</h1>
+            <div class="name-input-section">
+              <div class="name-input-wrapper">
+                <input type="text" class="name-input" id="chainInput" placeholder="ethereum" value="${inputValue}" />
+                <button class="load-btn" onclick="loadChain()">Preview</button>
+              </div>
+              ${errorMessage ? `<p class="input-error">${errorMessage}</p>` : ''}
+              <p style="color: var(--text-secondary); margin-top: 1rem; font-size: 0.85rem;">
+                e.g., ethereum, op-mainnet, base, arbitrum-one
+              </p>
+            </div>
+            <div class="erc-links">
+              <a href="https://eips.ethereum.org/EIPS/eip-7828" target="_blank" rel="noopener">ERC-7828</a>
+              <span class="separator">·</span>
+              <a href="https://eips.ethereum.org/EIPS/eip-7930" target="_blank" rel="noopener">ERC-7930</a>
+            </div>
+            <div class="chain-list-container" id="chainListContainer">
+              <div class="chain-list-loading">Loading chains...</div>
+            </div>
+          </div>
+
+          ${FOOTER_HTML}
+        </div>
+      `;
+
+      // Handle enter key and set cursor position
+      const input = document.getElementById('chainInput');
+      if (input) {
+        input.addEventListener('keypress', (e) => {
+          if (e.key === 'Enter') loadChain();
+        });
+        input.focus();
+        if (inputValue) {
+          setTimeout(() => {
+            input.setSelectionRange(inputValue.length, inputValue.length);
+          }, 0);
+        }
+      }
+
+      // Load chain list
+      loadChainList();
+    }
+
+    // Load and display paginated chain list
+    let currentPage = 0;
+    const chainsPerPage = 12;
+    let filteredChains = [];
+    let searchQuery = '';
+
+    function loadChainList() {
+      const container = document.getElementById('chainListContainer');
+      if (!container) return;
+
+      filteredChains = searchQuery
+        ? chainsData.filter(chain =>
+            chain.label.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            chain.chainName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            (chain.aliases || []).some(a => a.toLowerCase().includes(searchQuery.toLowerCase()))
+          )
+        : chainsData;
+
+      if (filteredChains.length === 0) {
+        container.innerHTML = '<div class="chain-list-loading">No chains found</div>';
+        return;
+      }
+
+      // Calculate pagination
+      const totalPages = Math.ceil(filteredChains.length / chainsPerPage);
+      const startIndex = currentPage * chainsPerPage;
+      const endIndex = Math.min(startIndex + chainsPerPage, filteredChains.length);
+      const pageChains = filteredChains.slice(startIndex, endIndex);
+
+      // Render chain list
+      container.innerHTML = `
+        <div class="search-container">
+          <input type="text" class="search-input" id="searchInput" placeholder="Search chains..." value="${searchQuery}" />
+        </div>
+        <div class="chain-list-header">
+          <div class="chain-list-title">Generated Chains (${filteredChains.length})</div>
+          <div class="chain-list-pagination">
+            <button onclick="previousPage()" ${currentPage === 0 ? 'disabled' : ''}>← Prev</button>
+            <span>Page ${currentPage + 1} of ${totalPages}</span>
+            <button onclick="nextPage()" ${currentPage >= totalPages - 1 ? 'disabled' : ''}>Next →</button>
+          </div>
+        </div>
+        <div class="chain-list">
+          ${pageChains.map(chain => {
+            const addressHex = chain.interoperableAddressHex;
+            const addressDisplay = addressHex.length > 20
+              ? `${addressHex.slice(0, 10)}...${addressHex.slice(-8)}`
+              : addressHex;
+            const avatar = chain.textRecords?.avatar;
+            const avatarUrl = avatar ? resolveImageUrl(avatar) : '';
+            const avatarHtml = avatar
+              ? `<img class="chain-item-avatar" src="${avatarUrl}" alt="" onerror="this.style.display='none'">`
+              : `<div class="chain-item-avatar-placeholder">${(chain.chainName || chain.label).charAt(0)}</div>`;
+            return `
+              <div class="chain-item" onclick="viewChain('${chain.label}')">
+                ${avatarHtml}
+                <div class="chain-item-info">
+                  <div class="chain-item-label">${chain.label}</div>
+                  <div class="chain-item-name">${chain.chainName || chain.label}</div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `;
+
+      // Add search listener
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+          searchQuery = e.target.value;
+          currentPage = 0;
+          loadChainList();
+        });
+      }
+    }
+
+    function previousPage() {
+      if (currentPage > 0) {
+        currentPage--;
+        loadChainList();
+      }
+    }
+
+    function nextPage() {
+      const totalPages = Math.ceil(filteredChains.length / chainsPerPage);
+      if (currentPage < totalPages - 1) {
+        currentPage++;
+        loadChainList();
+      }
+    }
+
+    function viewChain(label) {
+      const url = new URL(window.location.href);
+      url.searchParams.set('label', label);
+      window.history.pushState({}, '', url);
+      main();
+    }
+
+    // Load chain from input
+    function loadChain() {
+      const input = document.getElementById('chainInput');
+      if (input && input.value.trim()) {
+        const chainLabel = input.value.trim().toLowerCase();
+        window.location.href = `?label=${chainLabel}`;
+      }
+    }
+
+    // Resolve image URL (handle relative paths and IPFS)
+    function resolveImageUrl(url) {
+      if (!url) return '';
+      if (url.startsWith('http://') || url.startsWith('https://')) {
+        return url;
+      }
+      if (url.startsWith('ipfs://')) {
+        const cid = url.slice(7);
+        return `https://ipfs.io/ipfs/${cid}`;
+      }
+      // Relative path - resolve against data directory
+      return CONFIG.imageBaseUrl + url;
+    }
+
+    // Format record value (make URLs clickable)
+    function formatRecordValue(key, value) {
+      if (!value) return '-';
+
+      // Check if it's a URL
+      if (value.startsWith('http://') || value.startsWith('https://') || value.startsWith('ipfs://')) {
+        const displayUrl = value.length > 50 ? value.slice(0, 47) + '...' : value;
+        const href = value.startsWith('ipfs://')
+          ? `https://ipfs.io/ipfs/${value.slice(7)}`
+          : value;
+        return `<a href="${href}" target="_blank" rel="noopener">${displayUrl}</a>`;
+      }
+
+      return value;
+    }
+
+    // Categorize text records
+    function categorizeRecords(textRecords) {
+      const links = [];
+      const info = [];
+      const other = [];
+      const display = {};
+
+      // Internal fields to skip (not for display)
+      const skipFields = ['avatarPath', 'headerPath', '_approvedAt', '_approvedFrom'];
+
+      for (const [key, value] of Object.entries(textRecords)) {
+        if (!value) continue;
+        if (skipFields.includes(key) || key.startsWith('_')) continue;
+
+        const config = KNOWN_KEYS[key];
+
+        if (config) {
+          if (config.type === 'link' || config.type === 'email') {
+            let href = value;
+            let displayUrl = value;
+
+            if (config.type === 'email' && !href.startsWith('mailto:')) {
+              href = `mailto:${href}`;
+            }
+
+            // Clean up display URL
+            displayUrl = displayUrl
+              .replace(/^https?:\/\//, '')
+              .replace(/^mailto:/, '')
+              .replace(/\/$/, '');
+
+            if (displayUrl.length > 40) {
+              displayUrl = displayUrl.slice(0, 37) + '...';
+            }
+
+            links.push({
+              key,
+              label: config.label,
+              href,
+              displayUrl,
+              icon: config.icon,
+            });
+          } else if (config.type === 'avatar' || config.type === 'header' || config.type === 'description' || config.type === 'name') {
+            display[config.type] = value;
+          } else if (config.type === 'contenthash') {
+            const cid = value.startsWith('ipfs://') ? value.slice(7) : value;
+            const displayCid = cid.length > 30 ? cid.slice(0, 12) + '...' + cid.slice(-8) : cid;
+            info.push({
+              key,
+              label: config.label,
+              value: displayCid,
+              fullValue: cid,
+              icon: config.icon,
+              isContenthash: true,
+            });
+          } else if (config.type === 'text') {
+            info.push({
+              key,
+              label: config.label,
+              value,
+              icon: config.icon,
+            });
+          }
+        } else {
+          // Unknown key - add to other
+          other.push({ key, value });
+        }
+      }
+
+      return { links, info, other, display };
+    }
+
+    // Render chain data
+    function renderChain(data) {
+      const { chainLabel, ensName, chainName, interopAddress, textRecords, aliases = [] } = data;
+
+      // Categorize all text records
+      const { links, info, other, display } = categorizeRecords(textRecords);
+
+      // Use display values or fallbacks
+      const avatar = display.avatar || '';
+      const header = display.header || '';
+      const description = display.description || '';
+      const displayName = display.name || chainName || chainLabel;
+
+      const avatarUrl = resolveImageUrl(avatar);
+      const headerUrl = resolveImageUrl(header);
+
+      const avatarHtml = avatar
+        ? `<img class="avatar" src="${avatarUrl}" alt="${displayName}" onerror="this.outerHTML='<div class=\\'avatar-placeholder\\'>${displayName.charAt(0)}</div>'">`
+        : `<div class="avatar-placeholder">${displayName ? displayName.charAt(0) : '?'}</div>`;
+
+      const headerStyle = header
+        ? `background-image: url('${headerUrl}');`
+        : '';
+
+      document.getElementById('app').innerHTML = `
+        <div class="preview-banner">
+          Preview Mode - Viewing data from chains.approved.json
+        </div>
+        <button class="back-button" onclick="goBack()">
+          ← Back
+        </button>
+        <div class="header">
+          <div class="header-image" style="${headerStyle}"></div>
+          <div class="header-content">
+            <div class="avatar-wrapper">
+              ${avatarHtml}
+            </div>
+            <h1 class="chain-name">${chainName}</h1>
+            <div class="ens-name">${ensName}</div>
+            ${aliases.length > 0 ? `<div class="aliases">Aliases: ${aliases.map(a => `<span class="alias-tag">${a}</span>`).join(' ')}</div>` : ''}
+            ${description ? `<p class="description">${description}</p>` : ''}
+          </div>
+        </div>
+
+        ${interopAddress ? `
+          <div class="card">
+            <div class="card-title">Interoperable Address (<a href="https://eips.ethereum.org/EIPS/eip-7930" target="_blank" rel="noopener">ERC-7930</a>)</div>
+            <div class="interop-address">${interopAddress}</div>
+          </div>
+        ` : ''}
+
+        ${links.length > 0 ? `
+          <div class="card">
+            <div class="card-title">Links</div>
+            <div class="records-grid">
+              ${links.map(link => `
+                <div class="record-item">
+                  <span class="record-key">${link.icon} ${link.label}</span>
+                  <span class="record-value"><a href="${link.href}" target="_blank" rel="noopener">${link.displayUrl}</a></span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        ` : ''}
+
+        ${info.length > 0 ? `
+          <div class="card">
+            <div class="card-title">Info</div>
+            <div class="records-grid">
+              ${info.map(item => {
+                if (item.isContenthash) {
+                  const limoUrl = `https://${ensName}.limo`;
+                  return `
+                    <div class="record-item">
+                      <span class="record-key">${item.icon} ${item.label}</span>
+                      <span class="record-value"><a href="${limoUrl}" target="_blank" rel="noopener">${item.value}</a></span>
+                    </div>
+                  `;
+                }
+                return `
+                  <div class="record-item">
+                    <span class="record-key">${item.icon} ${item.label}</span>
+                    <span class="record-value">${formatRecordValue(item.key, item.value)}</span>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        ` : ''}
+
+        ${other.length > 0 ? `
+          <div class="card">
+            <div class="card-title">Other Records</div>
+            <div class="records-grid">
+              ${other.map(({ key, value }) => `
+                <div class="record-item">
+                  <span class="record-key">${key}</span>
+                  <span class="record-value">${formatRecordValue(key, value)}</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        ` : ''}
+
+        ${FOOTER_HTML}
+      `;
+
+      // Update page title
+      document.title = `${displayName} | Chain Info Preview`;
+    }
+
+    // Back button handler
+    function goBack() {
+      const url = new URL(window.location.href);
+      url.searchParams.delete('label');
+      window.history.pushState({}, '', url);
+      main();
+    }
+
+    // Find chain by label or alias
+    function findChain(label) {
+      const lowerLabel = label.toLowerCase();
+      return chainsData.find(chain =>
+        chain.label.toLowerCase() === lowerLabel ||
+        (chain.aliases || []).some(a => a.toLowerCase() === lowerLabel)
+      );
+    }
+
+    // Main function
+    async function main() {
+      const chainLabel = detectChainLabel();
+
+      // Load chain data if not already loaded
+      if (chainsData.length === 0) {
+        renderLoading('Loading chain data...');
+        try {
+          const response = await fetch(CONFIG.dataUrl);
+          if (!response.ok) {
+            throw new Error(`Failed to load chain data: ${response.status}`);
+          }
+          chainsData = await response.json();
+          console.log(`Loaded ${chainsData.length} chains`);
+        } catch (error) {
+          console.error('Error loading chain data:', error);
+          document.getElementById('app').innerHTML = `
+            <div class="loading">
+              <div class="loading-text" style="color: #ef4444;">
+                Error loading chain data: ${error.message}<br><br>
+                Make sure to run this from an HTTP server.<br>
+                Try: <code style="background: var(--bg-secondary); padding: 0.5rem; border-radius: 4px;">python3 -m http.server 8000</code><br>
+                Then open: <a href="http://localhost:8000/web/preview.html" style="color: var(--accent);">http://localhost:8000/web/preview.html</a>
+              </div>
+            </div>
+          `;
+          return;
+        }
+      }
+
+      if (!chainLabel) {
+        renderInputForm();
+        return;
+      }
+
+      renderLoading(`Loading ${chainLabel}...`);
+
+      // Find chain data
+      const chain = findChain(chainLabel);
+
+      if (!chain) {
+        renderInputForm(`No data found for "${chainLabel}"`, chainLabel);
+        return;
+      }
+
+      const ensName = `${chain.label}.${CONFIG.defaultDomain}`;
+
+      renderChain({
+        chainLabel: chain.label,
+        ensName,
+        chainName: chain.chainName,
+        interopAddress: chain.interoperableAddressHex,
+        textRecords: chain.textRecords || {},
+        aliases: chain.aliases || [],
+      });
+    }
+
+    // Run on load
+    main();
+  </script>
+</body>
+</html>
