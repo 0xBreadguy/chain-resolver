@@ -1,0 +1,4034 @@
+{
+  "items": [
+    {
+      "name": "C-Chain",
+      "chainId": "43114",
+      "evmChainId": "43114",
+      "avalancheBlockchainId": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+      "logo": "https://cms-cdn.avascan.com/cms2/AvalancheAvax.47be62e8abff.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/naGNKvPom3Ah-x1tNtKXo9mfx8W_FosTjkTywwUjYe0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQXZhbGFuY2hlQXZheC40N2JlNjJlOGFiZmYuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/pUZEJz4HqbCuCglHoQEa8GRcZ7zCRyumpoAaUnDCiFQ/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQXZhbGFuY2hlQXZheC40N2JlNjJlOGFiZmYuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/i8wRxi1j5ekuMQSw5kW5-wO4qamkTkUZIWYu84VgM9Q/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQXZhbGFuY2hlQXZheC40N2JlNjJlOGFiZmYuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/UiocptBm40zLrASNNqTpWzY0kjCqsuHpsYarvZybRG8/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQXZhbGFuY2hlQXZheC40N2JlNjJlOGFiZmYuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/AvalancheAvax.47be62e8abff.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/naGNKvPom3Ah-x1tNtKXo9mfx8W_FosTjkTywwUjYe0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQXZhbGFuY2hlQXZheC40N2JlNjJlOGFiZmYuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/pUZEJz4HqbCuCglHoQEa8GRcZ7zCRyumpoAaUnDCiFQ/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQXZhbGFuY2hlQXZheC40N2JlNjJlOGFiZmYuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/i8wRxi1j5ekuMQSw5kW5-wO4qamkTkUZIWYu84VgM9Q/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQXZhbGFuY2hlQXZheC40N2JlNjJlOGFiZmYuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/UiocptBm40zLrASNNqTpWzY0kjCqsuHpsYarvZybRG8/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQXZhbGFuY2hlQXZheC40N2JlNjJlOGFiZmYuc3Zn"
+      },
+      "symbol": "AVAX",
+      "rpcs": [
+        "https://api.avax.network/ext/bc/C/rpc"
+      ],
+      "coingeckoId": "avalanche-2",
+      "avascanId": "c",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://www.avax.network"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/avax"
+          },
+          {
+            "type": "youTube",
+            "value": "https://www.youtube.com/Avalancheavax"
+          },
+          {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/company/avalancheavax"
+          },
+          {
+            "type": "facebook",
+            "value": "https://www.facebook.com/avalancheavax"
+          },
+          {
+            "type": "reddit",
+            "value": "https://www.reddit.com/r/Avax/"
+          },
+          {
+            "type": "coingecko",
+            "value": "https://www.coingecko.com/en/chains/avalanche-network"
+          },
+          {
+            "type": "coinmarketcap",
+            "value": "https://coinmarketcap.com/community/profile/avalanche/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "CCTPTokenMessenger",
+          "ICTT",
+          "avalancheETHBridge",
+          "OFT",
+          "dexalotBridge",
+          "avalancheBTCBridge",
+          "hyperlane",
+          "nearIntent"
+        ],
+        "messages": [
+          "CCTP",
+          "teleporterTx",
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "DFK",
+      "chainId": "53935",
+      "evmChainId": "53935",
+      "avalancheBlockchainId": "q2aTwKuyzgs8pynF7UXBZCU7DejbZbZ6EUyHr3JQzYgwNPUPi",
+      "logo": "https://cms-cdn.avascan.com/cms2/53935_logo.9a4edde85f9e.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/Wk5ADo6VXTk0SkBnG5nUDyQ9nR7Dias1iYG2VfBHc7E/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTM5MzVfbG9nby45YTRlZGRlODVmOWUuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/y7fpCwSbAdxMjXZv1cIJBbxZvU3Ofp-fKWNj6BblvaM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTM5MzVfbG9nby45YTRlZGRlODVmOWUuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/m4HWnqiYktEYfwBj2yw4cvA3vOQETI6c30tsxuTYT9I/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTM5MzVfbG9nby45YTRlZGRlODVmOWUuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/JYDgGbJZymQIHO5NVbrbU8p-Dz0eA1bhsOTq865Cd1o/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTM5MzVfbG9nby45YTRlZGRlODVmOWUuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/53935_token.c9777c7a111a.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/8svdvPPw86GraD5vqRxxWLYtAghM5EXBjX9fEJmDypc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTM5MzVfdG9rZW4uYzk3NzdjN2ExMTFhLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/P5J7i8jH2plC9ICOFFNzxqDVqNUKGqEoJ1fEHjyg_BM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTM5MzVfdG9rZW4uYzk3NzdjN2ExMTFhLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/K_Dv41CcN-Begd07uj3xTBEV2UDxnpYjTdPQqvxQ3sE/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTM5MzVfdG9rZW4uYzk3NzdjN2ExMTFhLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/Xc4POAsGqIJTzEJtp5iia1c93b4ndJFMqFoBdWrldi0/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTM5MzVfdG9rZW4uYzk3NzdjN2ExMTFhLnN2Zw"
+      },
+      "symbol": "JEWEL",
+      "rpcs": [
+        "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc",
+        "https://avax-dfk.gateway.pokt.network/v1/lb/6244818c00b9f0003ad1b619/ext/bc/q2aTwKuyzgs8pynF7UXBZCU7DejbZbZ6EUyHr3JQzYgwNPUPi/rpc"
+      ],
+      "coingeckoId": "defi-kingdoms",
+      "avascanId": "dfk",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://defikingdoms.com"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/DefiKingdoms"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/defikingdoms"
+          },
+          {
+            "type": "reddit",
+            "value": "https://www.reddit.com/r/DefiKingdoms/"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.gg/defikingdoms"
+          },
+          {
+            "type": "youTube",
+            "value": "https://www.youtube.com/c/defikingdoms"
+          },
+          {
+            "type": "instagram",
+            "value": "https://www.instagram.com/defikingdoms/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": [
+          "layerZero"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Dexalot",
+      "chainId": "432204",
+      "evmChainId": "432204",
+      "avalancheBlockchainId": "21Ths5Afqi5r4PaoV8r8cruGZWhN11y5rxvy89K8px7pKy3P8E",
+      "logo": "https://cms-cdn.avascan.com/cms2/432204_logo.495d4b6959ad.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/c5r0N9suARVr5vj8xL-Q6NHiBk2Awq00McrrQk5TNpU/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMyMjA0X2xvZ28uNDk1ZDRiNjk1OWFkLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/csfb-EG373us8l6Xxsy3SSWbzJA15Rt0GJLCVsHvgm4/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMyMjA0X2xvZ28uNDk1ZDRiNjk1OWFkLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/A8Wqv6TKr1xvzwShVvr50maMzTtbX88Cgoa-_Vepz_0/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMyMjA0X2xvZ28uNDk1ZDRiNjk1OWFkLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/A0k3T2uUSA4-fvr_SVjXgJO0IY0Qg0GYInuuvVaafbM/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMyMjA0X2xvZ28uNDk1ZDRiNjk1OWFkLnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/432204_token.495d4b6959ad.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/J1uUv2rFkKrbzej4CygzEh8Gcpy6NuJQxxCJMEV7CiE/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMyMjA0X3Rva2VuLjQ5NWQ0YjY5NTlhZC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/yGQlJHhFwqyZtYN9QJ-9FMK27ZKmopUBMJkno19R6pY/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMyMjA0X3Rva2VuLjQ5NWQ0YjY5NTlhZC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/pW03gNyELxffeheh33BTuJe6NaiP_Db1FD_hZMmjhr4/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMyMjA0X3Rva2VuLjQ5NWQ0YjY5NTlhZC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/UoLA65VI0WrfXAyDIFw2Zp7jjV1PCinBT7eTH96KKto/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMyMjA0X3Rva2VuLjQ5NWQ0YjY5NTlhZC5zdmc"
+      },
+      "symbol": "ALOT",
+      "rpcs": [
+        "https://subnets.avax.network/dexalot/mainnet/rpc"
+      ],
+      "coingeckoId": "dexalot",
+      "avascanId": "dexalot",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "youTube",
+            "value": "https://www.youtube.com/channel/UCCCu7_vWv4oMfI5QnGakArA"
+          },
+          {
+            "type": "medium",
+            "value": "https://medium.com/dexalot"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/S4NP9w7Xwn"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/dexalot"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/dexalot"
+          },
+          {
+            "type": "url",
+            "value": "https://dexalot.com/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "dexalotBridge"
+        ],
+        "messages": [
+          "teleporterTx",
+          "layerZero"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "StepNetwork",
+      "chainId": "1234",
+      "evmChainId": "1234",
+      "avalancheBlockchainId": "2jRZvKtXY5nyWTqRwFh1KMHGrCRxJoULu4r2CsayWRnjdDGbV1",
+      "logo": "https://cms-cdn.avascan.com/cms2/stepnetwork.516bdfd8829a.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/j3eGP_M3snQ2AW60gHj_hgHSn2uBrMmuTHKwqOZV93I/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc3RlcG5ldHdvcmsuNTE2YmRmZDg4MjlhLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/-exnGapNNr41JP9fP8jSOUFrF9eraU4qasCncPafh0c/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc3RlcG5ldHdvcmsuNTE2YmRmZDg4MjlhLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/oZmnSJPKYdYwohWm815pqRRtJGASYzqxt0OTics_tnc/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc3RlcG5ldHdvcmsuNTE2YmRmZDg4MjlhLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/q0mjIVVmrVSdKGyRxTgpZhxCnDMMjwXeXVZOfAVV7qw/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc3RlcG5ldHdvcmsuNTE2YmRmZDg4MjlhLnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/stepnetwork.516bdfd8829a.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/j3eGP_M3snQ2AW60gHj_hgHSn2uBrMmuTHKwqOZV93I/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc3RlcG5ldHdvcmsuNTE2YmRmZDg4MjlhLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/-exnGapNNr41JP9fP8jSOUFrF9eraU4qasCncPafh0c/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc3RlcG5ldHdvcmsuNTE2YmRmZDg4MjlhLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/oZmnSJPKYdYwohWm815pqRRtJGASYzqxt0OTics_tnc/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc3RlcG5ldHdvcmsuNTE2YmRmZDg4MjlhLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/q0mjIVVmrVSdKGyRxTgpZhxCnDMMjwXeXVZOfAVV7qw/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc3RlcG5ldHdvcmsuNTE2YmRmZDg4MjlhLnN2Zw"
+      },
+      "symbol": "FITFI",
+      "rpcs": [
+        "https://rpc.step.network"
+      ],
+      "coingeckoId": "step-app-fitfi",
+      "avascanId": "stepnetwork",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "facebook",
+            "value": "https://www.facebook.com/StepAppEcosystem"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/PVdRhrG6"
+          },
+          {
+            "type": "whitepaperUrl",
+            "value": "https://drive.google.com/file/d/1lltXNCT_1GxrZeKEKitr4EIQV7OsZuX1/view"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/stepapp_"
+          },
+          {
+            "type": "url",
+            "value": "https://linktr.ee/step.app"
+          },
+          {
+            "type": "coingecko",
+            "value": "https://www.coingecko.com/en/coins/step-app-fitfi/"
+          },
+          {
+            "type": "coinmarketcap",
+            "value": "https://coinmarketcap.com/currencies/step-app/"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/stepappchat"
+          },
+          {
+            "type": "blog",
+            "value": "https://step.app/blog"
+          },
+          {
+            "type": "reddit",
+            "value": "https://reddit.com/r/step_app_"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Numbers",
+      "chainId": "10507",
+      "evmChainId": "10507",
+      "avalancheBlockchainId": "2PDRxzc6jMbZSTLb3sufkVszgQc2jtDnYZGtDTAAfom1CTwPsE",
+      "logo": "https://cms-cdn.avascan.com/cms2/10507_logo.2e5482efc865.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/2s-Z_QuMnigeNVkTCwglOcAhZ6fyQaVYhHEC0MWDCDg/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA1MDdfbG9nby4yZTU0ODJlZmM4NjUuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/qTJumlIQCB1KfIi6weZ1PR3Bb-egrRwRGEKQfCAYO2o/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA1MDdfbG9nby4yZTU0ODJlZmM4NjUuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/G8XWhEl9KgRspHjk0cAJ6QXG1o8ReKjy0RdxCGaBVCg/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA1MDdfbG9nby4yZTU0ODJlZmM4NjUuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/_UjNr6wtSRmjna2bMBqqy5IZyxFq38wmwDGM9f6Vo0o/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA1MDdfbG9nby4yZTU0ODJlZmM4NjUuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/10507_token.2e5482efc865.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/RcaiS98aPCwk3dPA6pRYlawagRpQifSBnkG8K0VGJeo/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA1MDdfdG9rZW4uMmU1NDgyZWZjODY1LnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/fPMsvxGAGwP4f5QCFM0sI4QP7J9RGtJF4GQpOsvvUoM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA1MDdfdG9rZW4uMmU1NDgyZWZjODY1LnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/QMhrwuighbafR4D4nQVMBwHPmiXhygFdP7rCzWSqNT8/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA1MDdfdG9rZW4uMmU1NDgyZWZjODY1LnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/rLGsOJ8IVXFoLlOuLkRvgXiqvjTrW1L14_5rVnl97Ts/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA1MDdfdG9rZW4uMmU1NDgyZWZjODY1LnN2Zw"
+      },
+      "symbol": "NUM",
+      "rpcs": [
+        "https://mainnetrpc.num.network/"
+      ],
+      "coingeckoId": "numbers-protocol",
+      "avascanId": "numbers",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "reddit",
+            "value": "https://reddit.com/r/NumbersProtocolIO/"
+          },
+          {
+            "type": "whitepaperUrl",
+            "value": "https://docs.numbersprotocol.io/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/numbersprotocol"
+          },
+          {
+            "type": "facebook",
+            "value": "https://www.facebook.com/numbersprotocol"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/numbersprotocol"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/numbersprotocol"
+          },
+          {
+            "type": "medium",
+            "value": "https://medium.com/numbers-protocol"
+          },
+          {
+            "type": "url",
+            "value": "https://www.numbersprotocol.io/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Shrapnel",
+      "chainId": "2044",
+      "evmChainId": "2044",
+      "avalancheBlockchainId": "2tdRBvNEUhoD6ZWYF9b5NBdj5hHwWPfvSq1EnzvV8QU2XjLNy9",
+      "logo": "https://cms-cdn.avascan.com/cms2/2044_logo.5bff687aa432.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/_ZmP9WWCMCnYSj9kYhsvP_-AbAnrRSWa2DcZukHLM14/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjA0NF9sb2dvLjViZmY2ODdhYTQzMi5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/LLtNPYz46HTMrCkQ5UU4dvG2tJp6yQGVK7s7COcFM0g/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjA0NF9sb2dvLjViZmY2ODdhYTQzMi5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/qjdQ9cnkZH7ZXGRrs2gqVYxdYM7v8vpTIL1UXLpuJ3w/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjA0NF9sb2dvLjViZmY2ODdhYTQzMi5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/OqJ_9Ojvtu4bZ8quYUWwn461Fe7POk7Dp5d6-gIL5uo/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjA0NF9sb2dvLjViZmY2ODdhYTQzMi5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/2044_token.5bff687aa432.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/Kos_AeldpKdAk-5OqlWeW2ACfn1scPMRahsrV_npBgg/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjA0NF90b2tlbi41YmZmNjg3YWE0MzIuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/-WEVYbyN-HPGK1kAkP3A9pHKsOlmSiu89Ka7twp08Ic/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjA0NF90b2tlbi41YmZmNjg3YWE0MzIuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/9IHpL_e_Tz8bDJLYcE0J20Ah5Ny29icfnDMO4LDve-8/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjA0NF90b2tlbi41YmZmNjg3YWE0MzIuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/RM8BbWI_oDkctCyhPmiCSsGoDAiq9Sd26amLqTQgySs/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjA0NF90b2tlbi41YmZmNjg3YWE0MzIuc3Zn"
+      },
+      "symbol": "SHRAP",
+      "rpcs": [
+        "https://subnets.avax.network/shrapnel/mainnet/rpc"
+      ],
+      "coingeckoId": "shrapnel-2",
+      "avascanId": "shrapnel",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "discord",
+            "value": "https://discord.gg/shrapnel"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/playSHRAPNEL"
+          },
+          {
+            "type": "url",
+            "value": "https://www.shrapnel.com/"
+          },
+          {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/company/shrapnel-studio"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "UPTN",
+      "chainId": "6119",
+      "evmChainId": "6119",
+      "avalancheBlockchainId": "2tsFdSeemtqK9vaPgjPrcwvKFKPw1T6PHufaZ26tKbAFSkXPTE",
+      "logo": "https://cms-cdn.avascan.com/cms2/6119_logo.361231597167.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/5IkFZrKrP5dB5TbdOKNQbPWwo6t08I2SCOQsz8glEjw/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjExOV9sb2dvLjM2MTIzMTU5NzE2Ny5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/-DFd11C1DlLKVG__C6ltiP_-q83b0Vov6GdkvorIpco/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjExOV9sb2dvLjM2MTIzMTU5NzE2Ny5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/PrKBNfwyjsHQWadskyRlE0hCzDoFHA5vwx0Pvadyq-M/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjExOV9sb2dvLjM2MTIzMTU5NzE2Ny5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/gLJtity-mP-k0Pz7v8yzdi2YVQVqPVZ6s4Z23p2L2hw/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjExOV9sb2dvLjM2MTIzMTU5NzE2Ny5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/6119_token.361231597167.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/MvqJhhxXKus1mIgmfSJuO6K6Klsx8esE6PkJZEoIpTY/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjExOV90b2tlbi4zNjEyMzE1OTcxNjcuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/N5iWpa1sNU2EGgPX9-0l7JZRT7AIBwuJppvlpVBsCFg/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjExOV90b2tlbi4zNjEyMzE1OTcxNjcuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/Dk8RLB1KMcxs0AbryuukMv8yt5MwbN1-DdclvxrBGmM/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjExOV90b2tlbi4zNjEyMzE1OTcxNjcuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/OvORU3_vCqTNqsfXt3n6tvvAwebeb5I8hIN9EqOicGg/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjExOV90b2tlbi4zNjEyMzE1OTcxNjcuc3Zn"
+      },
+      "symbol": "UPTN",
+      "rpcs": [
+        "https://node-api.uptn.io/v1/ext/rpc"
+      ],
+      "avascanId": "sk-planet",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "twitter",
+            "value": "https://x.com/UPTN_official"
+          },
+          {
+            "type": "url",
+            "value": "https://www.uptn.io"
+          },
+          {
+            "type": "medium",
+            "value": "https://medium.com/uptn"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "PLAYA3ULL Games",
+      "chainId": "3011",
+      "evmChainId": "3011",
+      "avalancheBlockchainId": "k2SFEZ2MZr9UGXiycnA1DdaLqZTKDaHK7WUXVLhJk5F9DD8r1",
+      "logo": "https://cms-cdn.avascan.com/cms2/3011_logo.cea7c7e56f35.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/jsVjjwq-L8Vj83NI1qD2dEdIbMOhVf8vAcdz62WDfhE/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzAxMV9sb2dvLmNlYTdjN2U1NmYzNS5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/pi0eB_45HdBYGnFX_sWx8JJuZOcxhUDDsLsMY7VSYIs/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzAxMV9sb2dvLmNlYTdjN2U1NmYzNS5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/nPlSfbK7MVqMpNDhEzowYn6Oq112IT_D0Q2-ygIcoU0/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzAxMV9sb2dvLmNlYTdjN2U1NmYzNS5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/5wu-7qfvr3IE3mVV02SJpcAx1mMWRVHqKonn5pvEoHU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzAxMV9sb2dvLmNlYTdjN2U1NmYzNS5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/3011_token.cea7c7e56f35.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/mjG4GrubhNdSus2OSikZ2XqJXQw95HcYYlep6Yw-FGE/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzAxMV90b2tlbi5jZWE3YzdlNTZmMzUuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/e1fAoWHuOwV25EvbMKaQUK2fFlDEj2xKodlHdz_xNh4/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzAxMV90b2tlbi5jZWE3YzdlNTZmMzUuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/yGMQ8AF4jkcwbSAlp1S_ILuKaeUv8MIgiPnJVbP8VI8/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzAxMV90b2tlbi5jZWE3YzdlNTZmMzUuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/f-UEAiQb7UwM5IsTtTDrE2MX7TboxC9LagYgrEzKqyA/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzAxMV90b2tlbi5jZWE3YzdlNTZmMzUuc3Zn"
+      },
+      "symbol": "3ULL",
+      "rpcs": [
+        "https://api.mainnet.playa3ull.games"
+      ],
+      "coingeckoId": "playa3ull-games-2",
+      "avascanId": "playa3ull",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://playa3ull.games"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/PLAYA3ULL_GAMES"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/playa3ull"
+          },
+          {
+            "type": "youTube",
+            "value": "https://www.youtube.com/@PLAYA3ULL_GAMES"
+          },
+          {
+            "type": "facebook",
+            "value": "https://www.facebook.com/PLAYA3ULLGAMES"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Metis",
+      "chainId": "1088",
+      "evmChainId": "1088",
+      "avalancheBlockchainId": "1088",
+      "logo": "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/vr6_QOUlpcrJ-IMGMNGDLYk5bM_Z8Jw02w-Y36lP4Ic/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvbWV0aXMuOTdkZTU2YmFiMDMyLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/sgIclD8Exhqgn3cuUfS_YKK15zJC8eIjPvD3_a46I60/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvbWV0aXMuOTdkZTU2YmFiMDMyLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/2jfRDnGwyP-_P5RAH6e4ntELGMQcmO04oMZZF9hrzok/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvbWV0aXMuOTdkZTU2YmFiMDMyLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/Y1Uha2Uzng0ii63F3a79KXl7pLXSO6bIIK9VBVqTBvs/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvbWV0aXMuOTdkZTU2YmFiMDMyLnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/vr6_QOUlpcrJ-IMGMNGDLYk5bM_Z8Jw02w-Y36lP4Ic/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvbWV0aXMuOTdkZTU2YmFiMDMyLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/sgIclD8Exhqgn3cuUfS_YKK15zJC8eIjPvD3_a46I60/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvbWV0aXMuOTdkZTU2YmFiMDMyLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/2jfRDnGwyP-_P5RAH6e4ntELGMQcmO04oMZZF9hrzok/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvbWV0aXMuOTdkZTU2YmFiMDMyLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/Y1Uha2Uzng0ii63F3a79KXl7pLXSO6bIIK9VBVqTBvs/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvbWV0aXMuOTdkZTU2YmFiMDMyLnN2Zw"
+      },
+      "symbol": "METIS",
+      "rpcs": [
+        "https://andromeda.metis.io"
+      ],
+      "coingeckoId": "metis-token",
+      "avascanId": "metis",
+      "ecosystems": [
+        "ethereum",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "geckoterminal",
+            "value": "https://www.geckoterminal.com/avax/pools/0x35d613da660d48eaa16b65584efdcd6db17ec00f"
+          },
+          {
+            "type": "url",
+            "value": "https://www.metis.io"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/MetisL2"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/MetisL2"
+          },
+          {
+            "type": "instagram",
+            "value": "https://www.instagram.com/metisl2/"
+          },
+          {
+            "type": "youTube",
+            "value": "https://www.youtube.com/@Metis_L2"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/MetisProtocol"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/metis"
+          },
+          {
+            "type": "medium",
+            "value": "https://metisl2.medium.com"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "hyperlane"
+        ],
+        "messages": [
+          "layerZero",
+          "opStackPreBedrockTx",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "zkSync Era",
+      "chainId": "324",
+      "evmChainId": "324",
+      "logo": "https://cms-cdn.avascan.com/cms2/324_logo.11fb949ebf3c.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/wKKEUjkG_4zqhAPaBTjJRGc9fCG3qVe8tyxDkCdysmU/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzI0X2xvZ28uMTFmYjk0OWViZjNjLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/CX2XQgBN38Usw7-vmjJl_cQ69Nd6pW2Bh9CCIO9YAOw/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzI0X2xvZ28uMTFmYjk0OWViZjNjLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/0W99jNrYPoLPTyy4Qb2gyQHYZ3wCNwTNaJzjno0uX3A/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzI0X2xvZ28uMTFmYjk0OWViZjNjLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/ghyH2H7H3LK8gBdbNx7qBrXrMnPqfdraRouUhU8dWS0/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzI0X2xvZ28uMTFmYjk0OWViZjNjLnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://mainnet.era.zksync.io"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "zksync-era",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "twitter",
+            "value": "https://x.com/zksync"
+          },
+          {
+            "type": "hey",
+            "value": "https://hey.xyz/u/zksync"
+          },
+          {
+            "type": "url",
+            "value": "https://www.zksync.io/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "hyperlane"
+        ],
+        "messages": [
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Ethereum",
+      "chainId": "1",
+      "evmChainId": "1",
+      "logo": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://eth.merkle.io"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "ethereum",
+      "ecosystems": [
+        "ethereum",
+        "nomina",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "github",
+            "value": "https://github.com/ethereum/ethereum-org-website"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/ethdotorg"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/ethereum-org"
+          },
+          {
+            "type": "url",
+            "value": "https://ethereum.org/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "CCTPTokenMessenger",
+          "OFT",
+          "avalancheETHBridge",
+          "ambOmnibridge",
+          "nearIntent",
+          "hyperlane",
+          "opL1StandardBridge",
+          "taikoETHTransfer",
+          "opDeposited",
+          "omniBridge",
+          "taikoERC20Vault",
+          "synapse"
+        ],
+        "messages": [
+          "CCTP",
+          "layerZero",
+          "amb",
+          "opStackBedrockTx",
+          "hyperlane",
+          "taiko",
+          "omni",
+          "opStackPreBedrockTx"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Boba Ethereum",
+      "chainId": "288",
+      "evmChainId": "288",
+      "logo": "https://cms-cdn.avascan.com/cms2/288_logo.fb97cfe61fa9.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/2y9az_JThqfgLiIwTTU6nzyLXRqCtkeAFVcntfoILFA/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjg4X2xvZ28uZmI5N2NmZTYxZmE5LnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/ElUE-AX8cLyTq--_cHsyGglh2sQe1q90EHL2Pg9zBlM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjg4X2xvZ28uZmI5N2NmZTYxZmE5LnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/slcThbdAZpaslePEJ3h-zEWyVykvNbrKLZeK7bFy4K0/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjg4X2xvZ28uZmI5N2NmZTYxZmE5LnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/ij6xP2QvcDGIPRO2K5yN7jBR4qODZUvQMde_tVisn2I/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjg4X2xvZ28uZmI5N2NmZTYxZmE5LnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://mainnet.boba.network"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "boba-ethereum",
+      "ecosystems": [
+        "ethereum",
+        "boba",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://boba.network/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/bobanetwork"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/bobanetwork"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/bobanetwork"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/Hvu3zpFwWd"
+          },
+          {
+            "type": "medium",
+            "value": "https://bobanetwork.medium.com/"
+          },
+          {
+            "type": "reddit",
+            "value": "https://www.reddit.com/r/bobanetwork/"
+          },
+          {
+            "type": "youTube",
+            "value": "https://youtube.com/@TheBobaNetwork"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "hyperlane"
+        ],
+        "messages": [
+          "opStackBedrockTx",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Flare Mainnet",
+      "chainId": "14",
+      "evmChainId": "14",
+      "avalancheBlockchainId": "umkbhSrjVw5nUvy1eo25AdrjRkPBdtzAMewuxA2rqEx4YMo4c",
+      "logo": "https://cms-cdn.avascan.com/cms2/14_logo.cab122bd8422.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/OcOzNKTIPFHELPvi5v42SaEVG3qfPk-edMkNOQsp3fs/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTRfbG9nby5jYWIxMjJiZDg0MjIuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/uiNU7y0--fPeBmMWEXEhpISgUmokiAOjK7-N3cifOQ4/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTRfbG9nby5jYWIxMjJiZDg0MjIuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/MO_rs4YeGeyFW-GgxHWwMjJ6gl3JSiUxKp-be9vlpdc/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTRfbG9nby5jYWIxMjJiZDg0MjIuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/g8PaZgMqzf6Y2F4ddyYfOEF8DdvVP93XjftA6roF5qU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTRfbG9nby5jYWIxMjJiZDg0MjIuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/14_token.cab122bd8422.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/T3JRaxnu_r2RSybmh9TOlc2vCnHDQaccQCP2PwKgF8E/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTRfdG9rZW4uY2FiMTIyYmQ4NDIyLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/A-0tAIRql9yu0zV6pnUGyss806pGqLIhBhIFOi4SwN4/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTRfdG9rZW4uY2FiMTIyYmQ4NDIyLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/9pYGlNiKaiVHlGXufDNuqHw_G0i67JC9cLSvgzC2WnQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTRfdG9rZW4uY2FiMTIyYmQ4NDIyLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/DJgIPtZ4J6CaBu-36ROGvxon25PsfymZjMdFRfoY1xQ/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTRfdG9rZW4uY2FiMTIyYmQ4NDIyLnN2Zw"
+      },
+      "symbol": "FLR",
+      "rpcs": [
+        "https://flare-api.flare.network/ext/C/rpc"
+      ],
+      "coingeckoId": "flare-networks",
+      "avascanId": "flare",
+      "ecosystems": [
+        "flare",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "twitter",
+            "value": "https://x.com/FlareNetworks"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/flarenetwork"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/FlareNetwork"
+          },
+          {
+            "type": "youTube",
+            "value": "https://www.youtube.com/c/Flare_Networks"
+          },
+          {
+            "type": "medium",
+            "value": "https://medium.com/flarenetwork"
+          },
+          {
+            "type": "reddit",
+            "value": "https://www.reddit.com/r/FlareNetworks/"
+          },
+          {
+            "type": "instagram",
+            "value": "https://www.instagram.com/flare_networks/"
+          },
+          {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/company/flarenetwork/"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/flare-foundation"
+          },
+          {
+            "type": "url",
+            "value": "https://flare.network/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "hyperlane"
+        ],
+        "messages": [
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Base",
+      "chainId": "8453",
+      "evmChainId": "8453",
+      "avalancheBlockchainId": "8453",
+      "logo": "https://cms-cdn.avascan.com/cms2/8453_logo.9671f93cf0f2.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/ngVXChUPZWZc-L9OxdWY__wfujPJVVVXbxGpiiTGrfw/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODQ1M19sb2dvLjk2NzFmOTNjZjBmMi5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/yr_GJ1tD47Dxu7B7EcYmmpvehupCj0nlpwm_P6-Lr4o/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODQ1M19sb2dvLjk2NzFmOTNjZjBmMi5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/ri8CzFpLFOJXnSBu2XrVqaJxX_P-4n1ubP0vD8TKkNA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODQ1M19sb2dvLjk2NzFmOTNjZjBmMi5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/eCoc-6uhZTlxMMlxs-6jU6-d8K4wM2BJmBew_nTN2Ig/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODQ1M19sb2dvLjk2NzFmOTNjZjBmMi5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://mainnet.base.org"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "base",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://www.base.org/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/base"
+          },
+          {
+            "type": "farcaster",
+            "value": "https://warpcast.com/base"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/base-org"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/buildonbase"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "CCTPTokenMessenger",
+          "OFT",
+          "hyperlane",
+          "nearIntent",
+          "opL1StandardBridge",
+          "opDeposited",
+          "synapse"
+        ],
+        "messages": [
+          "CCTP",
+          "hyperlane",
+          "layerZero",
+          "opStackBedrockTx",
+          "omni"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Songbird Canary",
+      "chainId": "19",
+      "evmChainId": "19",
+      "avalancheBlockchainId": "erCt5pSo5d4bM8fMrsB2dRM54PGssDAVqRg1jHedQzr6ayLiq",
+      "logo": "https://cms-cdn.avascan.com/cms2/19_logo.38b07c0f50d2.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/93wwCI7wyES6VYzsZ47x_OtK8qhD_3WAIX8YQb1Nu2Y/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTlfbG9nby4zOGIwN2MwZjUwZDIuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/TsQLpSnxJaR6OgJvZooiehExKsQGCIWMt47BDsBbtnk/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTlfbG9nby4zOGIwN2MwZjUwZDIuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/MgXfP22OUJNK74FPR7PjwgnQJlJXL0YbIymKkW5oy1Y/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTlfbG9nby4zOGIwN2MwZjUwZDIuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CYa73eabRy2zX4Z766tJLcgOk2Q8f8AF2uCWmYb_tYE/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTlfbG9nby4zOGIwN2MwZjUwZDIuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/19_token.38b07c0f50d2.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/7oa9Xex9oI2mSYiz5ajFiw0rE1l_8f5w8f5lxhFJM5E/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTlfdG9rZW4uMzhiMDdjMGY1MGQyLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/4FggJV9ydTBaVchqxQ6HuwVkvUDdpRqpBhF8GTswEyE/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTlfdG9rZW4uMzhiMDdjMGY1MGQyLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/ZI134NVO23tKOkSsAKIIpZicMgioPEu5tcVCNtQpskI/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTlfdG9rZW4uMzhiMDdjMGY1MGQyLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/xOuaHUTMEzqxrqrdOUoOLHiJOJHaZ4DMk6fmxVypoRc/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTlfdG9rZW4uMzhiMDdjMGY1MGQyLnN2Zw"
+      },
+      "symbol": "SGB",
+      "rpcs": [
+        "https://songbird-api.flare.network/ext/C/rpc"
+      ],
+      "coingeckoId": "songbird",
+      "avascanId": "songbird",
+      "ecosystems": [
+        "flare",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://flare.network/songbird/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/songbirdcomm?lang=en"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "OP Mainnet",
+      "chainId": "10",
+      "evmChainId": "10",
+      "logo": "https://cms-cdn.avascan.com/cms2/10_logo.e491b2b428f8.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/jwoftyJmonLwS7OCOD8yKZpfLTVkWDTkQYHIcbrA988/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTBfbG9nby5lNDkxYjJiNDI4Zjguc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/AtpmuEBY6MdDVxoVlbn-NqAFgPQWb6J9q0MdSro32SQ/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTBfbG9nby5lNDkxYjJiNDI4Zjguc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/DBAgQc1Rfyc3iHOomPw2lR3pnkvQBGk6_xNhkclcjGY/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTBfbG9nby5lNDkxYjJiNDI4Zjguc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CdMlBvIBm9037-pdIq36CAmyxAOj-72jrh7BILEn2EM/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTBfbG9nby5lNDkxYjJiNDI4Zjguc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://optimism.publicnode.com"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "optimism",
+      "ecosystems": [
+        "ethereum",
+        "optimism",
+        "nomina",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "github",
+            "value": "https://github.com/ethereum-optimism"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/optimism"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/optimism"
+          },
+          {
+            "type": "url",
+            "value": "https://www.optimism.io/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "CCTPTokenMessenger",
+          "nearIntent",
+          "hyperlane",
+          "superswaps",
+          "opL1StandardBridge",
+          "synapse"
+        ],
+        "messages": [
+          "layerZero",
+          "CCTP",
+          "hyperlane",
+          "opStackBedrockTx",
+          "omni"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Boba BNB",
+      "chainId": "56288",
+      "evmChainId": "56288",
+      "logo": "https://cms-cdn.avascan.com/cms2/56288_logo.040e5b27a1f2.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/pC3ggfL8RypmzbpO5dqGu_xuIPRyXDcSXl9LiH63Elk/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTYyODhfbG9nby4wNDBlNWIyN2ExZjIuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/FbygojikqBOyVOW8Rk6gzD0N0oFR7JgAbiFAz2rIyfE/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTYyODhfbG9nby4wNDBlNWIyN2ExZjIuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/ChOVIaL5yJIiA8aagcPKGbIRQ3vVyYxSLvpDdKWtFUM/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTYyODhfbG9nby4wNDBlNWIyN2ExZjIuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/in2L2BIlaPuIAdtXWQlH2twhqWehCjfA2pb-JhmkDXA/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTYyODhfbG9nby4wNDBlNWIyN2ExZjIuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/56288_token.040e5b27a1f2.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/A-f990RGTCbvYrBnE_GGD9Nm2tM2PQIWtpKFihsyzPM/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTYyODhfdG9rZW4uMDQwZTViMjdhMWYyLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/EcdHCHYE_rsErtihXnqIq5glA7uOhCt9h_y3clnOSPQ/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTYyODhfdG9rZW4uMDQwZTViMjdhMWYyLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/Rcx4kU2Llxz41tlL9JLzipRlvZS25h6SajRoj2Npo8k/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTYyODhfdG9rZW4uMDQwZTViMjdhMWYyLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/-xW8K9APLTZzDiZKwIWIRKGWPSIa9TN11We_7wtMizg/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTYyODhfdG9rZW4uMDQwZTViMjdhMWYyLnN2Zw"
+      },
+      "symbol": "BOBA",
+      "rpcs": [
+        "https://bnb.boba.network"
+      ],
+      "coingeckoId": "boba-network",
+      "avascanId": "boba-bnb",
+      "ecosystems": [
+        "boba"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://boba.network/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/bobanetwork"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/bobanetwork"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/bobanetwork"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/Hvu3zpFwWd"
+          },
+          {
+            "type": "medium",
+            "value": "https://bobanetwork.medium.com/"
+          },
+          {
+            "type": "reddit",
+            "value": "https://www.reddit.com/r/bobanetwork/"
+          },
+          {
+            "type": "youTube",
+            "value": "https://youtube.com/@TheBobaNetwork"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Chiliz",
+      "chainId": "88888",
+      "evmChainId": "88888",
+      "logo": "https://cms-cdn.avascan.com/cms2/88888_logo.98be8292fbf1.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/1TTnVXR5CZiGYJpGjn952rNBnZYeN-UPmfPNOVN6dfY/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODg4ODhfbG9nby45OGJlODI5MmZiZjEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/SbJUvovT-6a9SF7fBNDDFW26t5uPaThwzH7qnBB1Qck/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODg4ODhfbG9nby45OGJlODI5MmZiZjEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/Hqemk2yLJkaulf486LtvBHyxBcHF2brhPoTdBSvDPa8/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODg4ODhfbG9nby45OGJlODI5MmZiZjEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/8pFAxE1CpcPzGXVaxfYoZa5siqcPXwxWRiiAUeFT9Kg/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODg4ODhfbG9nby45OGJlODI5MmZiZjEuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/88888_token.98be8292fbf1.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/L83rnNyM-aRi1Sv6cHNtJ5-h01qCzHlRKskAENypfn8/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODg4ODhfdG9rZW4uOThiZTgyOTJmYmYxLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/S0svurLRzLNvHVJpK1py0fWVpIaBgoApk4U0BcvfrUM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODg4ODhfdG9rZW4uOThiZTgyOTJmYmYxLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/GRRvm74Pz2B6UAbqoJGldgA6BplvYhrtd2dA-49O-tE/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODg4ODhfdG9rZW4uOThiZTgyOTJmYmYxLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/p31Vh59kS8z23rfBgxN_aaYuBhiDhDImyJg2V1Vg7Xk/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODg4ODhfdG9rZW4uOThiZTgyOTJmYmYxLnN2Zw"
+      },
+      "symbol": "CHZ",
+      "rpcs": [
+        "https://rpc.chiliz.com"
+      ],
+      "coingeckoId": "chiliz",
+      "avascanId": "chiliz",
+      "ecosystems": [
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "blog",
+            "value": "https://medium.com/chiliz"
+          },
+          {
+            "type": "reddit",
+            "value": "https://reddit.com/r/chiliZ"
+          },
+          {
+            "type": "whitepaperUrl",
+            "value": "https://docs.chiliz.com/"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/chiliz-chain/v2"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.gg/chiliz"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/chiliz_io"
+          },
+          {
+            "type": "email",
+            "value": "info@chiliz.com"
+          },
+          {
+            "type": "url",
+            "value": "https://www.chiliz.com/"
+          },
+          {
+            "type": "coingecko",
+            "value": "https://www.coingecko.com/en/coins/chiliz/"
+          },
+          {
+            "type": "facebook",
+            "value": "https://www.facebook.com/chilizdotcom/"
+          },
+          {
+            "type": "coinmarketcap",
+            "value": "https://coinmarketcap.com/currencies/chiliz/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/chiliz/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": [
+          "hyperlane",
+          "layerZero"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Zora",
+      "chainId": "7777777",
+      "evmChainId": "7777777",
+      "avalancheBlockchainId": "7777777",
+      "logo": "https://cms-cdn.avascan.com/cms2/7777777_logo.5098db60679e.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/dTsx4NNPE6qPxWV2VJHgCrDavxVWTd5wQvxRVaCM_D0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNzc3Nzc3N19sb2dvLjUwOThkYjYwNjc5ZS5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/axC1CY3GTK85ou3g-H4zCQuPM1q00tFEHj8Dr6d7hH0/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNzc3Nzc3N19sb2dvLjUwOThkYjYwNjc5ZS5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/b06MyfSBaLlYr18SJfHEQZSXjXASnwWP_AzFE67BoC0/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNzc3Nzc3N19sb2dvLjUwOThkYjYwNjc5ZS5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/Zfszsac6qhdVeyJGXDNoK95-tbgrnfOmti1NwDHnOTY/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNzc3Nzc3N19sb2dvLjUwOThkYjYwNjc5ZS5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://zora.drpc.org"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "zora",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "twitter",
+            "value": "https://x.com/zora"
+          },
+          {
+            "type": "url",
+            "value": "https://zora.co"
+          },
+          {
+            "type": "instagram",
+            "value": "https://www.instagram.com/our.zora/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "hyperlane",
+          "OFT"
+        ],
+        "messages": [
+          "opStackBedrockTx",
+          "hyperlane",
+          "layerZero"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Beam",
+      "chainId": "4337",
+      "evmChainId": "4337",
+      "avalancheBlockchainId": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+      "logo": "https://cms-cdn.avascan.com/cms2/4337_logo.fcb7efcd3b98.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/xCaFVDW8bpXJB1nE3jPMbyjAtPp0RbTxBPhYcwziefM/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMzN19sb2dvLmZjYjdlZmNkM2I5OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/bOvOYNdWUOZOGShJ09vOTyfHZ7H8BrfSOcHACHPqVd8/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMzN19sb2dvLmZjYjdlZmNkM2I5OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/ws2Sr0EiOeENn6IRkshJUHjwezhmqAAqOAQ3rXyLgD4/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMzN19sb2dvLmZjYjdlZmNkM2I5OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/cyFF4PuASH_UprAuyhHy4YgeixqQNHfMlps11g6tIf0/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMzN19sb2dvLmZjYjdlZmNkM2I5OC5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/4337_token.fcb7efcd3b98.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/ZzaABb-Cf5u2zQSZAGC0pQuare7sYGqdvGVkq_ci-FU/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMzN190b2tlbi5mY2I3ZWZjZDNiOTguc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/socd5RDJUt-ug-C5H7sQHON7l-bCQXACqFppmEREWeM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMzN190b2tlbi5mY2I3ZWZjZDNiOTguc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/JkVWxnkEn0OoiTwDGyZqaMR8L3D0nhovQFvdZMwfdO4/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMzN190b2tlbi5mY2I3ZWZjZDNiOTguc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/D7U_nCKYbuFXBf_ktrSd9yQ6NhD-Ap4fYfadqTPr6v0/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDMzN190b2tlbi5mY2I3ZWZjZDNiOTguc3Zn"
+      },
+      "symbol": "BEAM",
+      "rpcs": [
+        "https://subnets.avax.network/beam/mainnet/rpc"
+      ],
+      "coingeckoId": "beam-2",
+      "avascanId": "beam",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "moralis",
+            "value": "https://moralis.com/chain/ethereum/token/price/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/meritcircle_io"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/meritcircle"
+          },
+          {
+            "type": "url",
+            "value": "https://www.onbeam.com/"
+          },
+          {
+            "type": "coinmarketcap",
+            "value": "https://coinmarketcap.com/currencies/onbeam"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.gg/meritcircle"
+          },
+          {
+            "type": "coingecko",
+            "value": "https://www.coingecko.com/en/coins/beam-2/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/buildonbeam"
+          },
+          {
+            "type": "whitepaperUrl",
+            "value": "https://docs.onbeam.com/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT"
+        ],
+        "messages": [
+          "layerZero"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Orderly",
+      "chainId": "291",
+      "evmChainId": "291",
+      "avalancheBlockchainId": "291",
+      "logo": "https://cms-cdn.avascan.com/cms2/291_logo.ce1d05d6062e.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/c3r4lavF-3oUb5u42seJ0bbhwfhouKKpzbxmK1RgDMs/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjkxX2xvZ28uY2UxZDA1ZDYwNjJlLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/vHDquQT-Po8kvUmMIRnXvgOKbtT2WFHc6eSLY8GJYw4/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjkxX2xvZ28uY2UxZDA1ZDYwNjJlLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/H1usnvKEWcezrhlx1nC8vzmBoNQncTh587OehNOcM54/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjkxX2xvZ28uY2UxZDA1ZDYwNjJlLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/q2rpy45hZxFRpplHiO9lxKMSDp3roxtC1lU1YTBMNow/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjkxX2xvZ28uY2UxZDA1ZDYwNjJlLnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://rpc.orderly.network"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "orderly",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "coingecko",
+            "value": "https://www.coingecko.com/en/coins/orderly-network/"
+          },
+          {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/company/orderly-network"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/OrderlyNetwork"
+          },
+          {
+            "type": "blog",
+            "value": "https://orderly.network/blog"
+          },
+          {
+            "type": "email",
+            "value": "product@orderly.network"
+          },
+          {
+            "type": "moralis",
+            "value": "https://moralis.com/chain/arbitrum/token/price/0x4e200fe2f3efb977d5fd9c430a41531fb04d97b8"
+          },
+          {
+            "type": "url",
+            "value": "https://orderly.network"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/orderlynetwork"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/OrderlyNetworkDiscussions"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/OrderlyNetwork"
+          },
+          {
+            "type": "medium",
+            "value": "https://medium.com/@orderlynetwork"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "hyperlane"
+        ],
+        "messages": [
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Mode",
+      "chainId": "34443",
+      "evmChainId": "34443",
+      "logo": "https://cms-cdn.avascan.com/cms2/34443_logo.2857a2477d54.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/4TiM8ysk8JCazvM9Ggn9ketf6l_UK9WTFTbE6SAHNLI/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzQ0NDNfbG9nby4yODU3YTI0NzdkNTQuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/RgGQ3SCIQov2TPM4ynTxrplasFDpAyjXmRqqn52hsmc/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzQ0NDNfbG9nby4yODU3YTI0NzdkNTQuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/q-dPNiFtUwzaGWuBA6lO1xxbp-McgAjRKEMuEIXqMD4/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzQ0NDNfbG9nby4yODU3YTI0NzdkNTQuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/9nrkXT7-kQjh4BxOicdXhVpl2B5upipI3QTynoaSfWs/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzQ0NDNfbG9nby4yODU3YTI0NzdkNTQuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://mode.drpc.org"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "mode",
+      "ecosystems": [
+        "ethereum",
+        "optimism",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "twitter",
+            "value": "https://x.com/modenetwork"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/modenetworkofficial"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/ModeNetworkOfficial"
+          },
+          {
+            "type": "url",
+            "value": "https://www.mode.network/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "hyperlane",
+          "OFT",
+          "superswaps"
+        ],
+        "messages": [
+          "hyperlane",
+          "layerZero"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Blast",
+      "chainId": "81457",
+      "evmChainId": "81457",
+      "logo": "https://cms-cdn.avascan.com/cms2/81457_logo.e8bf071c906b.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/sIlhXYAQh8UI4ZfF7DpqinPsWB51pgbnY6bXFkvJjpA/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODE0NTdfbG9nby5lOGJmMDcxYzkwNmIuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/7mYZeaxGV5_uyCkJ1OEMIQXSFoHc6XEHz2rwxQ66IUU/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODE0NTdfbG9nby5lOGJmMDcxYzkwNmIuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/w0IGsr7BIZbmyQbGdWBofrAoVEmltmiAYOZSOaIKVU0/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODE0NTdfbG9nby5lOGJmMDcxYzkwNmIuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/0XZ1vk-9Dve90QnadUQYtrcuehERIO6Cokpx68-IHQg/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODE0NTdfbG9nby5lOGJmMDcxYzkwNmIuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://rpc.blast.io"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "blast",
+      "ecosystems": [
+        "ethereum",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://blast.io/en"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/Blast"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/blast-l2"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "opL1StandardBridge",
+          "hyperlane",
+          "synapse"
+        ],
+        "messages": [
+          "layerZero",
+          "opStackBedrockTx",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Fraxtal",
+      "chainId": "252",
+      "evmChainId": "252",
+      "logo": "https://cms-cdn.avascan.com/cms2/252_logo.36c26d456365.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/hlo6eLl0xZyB922fMwHyohVOKUqz9fmR8sgZLTemiSM/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjUyX2xvZ28uMzZjMjZkNDU2MzY1LnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/dveBmzPy8fjNu_HyJBF-yTFuR6FQQlBzUFFm7i2RMRc/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjUyX2xvZ28uMzZjMjZkNDU2MzY1LnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/xYZXok3tStbwv4PP_Ja7XRHD1bZaYOfJIDB4GfZ96-Q/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjUyX2xvZ28uMzZjMjZkNDU2MzY1LnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/yN3LNR04kMbRM5UuwIhbzsIMRZf45vZQM6wAaFYo8h8/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjUyX2xvZ28uMzZjMjZkNDU2MzY1LnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/252_token.ee62f62dfebd.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/AfiaYcz7YZI3YV54vH77-qQEtcu2F7DQ-qpah-3tGcA/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjUyX3Rva2VuLmVlNjJmNjJkZmViZC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/3vGcbqXNryHyzIvpxohAYf8gb9px9nPZan_i1n-VsAA/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjUyX3Rva2VuLmVlNjJmNjJkZmViZC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/2FX1PuRvtWrhuHP7xkA6TK--HdOcGP934TE2t-yu3AA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjUyX3Rva2VuLmVlNjJmNjJkZmViZC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/tw3NeF6Ll7PHVmPTWskUmfe09ZJgcbRPM-dWrL7j4xk/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjUyX3Rva2VuLmVlNjJmNjJkZmViZC5zdmc"
+      },
+      "symbol": "FRXETH",
+      "rpcs": [
+        "https://rpc.frax.com"
+      ],
+      "coingeckoId": "fraxtal",
+      "avascanId": "fraxtal",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://www.frax.com"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/fraxfinance"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/fraxfinance"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/FraxFinance"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/fraxfinance"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "hyperlane",
+          "OFT",
+          "superswaps",
+          "opL1StandardBridge"
+        ],
+        "messages": [
+          "hyperlane",
+          "layerZero",
+          "opStackBedrockTx"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Mint",
+      "chainId": "185",
+      "evmChainId": "185",
+      "logo": "https://cms-cdn.avascan.com/cms2/185_logo.352ca0b8b198.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/bf4yWk2DeakX92DC2NfkSXJrl8GYDN5IddBo-VDWrgo/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTg1X2xvZ28uMzUyY2EwYjhiMTk4LnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/NT4gc0rbtElvgazW-T6y2cVOhu7lXALI7PGtT_sHuFs/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTg1X2xvZ28uMzUyY2EwYjhiMTk4LnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/WWDaAhqNoPEIXv4f3qVjxNietLU1FCpS-C4LxEOCKkQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTg1X2xvZ28uMzUyY2EwYjhiMTk4LnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/VQ5tFkD0ZVLoPIcO54H4KGNKtbkUdFBcfsPZe8TSgtk/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTg1X2xvZ28uMzUyY2EwYjhiMTk4LnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://rpc.mintchain.io"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "mint",
+      "ecosystems": [
+        "ethereum",
+        "optimism",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "whitepaperUrl",
+            "value": "https://docs.mintchain.io"
+          },
+          {
+            "type": "url",
+            "value": "https://www.mintchain.io"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/mint-blockchain"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/MintBlockchain"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/Mint_Blockchain"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/Mint-Blockchain"
+          },
+          {
+            "type": "mirror",
+            "value": "https://mirror.xyz/mintchain.eth"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "hyperlane"
+        ],
+        "messages": [
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Polynomial",
+      "chainId": "8008",
+      "evmChainId": "8008",
+      "logo": "https://cms-cdn.avascan.com/cms2/8008_logo.8d2e33c739ce.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/hFBEN9i98vuKeFf3wiL7CikX5SDtfZiIZN2Ahoh3A9o/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOF9sb2dvLjhkMmUzM2M3MzljZS5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/7xo6Wd9j3SGsqJvokXaWeBH_gRFOuSRykj_B068cryM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOF9sb2dvLjhkMmUzM2M3MzljZS5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/MCTsg_BEyAAr4N8SVuOJ240W7aLN3WuffFITfvofcbY/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOF9sb2dvLjhkMmUzM2M3MzljZS5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/9qPSPpAFVQZMuPkxfHZSFL2C8zJ1SQ55AG1nwZIfalI/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOF9sb2dvLjhkMmUzM2M3MzljZS5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://rpc.polynomial.fi"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "polynomial",
+      "ecosystems": [
+        "optimism",
+        "ethereum",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://www.polynomial.fi"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/8WYEPDqyCR"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/polynomialfi"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "hyperlane"
+        ],
+        "messages": [
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Lamina1",
+      "chainId": "10849",
+      "evmChainId": "10849",
+      "avalancheBlockchainId": "UhReZTXT8Cqsjat9ghRtCe5kBQPQexQB5zG5Fvf3egrdYfyoJ",
+      "logo": "https://cms-cdn.avascan.com/cms2/10849_logo.b4915a828dc5.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/lb4QH0uCS0mCUHYnbOIwDAcggsWiOm6iWtorO3MSW3k/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA4NDlfbG9nby5iNDkxNWE4MjhkYzUuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/S8c-q3waRTEEvJSE9yYy7QbxLGQY78pswBb3N9Hc_y4/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA4NDlfbG9nby5iNDkxNWE4MjhkYzUuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/704DeI6ydSG_44ajbPi9Qq7Xfk_aMp3gp55sXhydBx0/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA4NDlfbG9nby5iNDkxNWE4MjhkYzUuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/kmPYP_gOnq2h8YEqqhOJJzjqSbnuYvmv3XdpuGQBBX4/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA4NDlfbG9nby5iNDkxNWE4MjhkYzUuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/10849_token.b4915a828dc5.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/GeDiabegU1k82PA-XuXArXXd60qDAA7ucnVBGxF-aRc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA4NDlfdG9rZW4uYjQ5MTVhODI4ZGM1LnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/HxpFJ1H5i7yCAXtn3-0Q2S1dm5d40u1wzG5naskqOto/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA4NDlfdG9rZW4uYjQ5MTVhODI4ZGM1LnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/2sJL12aK4Q__ffh8kIYOL0YN6urjn76axFDI2ZM6ZK4/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA4NDlfdG9rZW4uYjQ5MTVhODI4ZGM1LnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/jT8pY3qCoo8rKkcz4V7_eflHaaHFDwcwrVfVaTYWZ1k/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTA4NDlfdG9rZW4uYjQ5MTVhODI4ZGM1LnN2Zw"
+      },
+      "symbol": "L1",
+      "rpcs": [
+        "https://subnets.avax.network/lamina1/mainnet/rpc"
+      ],
+      "coingeckoId": "lamina1",
+      "avascanId": "lamina1",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/lamina1"
+          },
+          {
+            "type": "url",
+            "value": "https://lamina1.com/home"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/Lamina1official"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/Lamina1Official"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "ICTT"
+        ],
+        "messages": [
+          "teleporterTx"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "StraitsX",
+      "chainId": "5566",
+      "evmChainId": "5566",
+      "avalancheBlockchainId": "EJ4DyXHe4ydhsLLMiDPsHtoq5RDqgyao6Lwb9znKhs59q4NQx",
+      "logo": "https://cms-cdn.avascan.com/cms2/5566_logo.9551c7c43197.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/FpWIHRz31XbbwMfEPcz-0lI_hnqeAFlpdK4yvvUYqoo/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTU2Nl9sb2dvLjk1NTFjN2M0MzE5Ny5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/kjxN46gzNpStcL0_oFR8NjzqywAtidiL8FOairDLrKw/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTU2Nl9sb2dvLjk1NTFjN2M0MzE5Ny5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/mp5VYP-NZWLpcG3tEAy9UBpXKtGIRnOmSESdNYGvdMo/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTU2Nl9sb2dvLjk1NTFjN2M0MzE5Ny5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/cmVBMzO5t3-y2WmfICDhtmLs5NQb33AWbGl2bvDn0nU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTU2Nl9sb2dvLjk1NTFjN2M0MzE5Ny5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/5566_token.9551c7c43197.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/7pPe3UxuXSUTl1KdCzmUIVSyXeJnO4ZIZjj8dI8QPeo/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTU2Nl90b2tlbi45NTUxYzdjNDMxOTcuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/ngN0pDWlNKhJQUZclqACQS_-NhpImMh9Ylys_btMYoo/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTU2Nl90b2tlbi45NTUxYzdjNDMxOTcuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/uvLf6JBXKNi0GANXpruM8HNOAhotDh6gdPTSArujmS8/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTU2Nl90b2tlbi45NTUxYzdjNDMxOTcuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/xRx-uXXjnXNM2U4_HEVZtvQRIwcSv-XJiVfHgf8PoUI/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTU2Nl90b2tlbi45NTUxYzdjNDMxOTcuc3Zn"
+      },
+      "symbol": "STX",
+      "rpcs": [
+        "https://subnets.avax.network/straitsx/mainnet/rpc"
+      ],
+      "avascanId": "straitsx",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "facebook",
+            "value": "https://www.facebook.com/straitsx/"
+          },
+          {
+            "type": "url",
+            "value": "https://www.straitsx.com/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/straitsx"
+          },
+          {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/company/straitsx/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "ICTT"
+        ],
+        "messages": [
+          "teleporterTx"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Pulsar",
+      "chainId": "357",
+      "evmChainId": "357",
+      "avalancheBlockchainId": "QVbrD172sAF1TgCvN9DZG93nAd2YBGCJVZP4cngdEKCTy2F9v",
+      "logo": "https://cms-cdn.avascan.com/cms2/357_logo.d1bf4424007f.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/YZjtVKzKg00TE7mnox2tybMd2n0qrzgm951mbKhNGyI/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzU3X2xvZ28uZDFiZjQ0MjQwMDdmLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/bwJkHFKrqM0rxrBIAwQbZ1KRxRlKqfHp6fCK211KthY/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzU3X2xvZ28uZDFiZjQ0MjQwMDdmLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/-p6SJ5c9PRkomSBYIsMoeHjmANwqAPlKnpLaX3NrUDM/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzU3X2xvZ28uZDFiZjQ0MjQwMDdmLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/2pRftK1hP6qqsXp-tX96zac7JWVoQLtB5oifj80ZbIE/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzU3X2xvZ28uZDFiZjQ0MjQwMDdmLnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/357_token.d1bf4424007f.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/ihk_jgasdsk3UlzueOcdu-s1KVd3quPmwI4sE0tg2LI/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzU3X3Rva2VuLmQxYmY0NDI0MDA3Zi5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/9v1EkY73NIqmSWWMSNr1qlkqhedoylrhVkBkKnplVsk/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzU3X3Rva2VuLmQxYmY0NDI0MDA3Zi5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/cbPor_PIaPgnj9JMHB90hfCP50WeumCLvkJRSNfLvog/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzU3X3Rva2VuLmQxYmY0NDI0MDA3Zi5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/9oOnUo-cAIgpi90SXP_opNZZGVOEb_aBL22FWbTSn4M/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMzU3X3Rva2VuLmQxYmY0NDI0MDA3Zi5zdmc"
+      },
+      "symbol": "PLSR",
+      "rpcs": [
+        "https://subnets.avax.network/pulsar/mainnet/rpc"
+      ],
+      "coingeckoId": "pulsar",
+      "avascanId": "pulsar",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "whitepaperUrl",
+            "value": "https://wiki.pulsar.game"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/PulsarGame"
+          },
+          {
+            "type": "youTube",
+            "value": "https://www.youtube.com/channel/UCG0LjOPFxiUMzq-KMadp10g"
+          },
+          {
+            "type": "url",
+            "value": "https://pulsar.12rw.io/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Redbelly",
+      "chainId": "151",
+      "evmChainId": "151",
+      "logo": "https://cms-cdn.avascan.com/cms2/redbelly_chain_logo.f8fa5367e744.png",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/LN266uvHJb_VZiCzULVLrRmkLGACaKogTEmnzZMCaiY/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcmVkYmVsbHlfY2hhaW5fbG9nby5mOGZhNTM2N2U3NDQucG5n",
+        "64": "https://imgproxy-mainnet.routescan.io/obDz7BJe8H-bYYMnED_oJBFja5nrU2STduB8Oq5TKXY/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcmVkYmVsbHlfY2hhaW5fbG9nby5mOGZhNTM2N2U3NDQucG5n",
+        "256": "https://imgproxy-mainnet.routescan.io/83T7UUYJ_hrfzT2XI7bNzk171LUEfTiuwXz6qKZ0kBY/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcmVkYmVsbHlfY2hhaW5fbG9nby5mOGZhNTM2N2U3NDQucG5n",
+        "1024": "https://imgproxy-mainnet.routescan.io/6CF9y-xJnHepwa7DsTrui63NrZa9kngsTHpGJ7-OPL0/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcmVkYmVsbHlfY2hhaW5fbG9nby5mOGZhNTM2N2U3NDQucG5n"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/redbelly_token_icon.8e89427df3b1.webp",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/e_8ioSli13PbJwmW8Ws8R1_QtFzl7o9CjdFwHTyrxRk/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcmVkYmVsbHlfdG9rZW5faWNvbi44ZTg5NDI3ZGYzYjEud2VicA",
+        "64": "https://imgproxy-mainnet.routescan.io/HHvTRZttSucPWkEAhtxOFJ0idTXjahJ5WxZYQCcCs9A/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcmVkYmVsbHlfdG9rZW5faWNvbi44ZTg5NDI3ZGYzYjEud2VicA",
+        "256": "https://imgproxy-mainnet.routescan.io/lERGo0PWrVx9gl7bMUAAdM4peMnv8ti4FX3CBjg6dsQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcmVkYmVsbHlfdG9rZW5faWNvbi44ZTg5NDI3ZGYzYjEud2VicA",
+        "1024": "https://imgproxy-mainnet.routescan.io/Ged7IyvpDJYlI4C-vlEIhWkTvhgkRZ0QD_Xpjm9OWcg/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcmVkYmVsbHlfdG9rZW5faWNvbi44ZTg5NDI3ZGYzYjEud2VicA"
+      },
+      "symbol": "RBNT",
+      "rpcs": [
+        "https://governors.mainnet.redbelly.network"
+      ],
+      "coingeckoId": "redbelly-network-token",
+      "avascanId": "redbelly",
+      "ecosystems": [
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://www.redbelly.network/"
+          },
+          {
+            "type": "youTube",
+            "value": "https://www.youtube.com/channel/UCa9PULe16RSN1mH9epsMkBw"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/sxwBgwmdq6"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/redbellynetwork"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/redbellychat"
+          },
+          {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/company/redbelly-network/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT"
+        ],
+        "messages": [
+          "layerZero"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Nomina",
+      "chainId": "166",
+      "evmChainId": "166",
+      "logo": "https://cms-cdn.avascan.com/cms2/166_logo.7fe9cffaa12c.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/c4VF57o4c9e_0Y2ih6fTXYt8rcNfrP9JK2A0ZpMWtQU/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTY2X2xvZ28uN2ZlOWNmZmFhMTJjLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/fE_AfiZb2S7Nrrrjd5xO2sWwuykVnothbakrl8PJxhw/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTY2X2xvZ28uN2ZlOWNmZmFhMTJjLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/jQ4K0DurjvFFxN1Shw-XHwD0rtJDjDJkuUR3m8Ae10s/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTY2X2xvZ28uN2ZlOWNmZmFhMTJjLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/b5LZlsSd5RXCYXneT-hs3vX0MhvUk9lz6x9eisGs-vQ/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTY2X2xvZ28uN2ZlOWNmZmFhMTJjLnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/166_token.7fe9cffaa12c.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/7WjgKBzD94rPOZxfuxyaE0S8fKX2R_Fez7JOXMELOgo/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTY2X3Rva2VuLjdmZTljZmZhYTEyYy5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/obNlkqTScjRmQB0IwpMahjkG1amX4A9b8EStW90YD4E/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTY2X3Rva2VuLjdmZTljZmZhYTEyYy5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/ChDx67VAYDn78sxx9WqaEm_F6ooTqTCF17gA965wt-k/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTY2X3Rva2VuLjdmZTljZmZhYTEyYy5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/XNc2CvX6rT27i-bz6to6n3eb69novCJNhiJkBOd55AA/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTY2X3Rva2VuLjdmZTljZmZhYTEyYy5zdmc"
+      },
+      "symbol": "NOM",
+      "rpcs": [
+        "https://mainnet.nomina.io"
+      ],
+      "coingeckoId": "nomina",
+      "avascanId": "nomina",
+      "ecosystems": [
+        "nomina",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "github",
+            "value": "https://github.com/nomina-xyz"
+          },
+          {
+            "type": "url",
+            "value": "https://www.nomina.io/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/Nomina"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/nomina"
+          },
+          {
+            "type": "blog",
+            "value": "https://www.nomina.io/blog"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/nominaannouncements"
+          },
+          {
+            "type": "coingecko",
+            "value": "https://www.coingecko.com/en/coins/nomina"
+          },
+          {
+            "type": "coinmarketcap",
+            "value": "https://coinmarketcap.com/currencies/nomina/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "omniBridge"
+        ],
+        "messages": [
+          "omni"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Corn",
+      "chainId": "21000000",
+      "evmChainId": "21000000",
+      "logo": "https://cms-cdn.avascan.com/cms2/21000000_logo.d273be70b8cd.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/iEf_UhGu0g04xWsKmqcSCQhR71ZyTYjqA5_6lgqFq3Y/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjEwMDAwMDBfbG9nby5kMjczYmU3MGI4Y2Quc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/H1IsjjnZrTyzza_w-MNjKJxrPr5qpvUkA-QQP92W9j4/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjEwMDAwMDBfbG9nby5kMjczYmU3MGI4Y2Quc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/wjMPBFfHUge5LfByitX0moJfYGFUxsdiSjFPSaQ2glU/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjEwMDAwMDBfbG9nby5kMjczYmU3MGI4Y2Quc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/VifQVGKsExM2hfEjnEV_WsGhY5t4QvzsctTY8FbhBqY/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjEwMDAwMDBfbG9nby5kMjczYmU3MGI4Y2Quc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/21000000_token.d273be70b8cd.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/Iy_zoJuzxMMbW4hFw188hg6ZENYhKAkml3U_I9rTeXI/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjEwMDAwMDBfdG9rZW4uZDI3M2JlNzBiOGNkLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/v9bD6R5Y22qTW5XOR7aUrlkoCwOo7OGvOuUBsqTic1s/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjEwMDAwMDBfdG9rZW4uZDI3M2JlNzBiOGNkLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/Ot8UaihR19D_1TtGZFrghJShXUFZLdKY6l87YK8D12A/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjEwMDAwMDBfdG9rZW4uZDI3M2JlNzBiOGNkLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/0GSrk-cK02zCp9GTgliQGRrA-khI-qTV7uM3eYUklXE/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMjEwMDAwMDBfdG9rZW4uZDI3M2JlNzBiOGNkLnN2Zw"
+      },
+      "symbol": "BTCN",
+      "rpcs": [
+        "https://maizenet-rpc.usecorn.com"
+      ],
+      "coingeckoId": "bitcoin",
+      "avascanId": "corn",
+      "ecosystems": [
+        "bitcoin",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://usecorn.com/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/use_corn"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/usecorn"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/+upkPwAJwIz5iZDEx"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/usecorn"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT"
+        ],
+        "messages": [
+          "layerZero"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Lisk",
+      "chainId": "1135",
+      "evmChainId": "1135",
+      "logo": "https://cms-cdn.avascan.com/cms2/1135_logo.1ec068a9bbf0.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/XKHqTWMjzf3O_zy7mjPaCuFF65M1SMvlBQaEmrVLs14/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTEzNV9sb2dvLjFlYzA2OGE5YmJmMC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/wGz35i4hHRxxhTalGIiD6TM5OEMrkqXmRCGybO8z4T4/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTEzNV9sb2dvLjFlYzA2OGE5YmJmMC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/qOMEK8LUu45SU59Ow-zwlv_hYTpngFxGKCgMoRhppGg/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTEzNV9sb2dvLjFlYzA2OGE5YmJmMC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/Jg6XF5-CgmYFSmU3TeF9ADjN1QG9bCrmbI0eSAmMKgE/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTEzNV9sb2dvLjFlYzA2OGE5YmJmMC5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://rpc.api.lisk.com"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "lisk",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://lisk.com/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/LiskHQ"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/lisk"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/LiskHQ"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "opL1StandardBridge",
+          "hyperlane",
+          "superswaps"
+        ],
+        "messages": [
+          "layerZero",
+          "opStackBedrockTx",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Arbitrum One",
+      "chainId": "42161",
+      "evmChainId": "42161",
+      "logo": "https://cms-cdn.avascan.com/cms2/42161_logo.5fe880c3e3d3.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/yA-R6DTblfqtQuPQsR1B4SZ26Oxvs1W2VNk2A_r3ecg/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDIxNjFfbG9nby41ZmU4ODBjM2UzZDMuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/EF1cqve4nTRMlOIXFdoyLX9-dty_jzzxbm9CxvHiaqI/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDIxNjFfbG9nby41ZmU4ODBjM2UzZDMuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/JwKdzJZ7N8FXgIM8ufhfBsrUMNMddpW_3HNUNYKR2Ko/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDIxNjFfbG9nby41ZmU4ODBjM2UzZDMuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/LM9fhAnvgz2UuzjGNw7Wku3r6HHyRIk5jBjRG-MXvOI/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDIxNjFfbG9nby41ZmU4ODBjM2UzZDMuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://arb1.arbitrum.io/rpc"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "arbitrum",
+      "ecosystems": [
+        "arbitrum",
+        "nomina",
+        "ethereum",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://docs.arbitrum.io/welcome/get-started"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/arbitrum"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.gg/arbitrum"
+          },
+          {
+            "type": "youTube",
+            "value": "https://www.youtube.com/@Arbitrum"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "CCTPTokenMessenger",
+          "OFT",
+          "hyperlane",
+          "nearIntent",
+          "synapse"
+        ],
+        "messages": [
+          "hyperlane",
+          "CCTP",
+          "layerZero",
+          "omni"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Berachain",
+      "chainId": "80094",
+      "evmChainId": "80094",
+      "logo": "https://cms-cdn.avascan.com/cms2/80094_logo.2b6da9b00b58.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/L7aXdwhVhapqtl7flErn8PiGtIMOpNxWxfXk8rsBI88/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOTRfbG9nby4yYjZkYTliMDBiNTguc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Qb-nilk4tW3EG3NQXE2WSjPIKMJqrqMj2EKzZLb6TNA/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOTRfbG9nby4yYjZkYTliMDBiNTguc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/n7nanVPGWDbuBufAY91AIxDhYzJc999Vd8_oyYE6SRw/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOTRfbG9nby4yYjZkYTliMDBiNTguc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/KorfQdKptdGrdzKZIQe5yqFon3qRbjYNXJbfIIRDWwM/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOTRfbG9nby4yYjZkYTliMDBiNTguc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/80094_token.2b6da9b00b58.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/-4fZDRj3N6TLKZVp3My_mf9LSqdtMxu7I7LQEVX3V_4/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOTRfdG9rZW4uMmI2ZGE5YjAwYjU4LnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/dwltzPKS93UN1-w2BGAJh4JEyC4Bp2WphoDziwPym7Q/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOTRfdG9rZW4uMmI2ZGE5YjAwYjU4LnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/_HJIYRvekSPWTWW_KGlQ_QblV9DH8tXuKxXoh529pgM/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOTRfdG9rZW4uMmI2ZGE5YjAwYjU4LnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/FmMt6ksk3OZQncks3MHwyZGxek1psaFIE16XUrXmYnQ/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvODAwOTRfdG9rZW4uMmI2ZGE5YjAwYjU4LnN2Zw"
+      },
+      "symbol": "BERA",
+      "rpcs": [
+        "https://rpc.berachain.com"
+      ],
+      "coingeckoId": "berachain-bera",
+      "avascanId": "berachain",
+      "ecosystems": [
+        "cosmos",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://www.berachain.com/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/berachain"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.gg/berachain"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/berachain"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/berachainportal"
+          },
+          {
+            "type": "coinmarketcap",
+            "value": "https://coinmarketcap.com/currencies/berachain/"
+          },
+          {
+            "type": "coingecko",
+            "value": "https://www.coingecko.com/en/coins/berachain"
+          },
+          {
+            "type": "geckoterminal",
+            "value": "https://www.geckoterminal.com/berachain/pools"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/berachaineco"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "hyperlane",
+          "synapse",
+          "nearIntent"
+        ],
+        "messages": [
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Ink",
+      "chainId": "57073",
+      "evmChainId": "57073",
+      "logo": "https://cms-cdn.avascan.com/cms2/57073_logo.de3440bb29fe.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/2AOQSKJerhRGzKK9xWzDFIyEcqCKM9FjpRIdZIX4J4A/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTcwNzNfbG9nby5kZTM0NDBiYjI5ZmUuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/0WuJnfFAQnHljR0iFTCps7ieXQ6q7ugGQPNJY0-SIt0/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTcwNzNfbG9nby5kZTM0NDBiYjI5ZmUuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/stBiSmsr2QjTKwA2bbtAN2q7yWt47rX8Bu7XYjwAAqI/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTcwNzNfbG9nby5kZTM0NDBiYjI5ZmUuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/0K3vxWnekECgn7S27myImnc23kUG3mr_Jour3B5dYe0/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTcwNzNfbG9nby5kZTM0NDBiYjI5ZmUuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://ink.drpc.org"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "ink",
+      "ecosystems": [
+        "optimism",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "moralis",
+            "value": "https://moralis.com/chain/avalanche/token/price/0x32975907733f93305be28e2bfd123666b7a9c863"
+          },
+          {
+            "type": "url",
+            "value": "https://inkonchain.com/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/inkonchain"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/inkonchain"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/inkonchain"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/inkonchain"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "superswaps",
+          "hyperlane",
+          "CCTPTokenMessenger"
+        ],
+        "messages": [
+          "hyperlane",
+          "layerZero",
+          "CCTP"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Swell",
+      "chainId": "1923",
+      "evmChainId": "1923",
+      "logo": "https://cms-cdn.avascan.com/cms2/1923_logo.724cf7eb0ebd.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/A_hFh8eqWl2siYupDRGX13WxX0g6kH4Ohipsfh6tw5w/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTkyM19sb2dvLjcyNGNmN2ViMGViZC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/VgcSsfqZkGss_1_MOoofUKsFTswVB-sE7ja6vONzPGM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTkyM19sb2dvLjcyNGNmN2ViMGViZC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/PyXlPrYTqeoxsjcng7jPc8-4WarEgKFqODRpmwg45Hg/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTkyM19sb2dvLjcyNGNmN2ViMGViZC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/rUUpCFXbvhvScnGD7oKCI09VHZ2uc7WSlTvoiA3QYcg/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTkyM19sb2dvLjcyNGNmN2ViMGViZC5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://rpc.ankr.com/swell"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "swell",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "coingecko",
+            "value": "https://www.coingecko.com/en/coins/sweth/"
+          },
+          {
+            "type": "whitepaperUrl",
+            "value": "https://docs.swellnetwork.io/swell/what-is-swell"
+          },
+          {
+            "type": "url",
+            "value": "https://www.swellnetwork.io/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/swellnetworkio"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/swellnetworkdao"
+          },
+          {
+            "type": "reddit",
+            "value": "https://www.reddit.com/r/swellnetwork/"
+          },
+          {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/company/swellnetworkio"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/swellnetwork"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "hyperlane",
+          "superswaps"
+        ],
+        "messages": [
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Nibiru",
+      "chainId": "6900",
+      "evmChainId": "6900",
+      "logo": "https://cms-cdn.avascan.com/cms2/6900_logo.4dcda45be4c9.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/gJ2nYPHe1q0OzYukD3aC5GOgymOnpGD8Hka1HsinoYg/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjkwMF9sb2dvLjRkY2RhNDViZTRjOS5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/ca9-903-V5xFQ1v_FFPCQ0BUIjCuBWvt6Go2dOjsAZY/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjkwMF9sb2dvLjRkY2RhNDViZTRjOS5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/ZtdIHBryTNDW74JAJaSuCUtUgDUKAquS54Ih_09mh6w/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjkwMF9sb2dvLjRkY2RhNDViZTRjOS5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/UOJOhCm3hG9DqSliNJ091kQ794YcBHATfYjbvC6tO1w/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjkwMF9sb2dvLjRkY2RhNDViZTRjOS5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/6900_token.4dcda45be4c9.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/WWpIrHMBrbtXh7cze-P7tXuoP5Yq2sQ0NSmuhhHzkNk/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjkwMF90b2tlbi40ZGNkYTQ1YmU0Yzkuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/OOuzPTGaHkOL_Hy_AU1gD4nN8rX8GnO8YdCYA5Aa2TU/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjkwMF90b2tlbi40ZGNkYTQ1YmU0Yzkuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/TePlWYGoIFMVA8YDiGpjfQNrz-awE081gS1PpavxWmI/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjkwMF90b2tlbi40ZGNkYTQ1YmU0Yzkuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/bk8cz7FyrZxQa5bGQV-c8Sznfk_qo937mZwtq-LSPOg/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjkwMF90b2tlbi40ZGNkYTQ1YmU0Yzkuc3Zn"
+      },
+      "symbol": "NIBI",
+      "rpcs": [
+        "https://evm-rpc.nibiru.fi"
+      ],
+      "coingeckoId": "nibiru",
+      "avascanId": "nibiru",
+      "ecosystems": [
+        "ethereum",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://nibiru.fi/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/NibiruChain"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/nibirufi"
+          },
+          {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/company/nibiruchain/"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/nibiruchain"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT"
+        ],
+        "messages": [
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Superseed",
+      "chainId": "5330",
+      "evmChainId": "5330",
+      "logo": "https://cms-cdn.avascan.com/cms2/5330_logo.46859c43f718.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/0xMp0hXUF5eDOjA6C9XmmY_9qEFvtoAisZWb5LvA1tI/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTMzMF9sb2dvLjQ2ODU5YzQzZjcxOC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/Fn5ecE1OPgZ4lEPJx5hfmk3GhkZYe_Dfm4O7f73VDvg/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTMzMF9sb2dvLjQ2ODU5YzQzZjcxOC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/MmOcSB7_jNVHEviPB4ZRLNEs5qmlfNAr8KIjuleixpw/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTMzMF9sb2dvLjQ2ODU5YzQzZjcxOC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/DaP0jVVe-WZ4QQU8x8G7ULDjmORxxzXUsUicvOByzyw/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTMzMF9sb2dvLjQ2ODU5YzQzZjcxOC5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/ethereum-eth.a9709f9ab688.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/revYy5iBf1gE0IrXSHzAqxokvpriMNYZoeA4YPuw0Dc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/B1msnnfcSChXMEDx2Qulg-AzacoVgsv-4HZdPU9-RsM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/9J95Yk5c7xk8Va9N1u0a5pDl7dBuvAMyDXSBEhltUIA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/poaVWJgrmeNP9TD_4EnOA8X0AJhICAwLZ2EtuRYmdUU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvZXRoZXJldW0tZXRoLmE5NzA5ZjlhYjY4OC5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://mainnet.superseed.xyz"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "superseed",
+      "ecosystems": [
+        "optimism",
+        "ethereum",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "github",
+            "value": "https://github.com/superseed-xyz"
+          },
+          {
+            "type": "url",
+            "value": "https://www.superseed.xyz/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/superseedxyz/"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/superseedtelegram"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/vjddb5s4bn"
+          },
+          {
+            "type": "instagram",
+            "value": "https://www.instagram.com/superseedxyz/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "hyperlane",
+          "superswaps"
+        ],
+        "messages": [
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "QChain",
+      "chainId": "12150",
+      "evmChainId": "12150",
+      "avalancheBlockchainId": "2GRw9HYnCxyVsr4P5pytpqcyRaymtnTuu1oZhuSWcP4DfJxojy",
+      "logo": "https://cms-cdn.avascan.com/cms2/12150_logo.08c50cba42a9.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/FJDTrMHr75GNoZIiFrha-tUS1P3rAFaFYgkalGmXD-I/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTIxNTBfbG9nby4wOGM1MGNiYTQyYTkuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/OQjQDf7d0XZp2T0UKc6u48Futnc2L6suaqmLrHnfuXY/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTIxNTBfbG9nby4wOGM1MGNiYTQyYTkuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/2grnDfJ58YQU6jJo-YOBzDVJig0PyzteRacPBLYrLGU/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTIxNTBfbG9nby4wOGM1MGNiYTQyYTkuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/Ab4VCv6OfRAGwN47NL5QTWia_LoT6Tz4wC18R8j-IRE/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTIxNTBfbG9nby4wOGM1MGNiYTQyYTkuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/12150_token.08c50cba42a9.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/VNy69e9rZJLhGfKRGBTcUZ0groDp4inQSNgiliBGcVY/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTIxNTBfdG9rZW4uMDhjNTBjYmE0MmE5LnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/zyxlGVViF3FrE8b0Nu2VDpNmy9UTO31Gg3K0mYyrN3k/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTIxNTBfdG9rZW4uMDhjNTBjYmE0MmE5LnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/IJMoshwor1V4JxqAG_0jS3RvcljpWTu87xrODoTVX5E/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTIxNTBfdG9rZW4uMDhjNTBjYmE0MmE5LnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/ZeS9au3uBLpgJWwI6HgxZN6-Zqu3GADydHS_PuntqC4/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTIxNTBfdG9rZW4uMDhjNTBjYmE0MmE5LnN2Zw"
+      },
+      "symbol": "TILT",
+      "rpcs": [
+        "https://subnets.avax.network/qchain/mainnet/rpc"
+      ],
+      "avascanId": "qchain",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://subnets.avax.network/qchain"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/Quboid_HQ"
+          },
+          {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/company/quboid-hq"
+          },
+          {
+            "type": "youTube",
+            "value": "https://www.youtube.com/@quboid_hq"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.gg/BHcACX5ajb"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/+J2hTcNKBrDY0YWRl"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "GUNZ",
+      "chainId": "43419",
+      "evmChainId": "43419",
+      "avalancheBlockchainId": "2M47TxWHGnhNtq6pM5zPXdATBtuqubxn5EPFgFmEawCQr9WFML",
+      "logo": "https://cms-cdn.avascan.com/cms2/49321_logo.1781b0211f60.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/m2CKnOJ9ZN0wZ_J_slmDivs6UdRZA7OLhrc_DtJdUvw/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDkzMjFfbG9nby4xNzgxYjAyMTFmNjAuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/iffkHg8FslS-gJ8zYKchMiIE7rIGcGlR9qgPiu_htD8/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDkzMjFfbG9nby4xNzgxYjAyMTFmNjAuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/_MzUXgVbhsgdLRb-vqkmGDZXhcq4NYNiTolgF4x82jo/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDkzMjFfbG9nby4xNzgxYjAyMTFmNjAuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/0bICJl8v_Gd68Ej_fbE--E3jdvdbVWZTgOoUSo7XsoM/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDkzMjFfbG9nby4xNzgxYjAyMTFmNjAuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/49321_logo.1781b0211f60.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/m2CKnOJ9ZN0wZ_J_slmDivs6UdRZA7OLhrc_DtJdUvw/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDkzMjFfbG9nby4xNzgxYjAyMTFmNjAuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/iffkHg8FslS-gJ8zYKchMiIE7rIGcGlR9qgPiu_htD8/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDkzMjFfbG9nby4xNzgxYjAyMTFmNjAuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/_MzUXgVbhsgdLRb-vqkmGDZXhcq4NYNiTolgF4x82jo/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDkzMjFfbG9nby4xNzgxYjAyMTFmNjAuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/0bICJl8v_Gd68Ej_fbE--E3jdvdbVWZTgOoUSo7XsoM/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNDkzMjFfbG9nby4xNzgxYjAyMTFmNjAuc3Zn"
+      },
+      "symbol": "GUN",
+      "rpcs": [
+        "https://rpc.gunzchain.io/ext/bc/2M47TxWHGnhNtq6pM5zPXdATBtuqubxn5EPFgFmEawCQr9WFML/rpc"
+      ],
+      "coingeckoId": "gunz",
+      "avascanId": "gunz",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://gunbygunz.com/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/GUNbyGunz"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/gunbygunz"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "dexalotBridge"
+        ],
+        "messages": [
+          "teleporterTx"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Apertum",
+      "chainId": "2786",
+      "evmChainId": "2786",
+      "avalancheBlockchainId": "YDJ1r9RMkewATmA7B35q1bdV18aywzmdiXwd9zGBq3uQjsCnn",
+      "logo": "https://cms-cdn.avascan.com/cms2/APTM.a3b59c35f1a2.png",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/JvcoWf7Pl5cnIehmY5yUFsZZrJxkAHWDvKIYO0Gevzk/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQVBUTS5hM2I1OWMzNWYxYTIucG5n",
+        "64": "https://imgproxy-mainnet.routescan.io/9YTOBcRoOPw1ehnImYfGPd2Ii3j2VCh7K73_WDKnZSE/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQVBUTS5hM2I1OWMzNWYxYTIucG5n",
+        "256": "https://imgproxy-mainnet.routescan.io/_nXPqU6atrb-chg4JoLWKIMwmwyAyUnLo32OAwXfFfw/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQVBUTS5hM2I1OWMzNWYxYTIucG5n",
+        "1024": "https://imgproxy-mainnet.routescan.io/xSeqYxXnF-2exSzh37P2rINMusGnl07I-SJXdNy4xP4/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQVBUTS5hM2I1OWMzNWYxYTIucG5n"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/APTM.a3b59c35f1a2.png",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/JvcoWf7Pl5cnIehmY5yUFsZZrJxkAHWDvKIYO0Gevzk/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQVBUTS5hM2I1OWMzNWYxYTIucG5n",
+        "64": "https://imgproxy-mainnet.routescan.io/9YTOBcRoOPw1ehnImYfGPd2Ii3j2VCh7K73_WDKnZSE/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQVBUTS5hM2I1OWMzNWYxYTIucG5n",
+        "256": "https://imgproxy-mainnet.routescan.io/_nXPqU6atrb-chg4JoLWKIMwmwyAyUnLo32OAwXfFfw/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQVBUTS5hM2I1OWMzNWYxYTIucG5n",
+        "1024": "https://imgproxy-mainnet.routescan.io/xSeqYxXnF-2exSzh37P2rINMusGnl07I-SJXdNy4xP4/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvQVBUTS5hM2I1OWMzNWYxYTIucG5n"
+      },
+      "symbol": "APTM",
+      "rpcs": [
+        "https://rpc.apertum.io/ext/bc/YDJ1r9RMkewATmA7B35q1bdV18aywzmdiXwd9zGBq3uQjsCnn/rpc"
+      ],
+      "coingeckoId": "apertum",
+      "avascanId": "apertum",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://www.apertum.io/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/Apertum_io"
+          },
+          {
+            "type": "whitepaperUrl",
+            "value": "https://www.apertum.io/apt-whitepaper.pdf"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Growth",
+      "chainId": "61587",
+      "evmChainId": "61587",
+      "avalancheBlockchainId": "2DnTLFrwyrvDDdWWzXBZqnNZXsHbLDGBU2kkrenaF5M5xFgbDY",
+      "logo": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "symbol": "TGP",
+      "rpcs": [
+        "https://subnets.avax.network/tgp/mainnet/rpc"
+      ],
+      "avascanId": "growth",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Henesys",
+      "chainId": "68414",
+      "evmChainId": "68414",
+      "avalancheBlockchainId": "2LFmzhHDKxkreihEtPanVmofuFn63bsh8twnRXEbDhBtCJxURB",
+      "logo": "https://cms-cdn.avascan.com/cms2/MSU_symbol.cd4e899a2f6e.png",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/lcFbYr6CkV4ZMgJw8IrDi03F4oPA5ZKP4fvTzdgDVdM/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvTVNVX3N5bWJvbC5jZDRlODk5YTJmNmUucG5n",
+        "64": "https://imgproxy-mainnet.routescan.io/qI8lc2daRj83BPfiRh0Te-2kC5lB4AAYnB1oXk0-bfs/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvTVNVX3N5bWJvbC5jZDRlODk5YTJmNmUucG5n",
+        "256": "https://imgproxy-mainnet.routescan.io/7CJ3P9OJzTDsH6lg3RRBip3-Hu2V_DWrL6E0I9S2ZKM/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvTVNVX3N5bWJvbC5jZDRlODk5YTJmNmUucG5n",
+        "1024": "https://imgproxy-mainnet.routescan.io/cJUNZls4cSVCU8aIPmOCB61HEl6UTmY7wfhhu_-j9fI/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvTVNVX3N5bWJvbC5jZDRlODk5YTJmNmUucG5n"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/henesys_gas_token_logo.d04b51a12487.png",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/t829zI0NMqpzFzzd9otVzZqdeG4FrNPl-_YhsFDjpow/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVuZXN5c19nYXNfdG9rZW5fbG9nby5kMDRiNTFhMTI0ODcucG5n",
+        "64": "https://imgproxy-mainnet.routescan.io/MWF-LW8Kxo7GHsTiRtPZ6MNHQ1QnaTXKxcRXsnyMX0g/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVuZXN5c19nYXNfdG9rZW5fbG9nby5kMDRiNTFhMTI0ODcucG5n",
+        "256": "https://imgproxy-mainnet.routescan.io/P1bkyT8xvGpKuuJsquuoNC38ZiS2hqTeR1oKluBo5z0/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVuZXN5c19nYXNfdG9rZW5fbG9nby5kMDRiNTFhMTI0ODcucG5n",
+        "1024": "https://imgproxy-mainnet.routescan.io/WOK5iPhXoHfaAQzGHhBT-rJp0ZnMCxq376YI6P1yMro/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVuZXN5c19nYXNfdG9rZW5fbG9nby5kMDRiNTFhMTI0ODcucG5n"
+      },
+      "symbol": "NXPC",
+      "rpcs": [
+        "https://henesys-rpc.msu.io"
+      ],
+      "avascanId": "henesys",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": [
+          "teleporterTx"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Lamina1 Identity",
+      "chainId": "10850",
+      "evmChainId": "10850",
+      "avalancheBlockchainId": "hR6djBP7uMGJnXrjdUic2rzvvuuMpqMWNb5us7j8xgmj6Ck2N",
+      "logo": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "symbol": "LID",
+      "rpcs": [
+        "https://subnets.avax.network/lamina1id/mainnet/rpc"
+      ],
+      "avascanId": "lamina1id",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://www.lamina1.com/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Numine",
+      "chainId": "8021",
+      "evmChainId": "8021",
+      "avalancheBlockchainId": "2c1BN4N9qEhNmW4yCpeLK24SfjFQLyS1Z7FtgRDaYxZWFUUKxf",
+      "logo": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "symbol": "NUMINE",
+      "rpcs": [
+        "https://subnets.avax.network/numi/mainnet/rpc"
+      ],
+      "avascanId": "numine",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": []
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "ICTT"
+        ],
+        "messages": [
+          "teleporterTx"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Space",
+      "chainId": "8227",
+      "evmChainId": "8227",
+      "avalancheBlockchainId": "22CN6x5LAPEkvLDdz4UwG3XXtZV69Su3bcspiYtkF9k5f9rcCt",
+      "logo": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "symbol": "FUEL",
+      "rpcs": [
+        "https://subnets.avax.network/space/mainnet/rpc"
+      ],
+      "avascanId": "space",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://subnets.avax.network/space"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT"
+        ],
+        "messages": [
+          "layerZero"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Titan",
+      "chainId": "84358",
+      "evmChainId": "84358",
+      "avalancheBlockchainId": "24gRTyzFmXUPebVwzQHuwU6RFeKHHDxRftRVaSAe7MHRXWxZ4S",
+      "logo": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "symbol": "TIN",
+      "rpcs": [
+        "https://subnets.avax.network/titan/mainnet/rpc"
+      ],
+      "avascanId": "titan",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Zeroone",
+      "chainId": "27827",
+      "evmChainId": "27827",
+      "avalancheBlockchainId": "2Xj6iZeySuuUTZR5jYjhQ7yQ84q8AtDWnAJ2vS9BmmXBNJhYD1",
+      "logo": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "symbol": "ZERO",
+      "rpcs": [
+        "https://subnets.avax.network/zeroonemai/mainnet/rpc"
+      ],
+      "avascanId": "zeroone",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://zeroone.art/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": [
+          "teleporterTx"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Artery",
+      "chainId": "4313",
+      "evmChainId": "4313",
+      "avalancheBlockchainId": "rBabVhbJKGcKTEpzm9PdpQ7ModsxNpYQZ6ALN6g9p5JKjqfw6",
+      "logo": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "symbol": "ARTERY",
+      "rpcs": [
+        "https://subnets.avax.network/artery/mainnet/rpc"
+      ],
+      "avascanId": "artery",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "ICTT"
+        ],
+        "messages": [
+          "teleporterTx"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Blockticity",
+      "chainId": "28530",
+      "evmChainId": "28530",
+      "avalancheBlockchainId": "2pV5K35V1ohNSYhRU3z1Bud2oZys9bak7QYcmvbVvnieh4FJXc",
+      "logo": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "symbol": "BTIC",
+      "rpcs": [
+        "https://subnets.avax.network/btic/mainnet/rpc"
+      ],
+      "avascanId": "blockticity",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Fifa Blockchain",
+      "chainId": "13322",
+      "evmChainId": "13322",
+      "avalancheBlockchainId": "SUDoK9P89PCcguskyof41fZexw7U3zubDP2DZpGf3HbFWwJ4E",
+      "logo": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/routescan-new.5ff59b83c0da.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/6lyLcuI9aRtkeh7dPxPUM8MkqX2PPo0LGQtvLG2h9x0/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/Q4nngby7mK8KK-lL-I8mgEvy-BvFyEmmVxHBncUg9_w/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/-Zs3-4lzmnJljF-iiynz0bDWZNHKCwoXN2DSZyxPeOQ/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/CVtDSUipczw4GwIONyTPAhcqMHA7DefrDks2ZIfpiQU/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcm91dGVzY2FuLW5ldy41ZmY1OWI4M2MwZGEuc3Zn"
+      },
+      "symbol": "GAS",
+      "rpcs": [
+        "https://subnets.avax.network/fifa/mainnet/rpc"
+      ],
+      "avascanId": "fifa",
+      "ecosystems": [
+        "avalanche",
+        "routescan"
+      ],
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Unichain",
+      "chainId": "130",
+      "evmChainId": "130",
+      "logo": "https://cms-cdn.avascan.com/cms2/1301_logo.fd864b7a3094.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/ERpNnON-WSgeyhSUpy1oX7qDsyuMWPd4Bvy5I87fU3E/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTMwMV9sb2dvLmZkODY0YjdhMzA5NC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/dU0r_iZjpQpw6M4hj_gmzuqlE6uKAFU5wIRnyFllftg/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTMwMV9sb2dvLmZkODY0YjdhMzA5NC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/diumO7wXAVrlFjWqpVdUvgfixlSVsy8Lly8aOoeNXRA/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTMwMV9sb2dvLmZkODY0YjdhMzA5NC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/U4vZxhOi2lx6sdVHYWdbBUw40bfekIhY_8bUuiuY_CY/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTMwMV9sb2dvLmZkODY0YjdhMzA5NC5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/11124_token.b38fbfa621cf.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/nDcTsa3corx_UX7LwndkNpB6SpOJ1GHCivDwIEaqxiw/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTExMjRfdG9rZW4uYjM4ZmJmYTYyMWNmLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/_-Mh1NeDw6yM5jGCSNP4IdZiSRCPM1A4w05CKTV-jgk/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTExMjRfdG9rZW4uYjM4ZmJmYTYyMWNmLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/QyaIlvbHHZAAAwQPuyA5A3TKTbu4Sa3TOuh_IwjHWDw/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTExMjRfdG9rZW4uYjM4ZmJmYTYyMWNmLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/NkrlD-XsLDbzs8v8hv8rN2BglpyXvTqtQGmlXVadA0Q/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTExMjRfdG9rZW4uYjM4ZmJmYTYyMWNmLnN2Zw"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://mainnet.unichain.org"
+      ],
+      "coingeckoId": "ethereum",
+      "avascanId": "unichain",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://unichain.org/"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/uniswap"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/unichain"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "CCTPTokenMessenger",
+          "superswaps",
+          "hyperlane",
+          "synapse"
+        ],
+        "messages": [
+          "layerZero",
+          "CCTP",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Hyperliquid EVM",
+      "chainId": "999",
+      "evmChainId": "999",
+      "logo": "https://cms-cdn.avascan.com/cms2/image_1685173593866_hyperliquid.ea94171d1930.png",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/4Em6JeWDmxFLjFOq-mOtq_PI0C1WC47RGeduV4knKOY/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaW1hZ2VfMTY4NTE3MzU5Mzg2Nl9oeXBlcmxpcXVpZC5lYTk0MTcxZDE5MzAucG5n",
+        "64": "https://imgproxy-mainnet.routescan.io/5HdGKDUcRISTrajYvoHTiMuYbB9tiuZd0oYKj1VprFw/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaW1hZ2VfMTY4NTE3MzU5Mzg2Nl9oeXBlcmxpcXVpZC5lYTk0MTcxZDE5MzAucG5n",
+        "256": "https://imgproxy-mainnet.routescan.io/BGCDWn-wiYwOptJSdUva7W6skKdrxwU3aF__iTIoguk/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaW1hZ2VfMTY4NTE3MzU5Mzg2Nl9oeXBlcmxpcXVpZC5lYTk0MTcxZDE5MzAucG5n",
+        "1024": "https://imgproxy-mainnet.routescan.io/tLFEJWfUZ04mVRLm9hC-LG1RiaJfs_fXjyQd2gGfC1k/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaW1hZ2VfMTY4NTE3MzU5Mzg2Nl9oeXBlcmxpcXVpZC5lYTk0MTcxZDE5MzAucG5n"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/image_1685173593866_hyperliquid.ea94171d1930.png",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/4Em6JeWDmxFLjFOq-mOtq_PI0C1WC47RGeduV4knKOY/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaW1hZ2VfMTY4NTE3MzU5Mzg2Nl9oeXBlcmxpcXVpZC5lYTk0MTcxZDE5MzAucG5n",
+        "64": "https://imgproxy-mainnet.routescan.io/5HdGKDUcRISTrajYvoHTiMuYbB9tiuZd0oYKj1VprFw/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaW1hZ2VfMTY4NTE3MzU5Mzg2Nl9oeXBlcmxpcXVpZC5lYTk0MTcxZDE5MzAucG5n",
+        "256": "https://imgproxy-mainnet.routescan.io/BGCDWn-wiYwOptJSdUva7W6skKdrxwU3aF__iTIoguk/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaW1hZ2VfMTY4NTE3MzU5Mzg2Nl9oeXBlcmxpcXVpZC5lYTk0MTcxZDE5MzAucG5n",
+        "1024": "https://imgproxy-mainnet.routescan.io/tLFEJWfUZ04mVRLm9hC-LG1RiaJfs_fXjyQd2gGfC1k/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaW1hZ2VfMTY4NTE3MzU5Mzg2Nl9oeXBlcmxpcXVpZC5lYTk0MTcxZDE5MzAucG5n"
+      },
+      "symbol": "HYPE",
+      "rpcs": [
+        "https://rpc.hyperliquid.xyz/evm"
+      ],
+      "coingeckoId": "hyperliquid",
+      "avascanId": "hyperliquid",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://hyperfoundation.org/"
+          },
+          {
+            "type": "whitepaperUrl",
+            "value": "https://hyperliquid.gitbook.io/hyperliquid-docs"
+          },
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/hyperliquidX"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.gg/hyperliquid"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/hyperliquid-dex"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/hyperliquid_announcements"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "CCTPTokenMessenger",
+          "OFT",
+          "synapse",
+          "hyperlane"
+        ],
+        "messages": [
+          "CCTP",
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Botanix",
+      "chainId": "3637",
+      "evmChainId": "3637",
+      "logo": "https://cms-cdn.avascan.com/cms2/botanix_logo.3cae2f10e978.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/_xMNm_R0qCxLHfejkwo8eTbY62g_9RnUmideYPned6g/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYm90YW5peF9sb2dvLjNjYWUyZjEwZTk3OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/doMFW_Ri2p3_GBBkzWXefKcJiPL4hyRH_I8I43brQyc/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYm90YW5peF9sb2dvLjNjYWUyZjEwZTk3OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/zRdJcNuqHIg_o41rxSCBQzBdxkb7B2zzML50jmSGIH8/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYm90YW5peF9sb2dvLjNjYWUyZjEwZTk3OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/V4B7hlvwc65f4Y4LXc18ytBy2LWJeUfL0ZzrvV27RjM/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYm90YW5peF9sb2dvLjNjYWUyZjEwZTk3OC5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/botanix_logo.3cae2f10e978.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/_xMNm_R0qCxLHfejkwo8eTbY62g_9RnUmideYPned6g/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYm90YW5peF9sb2dvLjNjYWUyZjEwZTk3OC5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/doMFW_Ri2p3_GBBkzWXefKcJiPL4hyRH_I8I43brQyc/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYm90YW5peF9sb2dvLjNjYWUyZjEwZTk3OC5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/zRdJcNuqHIg_o41rxSCBQzBdxkb7B2zzML50jmSGIH8/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYm90YW5peF9sb2dvLjNjYWUyZjEwZTk3OC5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/V4B7hlvwc65f4Y4LXc18ytBy2LWJeUfL0ZzrvV27RjM/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYm90YW5peF9sb2dvLjNjYWUyZjEwZTk3OC5zdmc"
+      },
+      "symbol": "BTC",
+      "rpcs": [
+        "https://rpc.botanixlabs.com"
+      ],
+      "avascanId": "botanix",
+      "ecosystems": [
+        "bitcoin",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://www.botanixlabs.xyz/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/botanixlabs"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/+sp8J07DEGTxmNjc0"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/botanixlabs"
+          },
+          {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/company/botanix-labs/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "hyperlane"
+        ],
+        "messages": [
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Mitosis",
+      "chainId": "124816",
+      "evmChainId": "124816",
+      "logo": "https://cms-cdn.avascan.com/cms2/124832_token.24c8a2c26852.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/BvGXrf7GOJP6zM-Zdr0Jf4DaZXStKoUygjGBsG7389U/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTI0ODMyX3Rva2VuLjI0YzhhMmMyNjg1Mi5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/memo2Qp7TYlPK57TAbU9PAWBepRdTnyv2LtkdBK8Ne0/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTI0ODMyX3Rva2VuLjI0YzhhMmMyNjg1Mi5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/7ETRQ-QAiZIV1-o4lbOE6vXEfQ8vwnVp3XfTTNyl9Bs/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTI0ODMyX3Rva2VuLjI0YzhhMmMyNjg1Mi5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/FsU65ECaTHVWcURm5x51B2hVWFDmAgM8_z5Ds5MKGrs/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTI0ODMyX3Rva2VuLjI0YzhhMmMyNjg1Mi5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/124832_token.24c8a2c26852.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/BvGXrf7GOJP6zM-Zdr0Jf4DaZXStKoUygjGBsG7389U/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTI0ODMyX3Rva2VuLjI0YzhhMmMyNjg1Mi5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/memo2Qp7TYlPK57TAbU9PAWBepRdTnyv2LtkdBK8Ne0/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTI0ODMyX3Rva2VuLjI0YzhhMmMyNjg1Mi5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/7ETRQ-QAiZIV1-o4lbOE6vXEfQ8vwnVp3XfTTNyl9Bs/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTI0ODMyX3Rva2VuLjI0YzhhMmMyNjg1Mi5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/FsU65ECaTHVWcURm5x51B2hVWFDmAgM8_z5Ds5MKGrs/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMTI0ODMyX3Rva2VuLjI0YzhhMmMyNjg1Mi5zdmc"
+      },
+      "symbol": "MITO",
+      "rpcs": [
+        "https://rpc.mitosis.org"
+      ],
+      "avascanId": "mitosis",
+      "ecosystems": [
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "twitter",
+            "value": "https://x.com/MitosisOrg"
+          },
+          {
+            "type": "url",
+            "value": "https://mitosis.org/"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/+s-8hkIaw_WMzM2M1"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/mitosis"
+          },
+          {
+            "type": "blog",
+            "value": "https://blog.mitosis.org/"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "hyperlane"
+        ],
+        "messages": [
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Plasma",
+      "chainId": "9745",
+      "evmChainId": "9745",
+      "logo": "https://cms-cdn.avascan.com/cms2/plasma_logo.1ed4a2ae56fa.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/iAmS8_KyobnbWdoF2noW8JdQR4iyBISXkamjBlKTJ-c/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcGxhc21hX2xvZ28uMWVkNGEyYWU1NmZhLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/3ifloTd2YwJ85YQncNA68XAh_yuYRFq2dhmpySUYUaY/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcGxhc21hX2xvZ28uMWVkNGEyYWU1NmZhLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/o0ROWemQjOqiX6CMfCEiciln5RSYBw3F7pSCkyJnozs/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcGxhc21hX2xvZ28uMWVkNGEyYWU1NmZhLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/PTCctxzufEje7b70w32ZbLrU5lXAvBII9gkMPPRrFOg/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcGxhc21hX2xvZ28uMWVkNGEyYWU1NmZhLnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/plasma_logo.1ed4a2ae56fa.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/iAmS8_KyobnbWdoF2noW8JdQR4iyBISXkamjBlKTJ-c/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcGxhc21hX2xvZ28uMWVkNGEyYWU1NmZhLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/3ifloTd2YwJ85YQncNA68XAh_yuYRFq2dhmpySUYUaY/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcGxhc21hX2xvZ28uMWVkNGEyYWU1NmZhLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/o0ROWemQjOqiX6CMfCEiciln5RSYBw3F7pSCkyJnozs/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcGxhc21hX2xvZ28uMWVkNGEyYWU1NmZhLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/PTCctxzufEje7b70w32ZbLrU5lXAvBII9gkMPPRrFOg/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcGxhc21hX2xvZ28uMWVkNGEyYWU1NmZhLnN2Zw"
+      },
+      "symbol": "XPL",
+      "rpcs": [
+        "https://rpc.plasma.to"
+      ],
+      "coingeckoId": "plasma",
+      "avascanId": "plasma",
+      "ecosystems": [
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://plasma.to/"
+          },
+          {
+            "type": "twitter",
+            "value": "https://x.com/Plasma"
+          },
+          {
+            "type": "whitepaperUrl",
+            "value": "https://docs.plasma.to/"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/plasmafdn"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "hyperlane"
+        ],
+        "messages": [
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    },
+    {
+      "name": "Sophon",
+      "chainId": "50104",
+      "evmChainId": "50104",
+      "logo": "https://cms-cdn.avascan.com/cms2/sophon50104.6358f65fac7f.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/itZ9NVedVOO7_36ULLehjiQArF0_iWuwHxWKX5QjIFM/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc29waG9uNTAxMDQuNjM1OGY2NWZhYzdmLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/4n-RKrN516aX6YR8GGouFug1XUplXAH4CfUn9q5nm4M/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc29waG9uNTAxMDQuNjM1OGY2NWZhYzdmLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/7dTjmGbQ3S_w0EF-_h-uBS2JmYI4pWdPoXmLxgy1dFs/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc29waG9uNTAxMDQuNjM1OGY2NWZhYzdmLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/psTMnFuMjxhNwghdxJS2rbKBM2UYIVl2atie7PbxkAo/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc29waG9uNTAxMDQuNjM1OGY2NWZhYzdmLnN2Zw"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/sophon50104.6358f65fac7f.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/itZ9NVedVOO7_36ULLehjiQArF0_iWuwHxWKX5QjIFM/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc29waG9uNTAxMDQuNjM1OGY2NWZhYzdmLnN2Zw",
+        "64": "https://imgproxy-mainnet.routescan.io/4n-RKrN516aX6YR8GGouFug1XUplXAH4CfUn9q5nm4M/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc29waG9uNTAxMDQuNjM1OGY2NWZhYzdmLnN2Zw",
+        "256": "https://imgproxy-mainnet.routescan.io/7dTjmGbQ3S_w0EF-_h-uBS2JmYI4pWdPoXmLxgy1dFs/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc29waG9uNTAxMDQuNjM1OGY2NWZhYzdmLnN2Zw",
+        "1024": "https://imgproxy-mainnet.routescan.io/psTMnFuMjxhNwghdxJS2rbKBM2UYIVl2atie7PbxkAo/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvc29waG9uNTAxMDQuNjM1OGY2NWZhYzdmLnN2Zw"
+      },
+      "symbol": "SOPH",
+      "rpcs": [
+        "https://rpc.sophon.xyz"
+      ],
+      "coingeckoId": "sophon",
+      "avascanId": "sophon",
+      "ecosystems": [
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "twitter",
+            "value": "https://twitter.com/sophon"
+          },
+          {
+            "type": "whitepaperUrl",
+            "value": "https://docs.sophon.xyz"
+          },
+          {
+            "type": "github",
+            "value": "https://github.com/sophon-org"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/sophonhub"
+          },
+          {
+            "type": "url",
+            "value": "https://sophon.xyz"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT"
+        ],
+        "messages": [
+          "layerZero"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Hedera",
+      "chainId": "295",
+      "evmChainId": "295",
+      "logo": "https://cms-cdn.avascan.com/cms2/Hedera%20Mainnetpng.078ab5e30bc8",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/98-Yna8A-2mNllHLyCwnS1eQTyTCDjyKu_c9nM1pNUc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvSGVkZXJhJTIwTWFpbm5ldHBuZy4wNzhhYjVlMzBiYzg",
+        "64": "https://imgproxy-mainnet.routescan.io/IYpXclKmJUm6My2CrZlx9RyfSHIhZKi3JRwXNWf49TM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvSGVkZXJhJTIwTWFpbm5ldHBuZy4wNzhhYjVlMzBiYzg",
+        "256": "https://imgproxy-mainnet.routescan.io/GgYkuehO-2SwQVn2Z7OXFkm1tt_RPRxScgKeGYjdQns/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvSGVkZXJhJTIwTWFpbm5ldHBuZy4wNzhhYjVlMzBiYzg",
+        "1024": "https://imgproxy-mainnet.routescan.io/U8Lef-FLbe7LL4DOXiNBgittB7vaXdEcjR9qfen_80I/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvSGVkZXJhJTIwTWFpbm5ldHBuZy4wNzhhYjVlMzBiYzg"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/Hedera%20Mainnetpng.078ab5e30bc8",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/98-Yna8A-2mNllHLyCwnS1eQTyTCDjyKu_c9nM1pNUc/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvSGVkZXJhJTIwTWFpbm5ldHBuZy4wNzhhYjVlMzBiYzg",
+        "64": "https://imgproxy-mainnet.routescan.io/IYpXclKmJUm6My2CrZlx9RyfSHIhZKi3JRwXNWf49TM/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvSGVkZXJhJTIwTWFpbm5ldHBuZy4wNzhhYjVlMzBiYzg",
+        "256": "https://imgproxy-mainnet.routescan.io/GgYkuehO-2SwQVn2Z7OXFkm1tt_RPRxScgKeGYjdQns/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvSGVkZXJhJTIwTWFpbm5ldHBuZy4wNzhhYjVlMzBiYzg",
+        "1024": "https://imgproxy-mainnet.routescan.io/U8Lef-FLbe7LL4DOXiNBgittB7vaXdEcjR9qfen_80I/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvSGVkZXJhJTIwTWFpbm5ldHBuZy4wNzhhYjVlMzBiYzg"
+      },
+      "symbol": "HBAR",
+      "rpcs": [
+        "https://mainnet.hashio.io/api"
+      ],
+      "coingeckoId": "hedera-hashgraph",
+      "avascanId": "hedera",
+      "ecosystems": [],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://hedera.com"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT"
+        ],
+        "messages": [
+          "layerZero"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Polkadot",
+      "chainId": "420420419",
+      "evmChainId": "420420419",
+      "logo": "https://cms-cdn.avascan.com/cms2/polkadotTEMP.9fd222f62dbb.png",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/YQGA-fs6iMov3OVjxrJ-lqImA0l9DlqCwSCSCLsF37s/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcG9sa2Fkb3RURU1QLjlmZDIyMmY2MmRiYi5wbmc",
+        "64": "https://imgproxy-mainnet.routescan.io/ahYu94nVejg2E0jeKlptnO08z_7I_GB4yR3MIK6KaQ4/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcG9sa2Fkb3RURU1QLjlmZDIyMmY2MmRiYi5wbmc",
+        "256": "https://imgproxy-mainnet.routescan.io/--8lgeFWPlAr9jnbLKnciqpp9d0Y-tuYlswv3A-Aybc/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcG9sa2Fkb3RURU1QLjlmZDIyMmY2MmRiYi5wbmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/QzYNXIRKG8F3MWCqt9pvDR6_xBlFXRMkhcGFtTmESh0/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcG9sa2Fkb3RURU1QLjlmZDIyMmY2MmRiYi5wbmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/polkadotTEMP.9fd222f62dbb.png",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/YQGA-fs6iMov3OVjxrJ-lqImA0l9DlqCwSCSCLsF37s/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcG9sa2Fkb3RURU1QLjlmZDIyMmY2MmRiYi5wbmc",
+        "64": "https://imgproxy-mainnet.routescan.io/ahYu94nVejg2E0jeKlptnO08z_7I_GB4yR3MIK6KaQ4/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcG9sa2Fkb3RURU1QLjlmZDIyMmY2MmRiYi5wbmc",
+        "256": "https://imgproxy-mainnet.routescan.io/--8lgeFWPlAr9jnbLKnciqpp9d0Y-tuYlswv3A-Aybc/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcG9sa2Fkb3RURU1QLjlmZDIyMmY2MmRiYi5wbmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/QzYNXIRKG8F3MWCqt9pvDR6_xBlFXRMkhcGFtTmESh0/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvcG9sa2Fkb3RURU1QLjlmZDIyMmY2MmRiYi5wbmc"
+      },
+      "symbol": "DOT",
+      "rpcs": [
+        "https://eth-rpc.polkadot.io"
+      ],
+      "coingeckoId": "polkadot",
+      "avascanId": "polkadot",
+      "ecosystems": [
+        "routescan"
+      ],
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Kusama",
+      "chainId": "420420418",
+      "evmChainId": "420420418",
+      "logo": "https://cms-cdn.avascan.com/cms2/kusamaTEMP.3cf6b490f7a2.png",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/hkpF1Hb9fk3h2eju4bCH-w0OjxqFDEOzW14fM4C9V24/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIva3VzYW1hVEVNUC4zY2Y2YjQ5MGY3YTIucG5n",
+        "64": "https://imgproxy-mainnet.routescan.io/M8frbPIX_sydtxOVTzqFDAtMhssenJ8yZ-byNkNFjME/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIva3VzYW1hVEVNUC4zY2Y2YjQ5MGY3YTIucG5n",
+        "256": "https://imgproxy-mainnet.routescan.io/TA__BhanzqWTaR8G5L9_5ehfAUObpNcfJWWx-bJetFw/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIva3VzYW1hVEVNUC4zY2Y2YjQ5MGY3YTIucG5n",
+        "1024": "https://imgproxy-mainnet.routescan.io/4pxXPtzdpEyAlLuU9tCfiRnw1i8ihyeTrfMRBDKRv4o/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIva3VzYW1hVEVNUC4zY2Y2YjQ5MGY3YTIucG5n"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/kusamaTEMP.3cf6b490f7a2.png",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/hkpF1Hb9fk3h2eju4bCH-w0OjxqFDEOzW14fM4C9V24/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIva3VzYW1hVEVNUC4zY2Y2YjQ5MGY3YTIucG5n",
+        "64": "https://imgproxy-mainnet.routescan.io/M8frbPIX_sydtxOVTzqFDAtMhssenJ8yZ-byNkNFjME/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIva3VzYW1hVEVNUC4zY2Y2YjQ5MGY3YTIucG5n",
+        "256": "https://imgproxy-mainnet.routescan.io/TA__BhanzqWTaR8G5L9_5ehfAUObpNcfJWWx-bJetFw/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIva3VzYW1hVEVNUC4zY2Y2YjQ5MGY3YTIucG5n",
+        "1024": "https://imgproxy-mainnet.routescan.io/4pxXPtzdpEyAlLuU9tCfiRnw1i8ihyeTrfMRBDKRv4o/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIva3VzYW1hVEVNUC4zY2Y2YjQ5MGY3YTIucG5n"
+      },
+      "symbol": "KSM",
+      "rpcs": [
+        "https://eth-rpc-kusama.polkadot.io"
+      ],
+      "coingeckoId": "kusama",
+      "avascanId": "kusama",
+      "ecosystems": [
+        "routescan"
+      ],
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [],
+        "messages": []
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Hemi",
+      "chainId": "43111",
+      "evmChainId": "43111",
+      "logo": "https://cms-cdn.avascan.com/cms2/hemiofficial.951f4a7c3933.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/_3uT881HDTgvyJrG3Qt-7C1p_Ul80xJ2JmzEIxD9qCE/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVtaW9mZmljaWFsLjk1MWY0YTdjMzkzMy5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/G_hPGliH90yqdUnu4vB7b4e8PBLpg-MIGmUM20P2hVY/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVtaW9mZmljaWFsLjk1MWY0YTdjMzkzMy5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/8mV0V7YE6vC7iNXLHQLFYjTZv-9Up2a-96sZ4C5haHU/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVtaW9mZmljaWFsLjk1MWY0YTdjMzkzMy5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/wjHo1-awNT97B_bSftimLeXRhEQ2kXZibRKL3p-tX7M/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVtaW9mZmljaWFsLjk1MWY0YTdjMzkzMy5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/hemiofficial.951f4a7c3933.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/_3uT881HDTgvyJrG3Qt-7C1p_Ul80xJ2JmzEIxD9qCE/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVtaW9mZmljaWFsLjk1MWY0YTdjMzkzMy5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/G_hPGliH90yqdUnu4vB7b4e8PBLpg-MIGmUM20P2hVY/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVtaW9mZmljaWFsLjk1MWY0YTdjMzkzMy5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/8mV0V7YE6vC7iNXLHQLFYjTZv-9Up2a-96sZ4C5haHU/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVtaW9mZmljaWFsLjk1MWY0YTdjMzkzMy5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/wjHo1-awNT97B_bSftimLeXRhEQ2kXZibRKL3p-tX7M/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvaGVtaW9mZmljaWFsLjk1MWY0YTdjMzkzMy5zdmc"
+      },
+      "symbol": "ETH",
+      "rpcs": [
+        "https://rpc.hemi.network/rpc"
+      ],
+      "coingeckoId": "hemi",
+      "avascanId": "hemi",
+      "ecosystems": [
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "url",
+            "value": "https://hemi.xyz"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 5,
+        "rpd": 100000
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "hyperlane"
+        ],
+        "messages": [
+          "layerZero",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": false
+    },
+    {
+      "name": "Mantle",
+      "chainId": "5000",
+      "evmChainId": "5000",
+      "logo": "https://cms-cdn.avascan.com/cms2/5000_logo.52084fb2445b.svg",
+      "logoUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/XHlREEZ1iw6tp6tDBFIa3mg2NMwk8rdkY5_tln4sRxA/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTAwMF9sb2dvLjUyMDg0ZmIyNDQ1Yi5zdmc",
+        "64": "https://imgproxy-mainnet.routescan.io/ZVqvBqUBSMqNkCAcGvN_tmuPPViFd7HzyQhAEBVTjn8/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTAwMF9sb2dvLjUyMDg0ZmIyNDQ1Yi5zdmc",
+        "256": "https://imgproxy-mainnet.routescan.io/M6orZ5-ZP0u16EpsaEHtwb09qti9uTbLzozsQlbzm0c/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTAwMF9sb2dvLjUyMDg0ZmIyNDQ1Yi5zdmc",
+        "1024": "https://imgproxy-mainnet.routescan.io/JxdWTZ8G9QtNm-Iibpi0rd-ibjY3dKxb5x4GqzMyG_E/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTAwMF9sb2dvLjUyMDg0ZmIyNDQ1Yi5zdmc"
+      },
+      "icon": "https://cms-cdn.avascan.com/cms2/5000_token.52084fb2445b.svg",
+      "iconUrls": {
+        "32": "https://imgproxy-mainnet.routescan.io/99H4h6_IXu9aSupJwRS9sdIeqC1HuA2g4VU7nDH0A58/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTAwMF90b2tlbi41MjA4NGZiMjQ0NWIuc3Zn",
+        "64": "https://imgproxy-mainnet.routescan.io/mUIsB3wHNgf_7NZcp9gQ_VbXMIXnL1puLQGsDNoeQnI/pr:thumb_64/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTAwMF90b2tlbi41MjA4NGZiMjQ0NWIuc3Zn",
+        "256": "https://imgproxy-mainnet.routescan.io/nMEq5rBeMZTy-qA_HDYUkdw2wqr0uQYYYpmhpluDP6U/pr:thumb_256/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTAwMF90b2tlbi41MjA4NGZiMjQ0NWIuc3Zn",
+        "1024": "https://imgproxy-mainnet.routescan.io/UEXN8BYEQ9cf-Ko0TNvsKaJ7801N8PAznfBczjGR9bo/pr:thumb_1024/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNTAwMF90b2tlbi41MjA4NGZiMjQ0NWIuc3Zn"
+      },
+      "symbol": "MNT",
+      "rpcs": [
+        "https://rpc.mantle.xyz"
+      ],
+      "coingeckoId": "mantle",
+      "avascanId": "mantle",
+      "ecosystems": [
+        "ethereum",
+        "routescan"
+      ],
+      "socialProfile": {
+        "items": [
+          {
+            "type": "twitter",
+            "value": "https://x.com/0xMantle"
+          },
+          {
+            "type": "discord",
+            "value": "https://discord.com/invite/0xMantle"
+          },
+          {
+            "type": "telegram",
+            "value": "https://t.me/mantlenetwork"
+          },
+          {
+            "type": "url",
+            "value": "https://docs.mantle.xyz/network"
+          }
+        ]
+      },
+      "freeApiRateLimit": {
+        "rps": 0,
+        "rpd": 0
+      },
+      "crossTransactionTypes": {
+        "actions": [
+          "OFT",
+          "hyperlane"
+        ],
+        "messages": [
+          "layerZero",
+          "opStackBedrockTx",
+          "opStackPreBedrockTx",
+          "hyperlane"
+        ]
+      },
+      "hasERC4337": true
+    }
+  ],
+  "link": {}
+}

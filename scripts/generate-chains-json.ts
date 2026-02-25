@@ -1,7 +1,7 @@
 import axios from "axios";
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from "fs";
 import { join, extname } from "path";
-import { InteropAddressProvider } from "@wonderland/interop-addresses";
+import { encodeAddress, InteropAddressProvider } from "@wonderland/interop-addresses";
 import * as viemChains from "viem/chains";
 
 type RoutescanSocialProfileItem = {
@@ -65,7 +65,7 @@ const ROUTESCAN_MAINNETS =
 const ROUTESCAN_TESTNETS =
   "https://api.routescan.io/v2/network/testnet/evm/all/blockchains";
 const CHAINS_MINI = "https://chainid.network/chains_mini.json";
-const AVATARS_DIR = "images/avatars";
+const AVATARS_DIR = "data/images/avatars";
 
 // Normalize a label to be lowercase and use hyphens for separators
 function normalizeLabel(value: string | undefined | null): string | undefined {
@@ -98,10 +98,7 @@ function getNumericChainIdFromTextRecords(chain: OutputChain): number {
 // Map a social profile URL/type to an ENS text record key using reverse-DNS style.
 // In most cases this is simply "<tld>.<second-level-domain>", e.g. "com.github".
 // Special case: Twitter/X uses "com.x" instead of "com.twitter"/"com.x".
-function getSocialTextRecordKey(
-  type: string,
-  value: string,
-): string | null {
+function getSocialTextRecordKey(type: string, value: string): string | null {
   const lcType = type.toLowerCase();
 
   let hostname = "";
@@ -158,7 +155,7 @@ function getSocialTextRecordKey(
 // Helper function to download and save avatar image
 async function downloadAvatar(
   logoUrl: string,
-  label: string
+  label: string,
 ): Promise<string | null> {
   try {
     // Skip generic Routescan fallback logos
@@ -184,7 +181,10 @@ async function downloadAvatar(
       const contentType = response.headers["content-type"];
       if (contentType?.includes("image/png")) {
         ext = ".png";
-      } else if (contentType?.includes("image/jpeg") || contentType?.includes("image/jpg")) {
+      } else if (
+        contentType?.includes("image/jpeg") ||
+        contentType?.includes("image/jpg")
+      ) {
         ext = ".jpg";
       } else if (contentType?.includes("image/svg")) {
         ext = ".svg";
@@ -206,7 +206,10 @@ async function downloadAvatar(
     // Return the relative path for the textRecord
     return `${AVATARS_DIR}/${filename}`;
   } catch (error) {
-    console.warn(`Failed to download avatar for ${label} from ${logoUrl}:`, error);
+    console.warn(
+      `Failed to download avatar for ${label} from ${logoUrl}:`,
+      error,
+    );
     return null;
   }
 }
@@ -220,14 +223,19 @@ async function main() {
   const viemChainCounts = new Map<number, number>(); // Track how many chains exist per id
   for (const [key, chain] of Object.entries(viemChains)) {
     // Skip non-chain exports (like defineChain function)
-    if (chain && typeof chain === "object" && "id" in chain && "name" in chain) {
+    if (
+      chain &&
+      typeof chain === "object" &&
+      "id" in chain &&
+      "name" in chain
+    ) {
       const viemChain = chain as ViemChain;
       const isTestnet = viemChain.testnet === true;
-      
+
       // Count chains with this id
       const currentCount = viemChainCounts.get(viemChain.id) || 0;
       viemChainCounts.set(viemChain.id, currentCount + 1);
-      
+
       // Check if we already have a chain with this id
       const existing = viemChainsMap.get(viemChain.id);
       if (existing) {
@@ -286,11 +294,11 @@ async function main() {
   for (const r of routescanChains) {
     // Routescan chainId can be string or number, prefer evmChainId if available
     const chainId = Number(r.evmChainId ?? r.chainId);
-    
+
     const mini = chainIdMap.get(chainId);
     const viemChain = viemChainsMap.get(chainId);
     const shortName = mini?.shortName;
-    
+
     // Build label candidates and normalize them all
     // Priority: viem chain name (normalized) > shortName > mini name > routescan name
     const labelCandidates = [
@@ -299,7 +307,7 @@ async function main() {
       mini?.name,
       r.name,
     ];
-    
+
     // Find first valid normalized candidate
     // normalizeLabel already lowercases, so all labels will be lowercase
     let label: string = `chain-${chainId}`.toLowerCase(); // Default fallback (lowercased)
@@ -310,18 +318,14 @@ async function main() {
         break;
       }
     }
-    
+
     // Final safety check: ensure label is always lowercase
     label = label.toLowerCase();
 
     // Use viem chain name if available, otherwise fallback to other sources
     const chainName = viemChain?.name ?? mini?.name ?? r.name ?? label;
 
-    // Use InteropAddressProvider.humanReadableToBinary with a CAIP-10 style string.
-    // For chain-level only, we use "eip155:<chainId>" (no account address).
-    const humanReadable = `@eip155:${chainId}`;
-    const interoperableAddressHex =
-      await InteropAddressProvider.humanReadableToBinary(humanReadable);
+    const interoperableAddressHex = encodeAddress({ version: 1, chainType: "eip155", chainReference: String(chainId) }, { format: "hex" });
 
     const aliases: string[] = [];
     // Helper to add alias, checking against current label
@@ -352,7 +356,7 @@ async function main() {
     if (mini?.shortName) {
       textRecords["shortName"] = mini.shortName;
     }
-    
+
     // Extract URL from Routescan socialProfile "url" type, fallback to mini infoURL
     let urlFound = false;
     if (r.socialProfile?.items) {
@@ -402,7 +406,10 @@ async function main() {
         // Merge override aliases (normalized) with existing aliases
         const overrideAliases = override.aliases
           .map((a) => normalizeLabel(a))
-          .filter((a): a is string => a !== undefined && a.length > 0 && a !== label.toLowerCase());
+          .filter(
+            (a): a is string =>
+              a !== undefined && a.length > 0 && a !== label.toLowerCase(),
+          );
         for (const alias of overrideAliases) {
           if (!aliases.includes(alias)) {
             aliases.push(alias);
@@ -456,10 +463,10 @@ async function main() {
     if (chains.length > 1) {
       // Check if there's a mix of mainnet and testnet
       const testnetChains = chains.filter((c) =>
-        testnetIds.has(getNumericChainIdFromTextRecords(c))
+        testnetIds.has(getNumericChainIdFromTextRecords(c)),
       );
       const mainnetChains = chains.filter(
-        (c) => !testnetIds.has(getNumericChainIdFromTextRecords(c))
+        (c) => !testnetIds.has(getNumericChainIdFromTextRecords(c)),
       );
 
       // If we have both mainnet and testnet with same label, add -testnet to testnets
@@ -469,7 +476,7 @@ async function main() {
           if (!currentLabelLower.endsWith("-testnet")) {
             chain.label = `${currentLabelLower}-testnet`;
             console.log(
-              `Fixed duplicate label: ChainId ${chain.textRecords["chainId"]} (${chain.chainName}) -> ${chain.label}`
+              `Fixed duplicate label: ChainId ${chain.textRecords["chainId"]} (${chain.chainName}) -> ${chain.label}`,
             );
           }
         }
@@ -491,10 +498,12 @@ async function main() {
     chainIdCheckMap.get(chainId)!.push(chain);
   }
   const duplicateChainIds = Array.from(chainIdCheckMap.entries()).filter(
-    ([, chains]) => chains.length > 1
+    ([, chains]) => chains.length > 1,
   );
   if (duplicateChainIds.length > 0) {
-    console.error(`\n❌ ERROR: Found ${duplicateChainIds.length} duplicate chainId(s):`);
+    console.error(
+      `\n❌ ERROR: Found ${duplicateChainIds.length} duplicate chainId(s):`,
+    );
     for (const [chainId, chains] of duplicateChainIds) {
       console.error(`  ChainId ${chainId} appears ${chains.length} times:`);
       for (const chain of chains) {
@@ -514,10 +523,12 @@ async function main() {
     labelMap.get(label)!.push(chain);
   }
   const duplicateLabels = Array.from(labelMap.entries()).filter(
-    ([, chains]) => chains.length > 1
+    ([, chains]) => chains.length > 1,
   );
   if (duplicateLabels.length > 0) {
-    console.error(`\n❌ ERROR: Found ${duplicateLabels.length} duplicate label(s):`);
+    console.error(
+      `\n❌ ERROR: Found ${duplicateLabels.length} duplicate label(s):`,
+    );
     for (const [label, chains] of duplicateLabels) {
       console.error(`  Label "${label}" appears ${chains.length} times:`);
       for (const chain of chains) {
@@ -540,15 +551,19 @@ async function main() {
     }
   }
   const duplicateAliases = Array.from(aliasMap.entries()).filter(
-    ([, chains]) => chains.length > 1
+    ([, chains]) => chains.length > 1,
   );
   if (duplicateAliases.length > 0) {
-    console.error(`\n❌ ERROR: Found ${duplicateAliases.length} duplicate alias(es):`);
+    console.error(
+      `\n❌ ERROR: Found ${duplicateAliases.length} duplicate alias(es):`,
+    );
     for (const [alias, chains] of duplicateAliases) {
       console.error(`  Alias "${alias}" appears in ${chains.length} chain(s):`);
       for (const chain of chains) {
         const chainId = chain.textRecords["chainId"];
-        console.error(`    - ChainId ${chainId}: ${chain.label} (${chain.chainName})`);
+        console.error(
+          `    - ChainId ${chainId}: ${chain.label} (${chain.chainName})`,
+        );
       }
     }
     hasErrors = true;
@@ -561,11 +576,11 @@ async function main() {
       const aliasLower = alias.toLowerCase();
       if (allLabels.has(aliasLower)) {
         const conflictingChain = output.find(
-          (c) => c.label.toLowerCase() === aliasLower
+          (c) => c.label.toLowerCase() === aliasLower,
         );
         if (conflictingChain && conflictingChain !== chain) {
           console.error(
-            `\n⚠️  WARNING: ChainId ${chain.textRecords["chainId"]} (${chain.label}) has alias "${alias}" which conflicts with label of ChainId ${conflictingChain.textRecords["chainId"]} (${conflictingChain.label})`
+            `\n⚠️  WARNING: ChainId ${chain.textRecords["chainId"]} (${chain.label}) has alias "${alias}" which conflicts with label of ChainId ${conflictingChain.textRecords["chainId"]} (${conflictingChain.label})`,
           );
         }
       }
@@ -588,5 +603,3 @@ main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
-
-

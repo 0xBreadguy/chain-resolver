@@ -1,17 +1,26 @@
 {
   "type": "module",
   "scripts": {
-    "generate:chains:json": "tsx scripts/generate-chains-json.ts"
+    "fetch:sources": "tsx scripts/fetch-sources.ts",
+    "generate:chains": "tsx scripts/generate-chains.ts",
+    "diff:chains": "tsx scripts/diff-chains.ts",
+    "pipeline": "npm run fetch:sources && npm run generate:chains && npm run diff:chains",
+    "generate:chains:json": "tsx scripts/generate-chains-json.ts",
+    "approve:chains": "tsx scripts/approve-chains.ts"
   },
   "dependencies": {
     "@adraffy/blocksmith": "https://github.com/clowestab/blocksmith.js.git#2bf93f74d56b5e44de652a088d58a680d002e076",
     "@ensdomains/ens-contracts": "^1.6.0",
-    "@wonderland/interop-addresses": "^0.1.1",
+    "@inquirer/prompts": "^7.3.2",
+    "@wonderland/interop-addresses": "^0.3.0",
     "axios": "^1.13.2",
+    "chalk": "^5.3.0",
     "content-hash": "^2.5.2",
     "dotenv": "^16.5.0",
     "ethers": "^6.14.0",
     "multiformats": "^13.4.1",
+    "ora": "^8.0.1",
+    "pinata": "^2.5.5",
     "solidity-bytes-utils": "^0.8.4",
     "tsx": "^4.19.4",
     "viem": "^2.42.1"

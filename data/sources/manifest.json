@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-02-18T16:34:09.452Z",
+  "sources": [
+    {
+      "source": "routescan-mainnets",
+      "fetchedAt": "2026-02-18T16:34:08.880Z",
+      "itemCount": 63
+    },
+    {
+      "source": "routescan-testnets",
+      "fetchedAt": "2026-02-18T16:34:09.378Z",
+      "itemCount": 55
+    },
+    {
+      "source": "chainid-network",
+      "fetchedAt": "2026-02-18T16:34:09.446Z",
+      "itemCount": 2509
+    },
+    {
+      "source": "viem",
+      "fetchedAt": "2026-02-18T16:34:09.452Z",
+      "itemCount": 673
+    }
+  ]
+}
