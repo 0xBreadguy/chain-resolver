@@ -1,11 +1,14 @@
 {
-  "42161": {
-    "label": "arbitrum",
-    "aliases": ["arb"]
-  },
-  "10": {
-    "textRecords": {
-      "header": "images/optimism-header.png"
+  "version": 1,
+  "chains": {
+    "eip155:42161": {
+      "label": "arbitrum",
+      "aliases": ["arb"]
+    },
+    "eip155:10": {
+      "textRecords": {
+        "header": "images/optimism-header.png"
+      }
     }
   }
 }

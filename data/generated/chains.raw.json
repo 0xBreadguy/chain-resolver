@@ -1,11 +1,15 @@
 [
   {
+    "namespace": "eip155",
+    "reference": "1",
+    "caip2": "eip155:1",
     "label": "ethereum",
-    "chainName": "Ethereum",
-    "interoperableAddressHex": "0x00010000010100",
+    "name": "Ethereum",
     "aliases": [
       "eth"
     ],
+    "interoperableAddress": "0x00010000010100",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:1",
       "shortName": "eth",
@@ -14,15 +18,22 @@
       "com.x": "https://x.com/ethdotorg",
       "com.discord": "https://discord.com/invite/ethereum-org",
       "avatar": "data/images/avatars/ethereum-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "10",
+    "caip2": "eip155:10",
     "label": "op-mainnet",
-    "chainName": "OP Mainnet",
-    "interoperableAddressHex": "0x00010000010a00",
+    "name": "OP Mainnet",
     "aliases": [
       "oeth"
     ],
+    "interoperableAddress": "0x00010000010a00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:10",
       "shortName": "oeth",
@@ -32,27 +43,41 @@
       "com.discord": "https://discord.com/invite/optimism",
       "header": "images/optimism-header.png",
       "avatar": "data/images/avatars/op-mainnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "13",
+    "caip2": "eip155:13",
     "label": "dstg",
-    "chainName": "Diode Testnet Staging",
-    "interoperableAddressHex": "0x00010000010d00",
+    "name": "Diode Testnet Staging",
     "aliases": [],
+    "interoperableAddress": "0x00010000010d00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:13",
       "isTestnet": "true",
       "shortName": "dstg",
       "url": "https://diode.io/staging"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "14",
+    "caip2": "eip155:14",
     "label": "flare-mainnet",
-    "chainName": "Flare Mainnet",
-    "interoperableAddressHex": "0x00010000010e00",
+    "name": "Flare Mainnet",
     "aliases": [
       "flr"
     ],
+    "interoperableAddress": "0x00010000010e00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:14",
       "shortName": "flr",
@@ -67,15 +92,22 @@
       "com.linkedin": "https://www.linkedin.com/company/flarenetwork/",
       "com.github": "https://github.com/flare-foundation",
       "avatar": "data/images/avatars/flare-mainnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "16",
+    "caip2": "eip155:16",
     "label": "songbird-testnet-coston",
-    "chainName": "Songbird Testnet Coston",
-    "interoperableAddressHex": "0x00010000011000",
+    "name": "Songbird Testnet Coston",
     "aliases": [
       "cflr"
     ],
+    "interoperableAddress": "0x00010000011000",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:16",
       "isTestnet": "true",
@@ -84,30 +116,44 @@
       "com.x": "https://twitter.com/SceptreLS",
       "org.telegram": "https://t.me/+EPX7zCOf44owMTZk",
       "avatar": "data/images/avatars/songbird-testnet-coston-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "19",
+    "caip2": "eip155:19",
     "label": "songbird-canary-network",
-    "chainName": "Songbird Canary-Network",
-    "interoperableAddressHex": "0x00010000011300",
+    "name": "Songbird Canary-Network",
     "aliases": [
       "sgb"
     ],
+    "interoperableAddress": "0x00010000011300",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:19",
       "shortName": "sgb",
       "url": "https://flare.network/songbird/",
       "com.x": "https://x.com/songbirdcomm?lang=en",
       "avatar": "data/images/avatars/songbird-canary-network-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "114",
+    "caip2": "eip155:114",
     "label": "flare-testnet-coston2",
-    "chainName": "Flare Testnet Coston2",
-    "interoperableAddressHex": "0x00010000017200",
+    "name": "Flare Testnet Coston2",
     "aliases": [
       "c2flr"
     ],
+    "interoperableAddress": "0x00010000017200",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:114",
       "isTestnet": "true",
@@ -116,13 +162,20 @@
       "com.x": "https://twitter.com/SceptreLS",
       "org.telegram": "https://t.me/+EPX7zCOf44owMTZk",
       "avatar": "data/images/avatars/flare-testnet-coston2-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "130",
+    "caip2": "eip155:130",
     "label": "unichain",
-    "chainName": "Unichain",
-    "interoperableAddressHex": "0x00010000018200",
+    "name": "Unichain",
     "aliases": [],
+    "interoperableAddress": "0x00010000018200",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:130",
       "shortName": "unichain",
@@ -130,15 +183,22 @@
       "com.discord": "https://discord.com/invite/uniswap",
       "com.x": "https://x.com/unichain",
       "avatar": "data/images/avatars/unichain-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "151",
+    "caip2": "eip155:151",
     "label": "redbelly-network-mainnet",
-    "chainName": "Redbelly Network Mainnet",
-    "interoperableAddressHex": "0x00010000019700",
+    "name": "Redbelly Network Mainnet",
     "aliases": [
       "rbn"
     ],
+    "interoperableAddress": "0x00010000019700",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:151",
       "shortName": "rbn",
@@ -149,15 +209,22 @@
       "org.telegram": "https://t.me/redbellychat",
       "com.linkedin": "https://www.linkedin.com/company/redbelly-network/",
       "avatar": "data/images/avatars/redbelly-network-mainnet-avatar.png"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "153",
+    "caip2": "eip155:153",
     "label": "redbelly-network-testnet",
-    "chainName": "Redbelly Network Testnet",
-    "interoperableAddressHex": "0x00010000019900",
+    "name": "Redbelly Network Testnet",
     "aliases": [
       "rbn-testnet"
     ],
+    "interoperableAddress": "0x00010000019900",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:153",
       "isTestnet": "true",
@@ -169,13 +236,20 @@
       "org.telegram": "https://t.me/redbellychat",
       "com.linkedin": "https://www.linkedin.com/company/redbelly-network/",
       "avatar": "data/images/avatars/redbelly-network-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "164",
+    "caip2": "eip155:164",
     "label": "omni-omega",
-    "chainName": "Omni Omega",
-    "interoperableAddressHex": "0x0001000001a400",
+    "name": "Omni Omega",
     "aliases": [],
+    "interoperableAddress": "0x0001000001a400",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:164",
       "isTestnet": "true",
@@ -189,13 +263,20 @@
       "com.coingecko": "https://www.coingecko.com/en/coins/nomina",
       "com.coinmarketcap": "https://coinmarketcap.com/currencies/nomina/",
       "avatar": "data/images/avatars/omni-omega-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "166",
+    "caip2": "eip155:166",
     "label": "nomina",
-    "chainName": "Nomina",
-    "interoperableAddressHex": "0x0001000001a600",
+    "name": "Nomina",
     "aliases": [],
+    "interoperableAddress": "0x0001000001a600",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:166",
       "shortName": "nom",
@@ -208,15 +289,22 @@
       "com.coingecko": "https://www.coingecko.com/en/coins/nomina",
       "com.coinmarketcap": "https://coinmarketcap.com/currencies/nomina/",
       "avatar": "data/images/avatars/nomina-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "185",
+    "caip2": "eip155:185",
     "label": "mint-mainnet",
-    "chainName": "Mint Mainnet",
-    "interoperableAddressHex": "0x0001000001b900",
+    "name": "Mint Mainnet",
     "aliases": [
       "mint"
     ],
+    "interoperableAddress": "0x0001000001b900",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:185",
       "shortName": "mint",
@@ -228,15 +316,22 @@
       "com.github": "https://github.com/Mint-Blockchain",
       "xyz.mirror": "https://mirror.xyz/mintchain.eth",
       "avatar": "data/images/avatars/mint-mainnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "252",
+    "caip2": "eip155:252",
     "label": "fraxtal",
-    "chainName": "Fraxtal",
-    "interoperableAddressHex": "0x0001000001fc00",
+    "name": "Fraxtal",
     "aliases": [
       "frax"
     ],
+    "interoperableAddress": "0x0001000001fc00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:252",
       "shortName": "frax",
@@ -246,15 +341,22 @@
       "com.github": "https://github.com/FraxFinance",
       "com.discord": "https://discord.com/invite/fraxfinance",
       "avatar": "data/images/avatars/fraxtal-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "288",
+    "caip2": "eip155:288",
     "label": "boba-network",
-    "chainName": "Boba Network",
-    "interoperableAddressHex": "0x0001000002012000",
+    "name": "Boba Network",
     "aliases": [
       "boba"
     ],
+    "interoperableAddress": "0x0001000002012000",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:288",
       "shortName": "Boba",
@@ -267,13 +369,20 @@
       "com.reddit": "https://www.reddit.com/r/bobanetwork/",
       "com.youtube": "https://youtube.com/@TheBobaNetwork",
       "avatar": "data/images/avatars/boba-network-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "291",
+    "caip2": "eip155:291",
     "label": "orderly",
-    "chainName": "Orderly",
-    "interoperableAddressHex": "0x0001000002012300",
+    "name": "Orderly",
     "aliases": [],
+    "interoperableAddress": "0x0001000002012300",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:291",
       "shortName": "orderly",
@@ -288,25 +397,39 @@
       "com.x": "https://x.com/OrderlyNetwork",
       "com.medium": "https://medium.com/@orderlynetwork",
       "avatar": "data/images/avatars/orderly-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "295",
+    "caip2": "eip155:295",
     "label": "hedera-mainnet",
-    "chainName": "Hedera Mainnet",
-    "interoperableAddressHex": "0x0001000002012700",
+    "name": "Hedera Mainnet",
     "aliases": [],
+    "interoperableAddress": "0x0001000002012700",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:295",
       "shortName": "hedera-mainnet",
       "url": "https://hedera.com",
       "avatar": "data/images/avatars/hedera-mainnet-avatar.078ab5e30bc8"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "324",
+    "caip2": "eip155:324",
     "label": "zksync-era",
-    "chainName": "ZKsync Era",
-    "interoperableAddressHex": "0x0001000002014400",
+    "name": "ZKsync Era",
     "aliases": [],
+    "interoperableAddress": "0x0001000002014400",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:324",
       "shortName": "zksync",
@@ -314,13 +437,20 @@
       "com.x": "https://x.com/zksync",
       "xyz.hey": "https://hey.xyz/u/zksync",
       "avatar": "data/images/avatars/zksync-era-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "335",
+    "caip2": "eip155:335",
     "label": "dfktest",
-    "chainName": "DFK Chain Test",
-    "interoperableAddressHex": "0x0001000002014f00",
+    "name": "DFK Chain Test",
     "aliases": [],
+    "interoperableAddress": "0x0001000002014f00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:335",
       "isTestnet": "true",
@@ -335,13 +465,20 @@
       "com.reddit": "https://reddit.com/r/defikingdoms",
       "com.discord": "https://discord.com/invite/defikingdoms",
       "avatar": "data/images/avatars/dfktest-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "357",
+    "caip2": "eip155:357",
     "label": "pulsar",
-    "chainName": "Pulsar",
-    "interoperableAddressHex": "0x0001000002016500",
+    "name": "Pulsar",
     "aliases": [],
+    "interoperableAddress": "0x0001000002016500",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:357",
       "url": "https://pulsar.12rw.io/",
@@ -349,15 +486,22 @@
       "com.x": "https://twitter.com/PulsarGame",
       "com.youtube": "https://www.youtube.com/channel/UCG0LjOPFxiUMzq-KMadp10g",
       "avatar": "data/images/avatars/pulsar-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "919",
+    "caip2": "eip155:919",
     "label": "mode-testnet",
-    "chainName": "Mode Testnet",
-    "interoperableAddressHex": "0x0001000002039700",
+    "name": "Mode Testnet",
     "aliases": [
       "modesep"
     ],
+    "interoperableAddress": "0x0001000002039700",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:919",
       "isTestnet": "true",
@@ -367,25 +511,39 @@
       "org.telegram": "https://t.me/ModeNetworkOfficial",
       "com.discord": "https://discord.com/invite/modenetworkofficial",
       "avatar": "data/images/avatars/mode-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "987",
+    "caip2": "eip155:987",
     "label": "binary",
-    "chainName": "BinaryChain Mainnet",
-    "interoperableAddressHex": "0x000100000203db00",
+    "name": "BinaryChain Mainnet",
     "aliases": [],
+    "interoperableAddress": "0x000100000203db00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:987",
       "isTestnet": "true",
       "shortName": "binary",
       "url": "https://binarychain.org"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "999",
+    "caip2": "eip155:999",
     "label": "hyperevm",
-    "chainName": "HyperEVM",
-    "interoperableAddressHex": "0x000100000203e700",
+    "name": "HyperEVM",
     "aliases": [],
+    "interoperableAddress": "0x000100000203e700",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:999",
       "shortName": "twan",
@@ -396,15 +554,22 @@
       "com.github": "https://github.com/hyperliquid-dex",
       "org.telegram": "https://t.me/hyperliquid_announcements",
       "avatar": "data/images/avatars/hyperevm-avatar.png"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "1088",
+    "caip2": "eip155:1088",
     "label": "metis",
-    "chainName": "Metis",
-    "interoperableAddressHex": "0x0001000002044000",
+    "name": "Metis",
     "aliases": [
       "metis-andromeda"
     ],
+    "interoperableAddress": "0x0001000002044000",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:1088",
       "shortName": "metis-andromeda",
@@ -418,13 +583,20 @@
       "com.discord": "https://discord.com/invite/metis",
       "com.medium": "https://metisl2.medium.com",
       "avatar": "data/images/avatars/metis-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "1135",
+    "caip2": "eip155:1135",
     "label": "lisk",
-    "chainName": "Lisk",
-    "interoperableAddressHex": "0x0001000002046f00",
+    "name": "Lisk",
     "aliases": [],
+    "interoperableAddress": "0x0001000002046f00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:1135",
       "shortName": "lisk",
@@ -433,15 +605,22 @@
       "com.discord": "https://discord.com/invite/lisk",
       "com.github": "https://github.com/LiskHQ",
       "avatar": "data/images/avatars/lisk-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "1234",
+    "caip2": "eip155:1234",
     "label": "step-network",
-    "chainName": "Step Network",
-    "interoperableAddressHex": "0x000100000204d200",
+    "name": "Step Network",
     "aliases": [
       "step"
     ],
+    "interoperableAddress": "0x000100000204d200",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:1234",
       "shortName": "step",
@@ -456,15 +635,22 @@
       "app.step": "https://step.app/blog",
       "com.reddit": "https://reddit.com/r/step_app_",
       "avatar": "data/images/avatars/step-network-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "1301",
+    "caip2": "eip155:1301",
     "label": "unichain-sepolia",
-    "chainName": "Unichain Sepolia",
-    "interoperableAddressHex": "0x0001000002051500",
+    "name": "Unichain Sepolia",
     "aliases": [
       "unichain-sep"
     ],
+    "interoperableAddress": "0x0001000002051500",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:1301",
       "isTestnet": "true",
@@ -473,13 +659,20 @@
       "com.x": "https://x.com/unichain",
       "com.discord": "https://discord.com/invite/uniswap",
       "avatar": "data/images/avatars/unichain-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "1923",
+    "caip2": "eip155:1923",
     "label": "swellchain",
-    "chainName": "Swellchain",
-    "interoperableAddressHex": "0x0001000002078300",
+    "name": "Swellchain",
     "aliases": [],
+    "interoperableAddress": "0x0001000002078300",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:1923",
       "shortName": "swellchain",
@@ -492,13 +685,20 @@
       "com.linkedin": "https://www.linkedin.com/company/swellnetworkio",
       "com.github": "https://github.com/swellnetwork",
       "avatar": "data/images/avatars/swellchain-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "2044",
+    "caip2": "eip155:2044",
     "label": "shrapnel",
-    "chainName": "Shrapnel Subnet",
-    "interoperableAddressHex": "0x000100000207fc00",
+    "name": "Shrapnel Subnet",
     "aliases": [],
+    "interoperableAddress": "0x000100000207fc00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:2044",
       "shortName": "Shrapnel",
@@ -507,13 +707,20 @@
       "com.x": "https://twitter.com/playSHRAPNEL",
       "com.linkedin": "https://www.linkedin.com/company/shrapnel-studio",
       "avatar": "data/images/avatars/shrapnel-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "2233",
+    "caip2": "eip155:2233",
     "label": "chainbase",
-    "chainName": "Chainbase",
-    "interoperableAddressHex": "0x000100000208b900",
+    "name": "Chainbase",
     "aliases": [],
+    "interoperableAddress": "0x000100000208b900",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:2233",
       "isTestnet": "true",
@@ -522,13 +729,20 @@
       "com.x": "https://x.com/ChainbaseHQ",
       "org.telegram": "https://t.me/ChainbaseNetwork",
       "avatar": "data/images/avatars/chainbase-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "2786",
+    "caip2": "eip155:2786",
     "label": "aptm",
-    "chainName": "Apertum",
-    "interoperableAddressHex": "0x00010000020ae200",
+    "name": "Apertum",
     "aliases": [],
+    "interoperableAddress": "0x00010000020ae200",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:2786",
       "shortName": "aptm",
@@ -536,13 +750,20 @@
       "com.x": "https://x.com/Apertum_io",
       "io.apertum": "https://www.apertum.io/apt-whitepaper.pdf",
       "avatar": "data/images/avatars/aptm-avatar.png"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "3011",
+    "caip2": "eip155:3011",
     "label": "3ull",
-    "chainName": "PLAYA3ULL GAMES",
-    "interoperableAddressHex": "0x00010000020bc300",
+    "name": "PLAYA3ULL GAMES",
     "aliases": [],
+    "interoperableAddress": "0x00010000020bc300",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:3011",
       "shortName": "3ULL",
@@ -552,13 +773,20 @@
       "com.youtube": "https://www.youtube.com/@PLAYA3ULL_GAMES",
       "com.facebook": "https://www.facebook.com/PLAYA3ULLGAMES",
       "avatar": "data/images/avatars/3ull-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "3012",
+    "caip2": "eip155:3012",
     "label": "playa3ull-games",
-    "chainName": "PLAYA3ULL Games",
-    "interoperableAddressHex": "0x00010000020bc400",
+    "name": "PLAYA3ULL Games",
     "aliases": [],
+    "interoperableAddress": "0x00010000020bc400",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:3012",
       "isTestnet": "true",
@@ -568,15 +796,22 @@
       "com.youtube": "https://www.youtube.com/@PLAYA3ULL_GAMES",
       "com.facebook": "https://www.facebook.com/PLAYA3ULLGAMES",
       "avatar": "data/images/avatars/playa3ull-games-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "3636",
+    "caip2": "eip155:3636",
     "label": "botanix-testnet",
-    "chainName": "Botanix Testnet",
-    "interoperableAddressHex": "0x00010000020e3400",
+    "name": "Botanix Testnet",
     "aliases": [
       "btnxt"
     ],
+    "interoperableAddress": "0x00010000020e3400",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:3636",
       "isTestnet": "true",
@@ -587,15 +822,22 @@
       "com.discord": "https://discord.com/invite/botanixlabs",
       "com.linkedin": "https://www.linkedin.com/company/botanix-labs/",
       "avatar": "data/images/avatars/botanix-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "3637",
+    "caip2": "eip155:3637",
     "label": "botanix",
-    "chainName": "Botanix",
-    "interoperableAddressHex": "0x00010000020e3500",
+    "name": "Botanix",
     "aliases": [
       "btnx"
     ],
+    "interoperableAddress": "0x00010000020e3500",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:3637",
       "shortName": "BTNX",
@@ -605,13 +847,20 @@
       "com.discord": "https://discord.com/invite/botanixlabs",
       "com.linkedin": "https://www.linkedin.com/company/botanix-labs/",
       "avatar": "data/images/avatars/botanix-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "3945",
+    "caip2": "eip155:3945",
     "label": "nexus-iii",
-    "chainName": "Nexus III",
-    "interoperableAddressHex": "0x00010000020f6900",
+    "name": "Nexus III",
     "aliases": [],
+    "interoperableAddress": "0x00010000020f6900",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:3945",
       "isTestnet": "true",
@@ -624,15 +873,22 @@
       "com.linkedin": "https://www.linkedin.com/company/nexus/",
       "com.youtube": "https://www.youtube.com/@NexusLabsHQ",
       "avatar": "data/images/avatars/nexus-iii-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "4202",
+    "caip2": "eip155:4202",
     "label": "lisk-sepolia",
-    "chainName": "Lisk Sepolia",
-    "interoperableAddressHex": "0x0001000002106a00",
+    "name": "Lisk Sepolia",
     "aliases": [
       "lisksep"
     ],
+    "interoperableAddress": "0x0001000002106a00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:4202",
       "isTestnet": "true",
@@ -642,32 +898,53 @@
       "com.discord": "https://discord.com/invite/lisk",
       "com.github": "https://github.com/LiskHQ",
       "avatar": "data/images/avatars/lisk-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "4227",
+    "caip2": "eip155:4227",
     "label": "hashfire",
-    "chainName": "Hashfire",
-    "interoperableAddressHex": "0x0001000002108300",
+    "name": "Hashfire",
     "aliases": [],
+    "interoperableAddress": "0x0001000002108300",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:4227",
       "isTestnet": "true"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "4313",
+    "caip2": "eip155:4313",
     "label": "artery",
-    "chainName": "Artery",
-    "interoperableAddressHex": "0x000100000210d900",
+    "name": "Artery",
     "aliases": [],
+    "interoperableAddress": "0x000100000210d900",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:4313"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "4337",
+    "caip2": "eip155:4337",
     "label": "beam",
-    "chainName": "Beam",
-    "interoperableAddressHex": "0x000100000210f100",
+    "name": "Beam",
     "aliases": [],
+    "interoperableAddress": "0x000100000210f100",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:4337",
       "shortName": "beam",
@@ -680,15 +957,22 @@
       "com.coingecko": "https://www.coingecko.com/en/coins/beam-2/",
       "com.onbeam": "https://docs.onbeam.com/",
       "avatar": "data/images/avatars/beam-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "4460",
+    "caip2": "eip155:4460",
     "label": "orderly-sepolia",
-    "chainName": "Orderly Sepolia",
-    "interoperableAddressHex": "0x0001000002116c00",
+    "name": "Orderly Sepolia",
     "aliases": [
       "orderlyl2"
     ],
+    "interoperableAddress": "0x0001000002116c00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:4460",
       "isTestnet": "true",
@@ -704,13 +988,20 @@
       "com.x": "https://x.com/OrderlyNetwork",
       "com.medium": "https://medium.com/@orderlynetwork",
       "avatar": "data/images/avatars/orderly-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "5000",
+    "caip2": "eip155:5000",
     "label": "mantle",
-    "chainName": "Mantle",
-    "interoperableAddressHex": "0x0001000002138800",
+    "name": "Mantle",
     "aliases": [],
+    "interoperableAddress": "0x0001000002138800",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:5000",
       "shortName": "mantle",
@@ -719,13 +1010,20 @@
       "com.discord": "https://discord.com/invite/0xMantle",
       "org.telegram": "https://t.me/mantlenetwork",
       "avatar": "data/images/avatars/mantle-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "5115",
+    "caip2": "eip155:5115",
     "label": "citrea-testnet",
-    "chainName": "Citrea Testnet",
-    "interoperableAddressHex": "0x000100000213fb00",
+    "name": "Citrea Testnet",
     "aliases": [],
+    "interoperableAddress": "0x000100000213fb00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:5115",
       "isTestnet": "true",
@@ -735,15 +1033,22 @@
       "com.discord": "https://discord.com/invite/citrea",
       "com.github": "https://github.com/chainwayxyz/citrea",
       "avatar": "data/images/avatars/citrea-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "5330",
+    "caip2": "eip155:5330",
     "label": "superseed",
-    "chainName": "Superseed",
-    "interoperableAddressHex": "0x000100000214d200",
+    "name": "Superseed",
     "aliases": [
       "sseed"
     ],
+    "interoperableAddress": "0x000100000214d200",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:5330",
       "shortName": "sseed",
@@ -754,13 +1059,20 @@
       "com.discord": "https://discord.com/invite/vjddb5s4bn",
       "com.instagram": "https://www.instagram.com/superseedxyz/",
       "avatar": "data/images/avatars/superseed-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "5566",
+    "caip2": "eip155:5566",
     "label": "straitsx",
-    "chainName": "StraitsX",
-    "interoperableAddressHex": "0x000100000215be00",
+    "name": "StraitsX",
     "aliases": [],
+    "interoperableAddress": "0x000100000215be00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:5566",
       "url": "https://www.straitsx.com/",
@@ -768,13 +1080,20 @@
       "com.x": "https://x.com/straitsx",
       "com.linkedin": "https://www.linkedin.com/company/straitsx/",
       "avatar": "data/images/avatars/straitsx-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "6119",
+    "caip2": "eip155:6119",
     "label": "uptn",
-    "chainName": "UPTN",
-    "interoperableAddressHex": "0x000100000217e700",
+    "name": "UPTN",
     "aliases": [],
+    "interoperableAddress": "0x000100000217e700",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:6119",
       "shortName": "UPTN",
@@ -782,15 +1101,22 @@
       "com.x": "https://x.com/UPTN_official",
       "com.medium": "https://medium.com/uptn",
       "avatar": "data/images/avatars/uptn-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "6900",
+    "caip2": "eip155:6900",
     "label": "nibiru",
-    "chainName": "Nibiru",
-    "interoperableAddressHex": "0x00010000021af400",
+    "name": "Nibiru",
     "aliases": [
       "cataclysm-1"
     ],
+    "interoperableAddress": "0x00010000021af400",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:6900",
       "shortName": "cataclysm-1",
@@ -800,13 +1126,20 @@
       "com.linkedin": "https://www.linkedin.com/company/nibiruchain/",
       "org.telegram": "https://t.me/nibiruchain",
       "avatar": "data/images/avatars/nibiru-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "6911",
+    "caip2": "eip155:6911",
     "label": "nibiru-testnet-2",
-    "chainName": "Nibiru testnet-2",
-    "interoperableAddressHex": "0x00010000021aff00",
+    "name": "Nibiru testnet-2",
     "aliases": [],
+    "interoperableAddress": "0x00010000021aff00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:6911",
       "isTestnet": "true",
@@ -817,13 +1150,20 @@
       "com.linkedin": "https://www.linkedin.com/company/nibiruchain/",
       "org.telegram": "https://t.me/nibiruchain",
       "avatar": "data/images/avatars/nibiru-testnet-2-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "8008",
+    "caip2": "eip155:8008",
     "label": "polynomial",
-    "chainName": "Polynomial",
-    "interoperableAddressHex": "0x00010000021f4800",
+    "name": "Polynomial",
     "aliases": [],
+    "interoperableAddress": "0x00010000021f4800",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:8008",
       "shortName": "polynomial",
@@ -831,33 +1171,54 @@
       "com.discord": "https://discord.com/invite/8WYEPDqyCR",
       "com.x": "https://x.com/polynomialfi",
       "avatar": "data/images/avatars/polynomial-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "8021",
+    "caip2": "eip155:8021",
     "label": "numine",
-    "chainName": "Numine",
-    "interoperableAddressHex": "0x00010000021f5500",
+    "name": "Numine",
     "aliases": [],
+    "interoperableAddress": "0x00010000021f5500",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:8021"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "8227",
+    "caip2": "eip155:8227",
     "label": "space",
-    "chainName": "Space Subnet",
-    "interoperableAddressHex": "0x0001000002202300",
+    "name": "Space Subnet",
     "aliases": [],
+    "interoperableAddress": "0x0001000002202300",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:8227",
       "shortName": "space",
       "url": "https://subnets.avax.network/space"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "8453",
+    "caip2": "eip155:8453",
     "label": "base",
-    "chainName": "Base",
-    "interoperableAddressHex": "0x0001000002210500",
+    "name": "Base",
     "aliases": [],
+    "interoperableAddress": "0x0001000002210500",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:8453",
       "shortName": "base",
@@ -867,13 +1228,20 @@
       "com.github": "https://github.com/base-org",
       "com.discord": "https://discord.com/invite/buildonbase",
       "avatar": "data/images/avatars/base-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "9745",
+    "caip2": "eip155:9745",
     "label": "plasma",
-    "chainName": "Plasma",
-    "interoperableAddressHex": "0x0001000002261100",
+    "name": "Plasma",
     "aliases": [],
+    "interoperableAddress": "0x0001000002261100",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:9745",
       "shortName": "plasma",
@@ -882,13 +1250,20 @@
       "to.plasma": "https://docs.plasma.to/",
       "com.discord": "https://discord.com/invite/plasmafdn",
       "avatar": "data/images/avatars/plasma-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "9746",
+    "caip2": "eip155:9746",
     "label": "plasma-testnet",
-    "chainName": "Plasma Testnet",
-    "interoperableAddressHex": "0x0001000002261200",
+    "name": "Plasma Testnet",
     "aliases": [],
+    "interoperableAddress": "0x0001000002261200",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:9746",
       "isTestnet": "true",
@@ -898,13 +1273,20 @@
       "to.plasma": "https://docs.plasma.to/",
       "com.discord": "https://discord.com/invite/plasmafdn",
       "avatar": "data/images/avatars/plasma-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "10507",
+    "caip2": "eip155:10507",
     "label": "jade",
-    "chainName": "Numbers Mainnet",
-    "interoperableAddressHex": "0x0001000002290b00",
+    "name": "Numbers Mainnet",
     "aliases": [],
+    "interoperableAddress": "0x0001000002290b00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:10507",
       "shortName": "Jade",
@@ -917,13 +1299,20 @@
       "org.telegram": "https://t.me/numbersprotocol",
       "com.medium": "https://medium.com/numbers-protocol",
       "avatar": "data/images/avatars/jade-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "10849",
+    "caip2": "eip155:10849",
     "label": "lamina1",
-    "chainName": "Lamina1",
-    "interoperableAddressHex": "0x00010000022a6100",
+    "name": "Lamina1",
     "aliases": [],
+    "interoperableAddress": "0x00010000022a6100",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:10849",
       "shortName": "lamina1",
@@ -932,24 +1321,38 @@
       "com.x": "https://x.com/Lamina1official",
       "org.telegram": "https://t.me/Lamina1Official",
       "avatar": "data/images/avatars/lamina1-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "10850",
+    "caip2": "eip155:10850",
     "label": "lamina1id",
-    "chainName": "Lamina1 Identity",
-    "interoperableAddressHex": "0x00010000022a6200",
+    "name": "Lamina1 Identity",
     "aliases": [],
+    "interoperableAddress": "0x00010000022a6200",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:10850",
       "shortName": "lamina1id",
       "url": "https://www.lamina1.com/"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "12150",
+    "caip2": "eip155:12150",
     "label": "qchain",
-    "chainName": "QChain",
-    "interoperableAddressHex": "0x00010000022f7600",
+    "name": "QChain",
     "aliases": [],
+    "interoperableAddress": "0x00010000022f7600",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:12150",
       "url": "https://subnets.avax.network/qchain",
@@ -959,22 +1362,36 @@
       "com.discord": "https://discord.gg/BHcACX5ajb",
       "org.telegram": "https://t.me/+J2hTcNKBrDY0YWRl",
       "avatar": "data/images/avatars/qchain-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "13322",
+    "caip2": "eip155:13322",
     "label": "fifa-blockchain",
-    "chainName": "Fifa Blockchain",
-    "interoperableAddressHex": "0x0001000002340a00",
+    "name": "Fifa Blockchain",
     "aliases": [],
+    "interoperableAddress": "0x0001000002340a00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:13322"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "13337",
+    "caip2": "eip155:13337",
     "label": "beam-testnet",
-    "chainName": "Beam Testnet",
-    "interoperableAddressHex": "0x0001000002341900",
+    "name": "Beam Testnet",
     "aliases": [],
+    "interoperableAddress": "0x0001000002341900",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:13337",
       "isTestnet": "true",
@@ -988,13 +1405,20 @@
       "com.coingecko": "https://www.coingecko.com/en/coins/beam-2/",
       "com.onbeam": "https://docs.onbeam.com/",
       "avatar": "data/images/avatars/beam-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "17000",
+    "caip2": "eip155:17000",
     "label": "holesky",
-    "chainName": "Holesky",
-    "interoperableAddressHex": "0x0001000002426800",
+    "name": "Holesky",
     "aliases": [],
+    "interoperableAddress": "0x0001000002426800",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:17000",
       "isTestnet": "true",
@@ -1004,35 +1428,56 @@
       "com.x": "https://twitter.com/ethdotorg",
       "com.discord": "https://discord.gg/ethereum-org",
       "avatar": "data/images/avatars/holesky-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "27827",
+    "caip2": "eip155:27827",
     "label": "zeroonemai",
-    "chainName": "zeroone Mainnet Subnet",
-    "interoperableAddressHex": "0x00010000026cb300",
+    "name": "zeroone Mainnet Subnet",
     "aliases": [],
+    "interoperableAddress": "0x00010000026cb300",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:27827",
       "shortName": "zeroonemai",
       "url": "https://zeroone.art/"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "28530",
+    "caip2": "eip155:28530",
     "label": "blockticity",
-    "chainName": "Blockticity",
-    "interoperableAddressHex": "0x00010000026f7200",
+    "name": "Blockticity",
     "aliases": [],
+    "interoperableAddress": "0x00010000026f7200",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:28530"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "28882",
+    "caip2": "eip155:28882",
     "label": "boba-sepolia",
-    "chainName": "Boba Sepolia",
-    "interoperableAddressHex": "0x000100000270d200",
+    "name": "Boba Sepolia",
     "aliases": [
       "bobasepolia"
     ],
+    "interoperableAddress": "0x000100000270d200",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:28882",
       "isTestnet": "true",
@@ -1046,15 +1491,22 @@
       "com.reddit": "https://www.reddit.com/r/bobanetwork/",
       "com.youtube": "https://youtube.com/@TheBobaNetwork",
       "avatar": "data/images/avatars/boba-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "34443",
+    "caip2": "eip155:34443",
     "label": "mode-mainnet",
-    "chainName": "Mode Mainnet",
-    "interoperableAddressHex": "0x0001000002868b00",
+    "name": "Mode Mainnet",
     "aliases": [
       "mode"
     ],
+    "interoperableAddress": "0x0001000002868b00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:34443",
       "shortName": "mode",
@@ -1063,16 +1515,23 @@
       "com.discord": "https://discord.com/invite/modenetworkofficial",
       "org.telegram": "https://t.me/ModeNetworkOfficial",
       "avatar": "data/images/avatars/mode-mainnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "42161",
+    "caip2": "eip155:42161",
     "label": "arbitrum",
-    "chainName": "Arbitrum One",
-    "interoperableAddressHex": "0x0001000002a4b100",
+    "name": "Arbitrum One",
     "aliases": [
       "arb1",
       "arb"
     ],
+    "interoperableAddress": "0x0001000002a4b100",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:42161",
       "shortName": "arb1",
@@ -1081,27 +1540,41 @@
       "com.discord": "https://discord.gg/arbitrum",
       "com.youtube": "https://www.youtube.com/@Arbitrum",
       "avatar": "data/images/avatars/arbitrum-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "43111",
+    "caip2": "eip155:43111",
     "label": "hemi",
-    "chainName": "Hemi",
-    "interoperableAddressHex": "0x0001000002a86700",
+    "name": "Hemi",
     "aliases": [],
+    "interoperableAddress": "0x0001000002a86700",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:43111",
       "shortName": "hemi",
       "url": "https://hemi.xyz",
       "avatar": "data/images/avatars/hemi-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "43113",
+    "caip2": "eip155:43113",
     "label": "avalanche-fuji",
-    "chainName": "Avalanche Fuji",
-    "interoperableAddressHex": "0x0001000002a86900",
+    "name": "Avalanche Fuji",
     "aliases": [
       "fuji"
     ],
+    "interoperableAddress": "0x0001000002a86900",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:43113",
       "isTestnet": "true",
@@ -1115,15 +1588,22 @@
       "com.coingecko": "https://www.coingecko.com/en/chains/avalanche-network",
       "com.coinmarketcap": "https://coinmarketcap.com/community/profile/avalanche/",
       "avatar": "data/images/avatars/avalanche-fuji-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "43114",
+    "caip2": "eip155:43114",
     "label": "avalanche",
-    "chainName": "Avalanche",
-    "interoperableAddressHex": "0x0001000002a86a00",
+    "name": "Avalanche",
     "aliases": [
       "avax"
     ],
+    "interoperableAddress": "0x0001000002a86a00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:43114",
       "shortName": "avax",
@@ -1136,13 +1616,20 @@
       "com.coingecko": "https://www.coingecko.com/en/chains/avalanche-network",
       "com.coinmarketcap": "https://coinmarketcap.com/community/profile/avalanche/",
       "avatar": "data/images/avatars/avalanche-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "43419",
+    "caip2": "eip155:43419",
     "label": "gunz-mainnet",
-    "chainName": "Gunz Mainnet",
-    "interoperableAddressHex": "0x0001000002a99b00",
+    "name": "Gunz Mainnet",
     "aliases": [],
+    "interoperableAddress": "0x0001000002a99b00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:43419",
       "shortName": "gunz-mainnet",
@@ -1150,36 +1637,57 @@
       "com.x": "https://twitter.com/GUNbyGunz",
       "com.discord": "https://discord.com/invite/gunbygunz",
       "avatar": "data/images/avatars/gunz-mainnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "47208",
+    "caip2": "eip155:47208",
     "label": "armada",
-    "chainName": "Armada",
-    "interoperableAddressHex": "0x0001000002b86800",
+    "name": "Armada",
     "aliases": [],
+    "interoperableAddress": "0x0001000002b86800",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:47208",
       "isTestnet": "true"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "48795",
+    "caip2": "eip155:48795",
     "label": "spacetestnet",
-    "chainName": "Space Subnet Testnet",
-    "interoperableAddressHex": "0x0001000002be9b00",
+    "name": "Space Subnet Testnet",
     "aliases": [],
+    "interoperableAddress": "0x0001000002be9b00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:48795",
       "isTestnet": "true",
       "shortName": "spacetestnet",
       "url": "https://subnets.avax.network/space",
       "avatar": "data/images/avatars/spacetestnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "50104",
+    "caip2": "eip155:50104",
     "label": "sophon",
-    "chainName": "Sophon",
-    "interoperableAddressHex": "0x0001000002c3b800",
+    "name": "Sophon",
     "aliases": [],
+    "interoperableAddress": "0x0001000002c3b800",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:50104",
       "shortName": "sophon",
@@ -1189,15 +1697,22 @@
       "com.github": "https://github.com/sophon-org",
       "com.discord": "https://discord.com/invite/sophonhub",
       "avatar": "data/images/avatars/sophon-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "53302",
+    "caip2": "eip155:53302",
     "label": "superseed-sepolia",
-    "chainName": "Superseed Sepolia",
-    "interoperableAddressHex": "0x0001000002d03600",
+    "name": "Superseed Sepolia",
     "aliases": [
       "seedsep"
     ],
+    "interoperableAddress": "0x0001000002d03600",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:53302",
       "isTestnet": "true",
@@ -1209,15 +1724,22 @@
       "com.discord": "https://discord.com/invite/vjddb5s4bn",
       "com.instagram": "https://www.instagram.com/superseedxyz/",
       "avatar": "data/images/avatars/superseed-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "53935",
+    "caip2": "eip155:53935",
     "label": "dfk-chain",
-    "chainName": "DFK Chain",
-    "interoperableAddressHex": "0x0001000002d2af00",
+    "name": "DFK Chain",
     "aliases": [
       "dfk"
     ],
+    "interoperableAddress": "0x0001000002d2af00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:53935",
       "shortName": "DFK",
@@ -1229,23 +1751,37 @@
       "com.youtube": "https://www.youtube.com/c/defikingdoms",
       "com.instagram": "https://www.instagram.com/defikingdoms/",
       "avatar": "data/images/avatars/dfk-chain-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "55197",
+    "caip2": "eip155:55197",
     "label": "egmtester",
-    "chainName": "Egmtester",
-    "interoperableAddressHex": "0x0001000002d79d00",
+    "name": "Egmtester",
     "aliases": [],
+    "interoperableAddress": "0x0001000002d79d00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:55197",
       "isTestnet": "true"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "56288",
+    "caip2": "eip155:56288",
     "label": "bobabnb",
-    "chainName": "Boba BNB Mainnet",
-    "interoperableAddressHex": "0x0001000002dbe000",
+    "name": "Boba BNB Mainnet",
     "aliases": [],
+    "interoperableAddress": "0x0001000002dbe000",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:56288",
       "shortName": "BobaBnb",
@@ -1258,13 +1794,20 @@
       "com.reddit": "https://www.reddit.com/r/bobanetwork/",
       "com.youtube": "https://youtube.com/@TheBobaNetwork",
       "avatar": "data/images/avatars/bobabnb-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "57073",
+    "caip2": "eip155:57073",
     "label": "ink",
-    "chainName": "Ink",
-    "interoperableAddressHex": "0x0001000002def100",
+    "name": "Ink",
     "aliases": [],
+    "interoperableAddress": "0x0001000002def100",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:57073",
       "shortName": "ink",
@@ -1275,32 +1818,53 @@
       "com.discord": "https://discord.com/invite/inkonchain",
       "com.github": "https://github.com/inkonchain",
       "avatar": "data/images/avatars/ink-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "59932",
+    "caip2": "eip155:59932",
     "label": "insomnia",
-    "chainName": "Insomnia",
-    "interoperableAddressHex": "0x0001000002ea1c00",
+    "name": "Insomnia",
     "aliases": [],
+    "interoperableAddress": "0x0001000002ea1c00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:59932",
       "isTestnet": "true"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "61587",
+    "caip2": "eip155:61587",
     "label": "growth",
-    "chainName": "Growth",
-    "interoperableAddressHex": "0x0001000002f09300",
+    "name": "Growth",
     "aliases": [],
+    "interoperableAddress": "0x0001000002f09300",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:61587"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "62831",
+    "caip2": "eip155:62831",
     "label": "plyr-tau-testnet",
-    "chainName": "PLYR TAU Testnet",
-    "interoperableAddressHex": "0x0001000002f56f00",
+    "name": "PLYR TAU Testnet",
     "aliases": [],
+    "interoperableAddress": "0x0001000002f56f00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:62831",
       "isTestnet": "true",
@@ -1312,40 +1876,61 @@
       "com.discord": "https://discord.gg/plyr",
       "com.x": "https://x.com/OnPlyr",
       "com.youtube": "https://www.youtube.com/@onplyr"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "68414",
+    "caip2": "eip155:68414",
     "label": "henesys",
-    "chainName": "Henesys",
-    "interoperableAddressHex": "0x0001000003010b3e00",
+    "name": "Henesys",
     "aliases": [
       "nxpc"
     ],
+    "interoperableAddress": "0x0001000003010b3e00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:68414",
       "shortName": "nxpc",
       "url": "https://nexpace.io",
       "avatar": "data/images/avatars/henesys-avatar.png"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "76736",
+    "caip2": "eip155:76736",
     "label": "hiss",
-    "chainName": "Hiss",
-    "interoperableAddressHex": "0x0001000003012bc000",
+    "name": "Hiss",
     "aliases": [],
+    "interoperableAddress": "0x0001000003012bc000",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:76736",
       "isTestnet": "true",
       "avatar": "data/images/avatars/hiss-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "80008",
+    "caip2": "eip155:80008",
     "label": "polynomia-sepolia",
-    "chainName": "Polynomia Sepolia",
-    "interoperableAddressHex": "0x000100000301388800",
+    "name": "Polynomia Sepolia",
     "aliases": [
       "polynomialsepolia"
     ],
+    "interoperableAddress": "0x000100000301388800",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:80008",
       "isTestnet": "true",
@@ -1354,13 +1939,20 @@
       "com.discord": "https://discord.com/invite/8WYEPDqyCR",
       "com.x": "https://x.com/polynomialfi",
       "avatar": "data/images/avatars/polynomia-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "80069",
+    "caip2": "eip155:80069",
     "label": "berachain-bepolia",
-    "chainName": "Berachain Bepolia",
-    "interoperableAddressHex": "0x00010000030138c500",
+    "name": "Berachain Bepolia",
     "aliases": [],
+    "interoperableAddress": "0x00010000030138c500",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:80069",
       "isTestnet": "true",
@@ -1374,13 +1966,20 @@
       "com.coingecko": "https://www.coingecko.com/en/coins/berachain",
       "com.geckoterminal": "https://www.geckoterminal.com/berachain/pools",
       "avatar": "data/images/avatars/berachain-bepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "80094",
+    "caip2": "eip155:80094",
     "label": "berachain",
-    "chainName": "Berachain",
-    "interoperableAddressHex": "0x00010000030138de00",
+    "name": "Berachain",
     "aliases": [],
+    "interoperableAddress": "0x00010000030138de00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:80094",
       "shortName": "berachain",
@@ -1393,15 +1992,22 @@
       "com.coingecko": "https://www.coingecko.com/en/coins/berachain",
       "com.geckoterminal": "https://www.geckoterminal.com/berachain/pools",
       "avatar": "data/images/avatars/berachain-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "81457",
+    "caip2": "eip155:81457",
     "label": "blast",
-    "chainName": "Blast",
-    "interoperableAddressHex": "0x0001000003013e3100",
+    "name": "Blast",
     "aliases": [
       "blastmainnet"
     ],
+    "interoperableAddress": "0x0001000003013e3100",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:81457",
       "shortName": "blastmainnet",
@@ -1409,22 +2015,36 @@
       "com.x": "https://twitter.com/Blast",
       "com.discord": "https://discord.com/invite/blast-l2",
       "avatar": "data/images/avatars/blast-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "84358",
+    "caip2": "eip155:84358",
     "label": "titan",
-    "chainName": "Titan",
-    "interoperableAddressHex": "0x000100000301498600",
+    "name": "Titan",
     "aliases": [],
+    "interoperableAddress": "0x000100000301498600",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:84358"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "84532",
+    "caip2": "eip155:84532",
     "label": "base-sepolia",
-    "chainName": "Base Sepolia",
-    "interoperableAddressHex": "0x0001000003014a3400",
+    "name": "Base Sepolia",
     "aliases": [],
+    "interoperableAddress": "0x0001000003014a3400",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:84532",
       "isTestnet": "true",
@@ -1435,15 +2055,22 @@
       "com.github": "https://github.com/base-org",
       "com.discord": "https://discord.com/invite/buildonbase",
       "avatar": "data/images/avatars/base-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "88882",
+    "caip2": "eip155:88882",
     "label": "chiliz-spicy-testnet",
-    "chainName": "Chiliz Spicy Testnet",
-    "interoperableAddressHex": "0x0001000003015b3200",
+    "name": "Chiliz Spicy Testnet",
     "aliases": [
       "chzspicy"
     ],
+    "interoperableAddress": "0x0001000003015b3200",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:88882",
       "isTestnet": "true",
@@ -1460,15 +2087,22 @@
       "com.coinmarketcap": "https://coinmarketcap.com/currencies/chiliz/",
       "com.x": "https://twitter.com/chiliz/",
       "avatar": "data/images/avatars/chiliz-spicy-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "88888",
+    "caip2": "eip155:88888",
     "label": "chiliz-chain",
-    "chainName": "Chiliz Chain",
-    "interoperableAddressHex": "0x0001000003015b3800",
+    "name": "Chiliz Chain",
     "aliases": [
       "chzmainnet"
     ],
+    "interoperableAddress": "0x0001000003015b3800",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:88888",
       "shortName": "chzmainnet",
@@ -1484,23 +2118,37 @@
       "com.coinmarketcap": "https://coinmarketcap.com/currencies/chiliz/",
       "com.x": "https://twitter.com/chiliz/",
       "avatar": "data/images/avatars/chiliz-chain-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "97433",
+    "caip2": "eip155:97433",
     "label": "growth-testnet",
-    "chainName": "Growth",
-    "interoperableAddressHex": "0x0001000003017c9900",
+    "name": "Growth",
     "aliases": [],
+    "interoperableAddress": "0x0001000003017c9900",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:97433",
       "isTestnet": "true"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "124816",
+    "caip2": "eip155:124816",
     "label": "mitosis",
-    "chainName": "Mitosis",
-    "interoperableAddressHex": "0x000100000301e79000",
+    "name": "Mitosis",
     "aliases": [],
+    "interoperableAddress": "0x000100000301e79000",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:124816",
       "url": "https://mitosis.org/",
@@ -1509,30 +2157,44 @@
       "com.discord": "https://discord.com/invite/mitosis",
       "org.mitosis": "https://blog.mitosis.org/",
       "avatar": "data/images/avatars/mitosis-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "167008",
+    "caip2": "eip155:167008",
     "label": "taiko-katla-alpha-6-testnet",
-    "chainName": "Taiko Katla (Alpha-6 Testnet)",
-    "interoperableAddressHex": "0x0001000003028c6000",
+    "name": "Taiko Katla (Alpha-6 Testnet)",
     "aliases": [
       "tko-katla"
     ],
+    "interoperableAddress": "0x0001000003028c6000",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:167008",
       "isTestnet": "true",
       "shortName": "tko-katla",
       "url": "https://taiko.xyz/",
       "avatar": "data/images/avatars/taiko-katla-alpha-6-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "167009",
+    "caip2": "eip155:167009",
     "label": "taiko-hekla-l2",
-    "chainName": "Taiko Hekla L2",
-    "interoperableAddressHex": "0x0001000003028c6100",
+    "name": "Taiko Hekla L2",
     "aliases": [
       "tko-hekla"
     ],
+    "interoperableAddress": "0x0001000003028c6100",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:167009",
       "isTestnet": "true",
@@ -1542,13 +2204,20 @@
       "com.x": "https://x.com/taikoxyz",
       "com.discord": "https://discord.com/invite/taikoxyz",
       "avatar": "data/images/avatars/taiko-hekla-l2-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "173750",
+    "caip2": "eip155:173750",
     "label": "echo",
-    "chainName": "Echo",
-    "interoperableAddressHex": "0x000100000302a6b600",
+    "name": "Echo",
     "aliases": [],
+    "interoperableAddress": "0x000100000302a6b600",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:173750",
       "isTestnet": "true",
@@ -1561,15 +2230,22 @@
       "com.coingecko": "https://www.coingecko.com/en/chains/avalanche-network",
       "com.coinmarketcap": "https://coinmarketcap.com/community/profile/avalanche/",
       "avatar": "data/images/avatars/echo-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "421614",
+    "caip2": "eip155:421614",
     "label": "arbitrum-sepolia",
-    "chainName": "Arbitrum Sepolia",
-    "interoperableAddressHex": "0x0001000003066eee00",
+    "name": "Arbitrum Sepolia",
     "aliases": [
       "arb-sep"
     ],
+    "interoperableAddress": "0x0001000003066eee00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:421614",
       "isTestnet": "true",
@@ -1582,13 +2258,20 @@
       "com.x": "https://twitter.com/arbitrum",
       "com.discord": "https://discord.com/invite/arbitrum",
       "avatar": "data/images/avatars/arbitrum-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "432201",
+    "caip2": "eip155:432201",
     "label": "dexalot-testnet",
-    "chainName": "Dexalot Subnet Testnet",
-    "interoperableAddressHex": "0x000100000306984900",
+    "name": "Dexalot Subnet Testnet",
     "aliases": [],
+    "interoperableAddress": "0x000100000306984900",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:432201",
       "isTestnet": "true",
@@ -1603,13 +2286,20 @@
       "com.github": "https://github.com/dexalot",
       "com.medium": "https://medium.com/dexalot",
       "avatar": "data/images/avatars/dexalot-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "432204",
+    "caip2": "eip155:432204",
     "label": "dexalot",
-    "chainName": "Dexalot Subnet",
-    "interoperableAddressHex": "0x000100000306984c00",
+    "name": "Dexalot Subnet",
     "aliases": [],
+    "interoperableAddress": "0x000100000306984c00",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:432204",
       "shortName": "dexalot",
@@ -1620,15 +2310,22 @@
       "com.github": "https://github.com/dexalot",
       "org.telegram": "https://t.me/dexalot",
       "avatar": "data/images/avatars/dexalot-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "560048",
+    "caip2": "eip155:560048",
     "label": "hoodi",
-    "chainName": "Hoodi",
-    "interoperableAddressHex": "0x0001000003088bb000",
+    "name": "Hoodi",
     "aliases": [
       "hoe"
     ],
+    "interoperableAddress": "0x0001000003088bb000",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:560048",
       "isTestnet": "true",
@@ -1638,42 +2335,63 @@
       "com.x": "https://x.com/ethdotorg",
       "com.discord": "https://discord.com/invite/ethereum-org",
       "avatar": "data/images/avatars/hoodi-avatar.png"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "723107",
+    "caip2": "eip155:723107",
     "label": "tixchain",
-    "chainName": "TixChain Testnet",
-    "interoperableAddressHex": "0x00010000030b08a300",
+    "name": "TixChain Testnet",
     "aliases": [],
+    "interoperableAddress": "0x00010000030b08a300",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:723107",
       "isTestnet": "true",
       "shortName": "tixchain",
       "url": "https://subnets-test.avax.network/tixchain/details"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "743111",
+    "caip2": "eip155:743111",
     "label": "hemi-sepolia",
-    "chainName": "Hemi Sepolia",
-    "interoperableAddressHex": "0x00010000030b56c700",
+    "name": "Hemi Sepolia",
     "aliases": [
       "hemi-sep"
     ],
+    "interoperableAddress": "0x00010000030b56c700",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:743111",
       "isTestnet": "true",
       "shortName": "hemi-sep",
       "url": "https://hemi.xyz",
       "avatar": "data/images/avatars/hemi-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "763373",
+    "caip2": "eip155:763373",
     "label": "ink-sepolia",
-    "chainName": "Ink Sepolia",
-    "interoperableAddressHex": "0x00010000030ba5ed00",
+    "name": "Ink Sepolia",
     "aliases": [
       "inksepolia"
     ],
+    "interoperableAddress": "0x00010000030ba5ed00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:763373",
       "isTestnet": "true",
@@ -1685,13 +2403,20 @@
       "com.discord": "https://discord.com/invite/inkonchain",
       "com.github": "https://github.com/inkonchain",
       "avatar": "data/images/avatars/ink-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "779672",
+    "caip2": "eip155:779672",
     "label": "dispatch",
-    "chainName": "Dispatch",
-    "interoperableAddressHex": "0x00010000030be59800",
+    "name": "Dispatch",
     "aliases": [],
+    "interoperableAddress": "0x00010000030be59800",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:779672",
       "isTestnet": "true",
@@ -1704,24 +2429,38 @@
       "com.coingecko": "https://www.coingecko.com/en/chains/avalanche-network",
       "com.coinmarketcap": "https://coinmarketcap.com/community/profile/avalanche/",
       "avatar": "data/images/avatars/dispatch-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "5278000",
+    "caip2": "eip155:5278000",
     "label": "jsc-kaigan",
-    "chainName": "JSC Kaigan",
-    "interoperableAddressHex": "0x000100000350893000",
+    "name": "JSC Kaigan",
     "aliases": [],
+    "interoperableAddress": "0x000100000350893000",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:5278000",
       "isTestnet": "true",
       "avatar": "data/images/avatars/jsc-kaigan-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "7777777",
+    "caip2": "eip155:7777777",
     "label": "zora",
-    "chainName": "Zora",
-    "interoperableAddressHex": "0x000100000376adf100",
+    "name": "Zora",
     "aliases": [],
+    "interoperableAddress": "0x000100000376adf100",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:7777777",
       "shortName": "zora",
@@ -1729,15 +2468,22 @@
       "com.x": "https://x.com/zora",
       "com.instagram": "https://www.instagram.com/our.zora/",
       "avatar": "data/images/avatars/zora-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "11155111",
+    "caip2": "eip155:11155111",
     "label": "sepolia",
-    "chainName": "Sepolia",
-    "interoperableAddressHex": "0x0001000003aa36a700",
+    "name": "Sepolia",
     "aliases": [
       "sep"
     ],
+    "interoperableAddress": "0x0001000003aa36a700",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:11155111",
       "isTestnet": "true",
@@ -1746,15 +2492,22 @@
       "com.github": "https://github.com/ethereum/ethereum-org-website",
       "com.x": "https://x.com/ethdotorg",
       "avatar": "data/images/avatars/sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "11155420",
+    "caip2": "eip155:11155420",
     "label": "op-sepolia",
-    "chainName": "OP Sepolia",
-    "interoperableAddressHex": "0x0001000003aa37dc00",
+    "name": "OP Sepolia",
     "aliases": [
       "opsep"
     ],
+    "interoperableAddress": "0x0001000003aa37dc00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:11155420",
       "isTestnet": "true",
@@ -1766,13 +2519,20 @@
       "com.coinmarketcap": "https://coinmarketcap.com/currencies/optimism-ethereum",
       "xyz.mirror": "https://optimism.mirror.xyz/",
       "avatar": "data/images/avatars/op-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "21000000",
+    "caip2": "eip155:21000000",
     "label": "corn",
-    "chainName": "Corn",
-    "interoperableAddressHex": "0x000100000401406f4000",
+    "name": "Corn",
     "aliases": [],
+    "interoperableAddress": "0x000100000401406f4000",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:21000000",
       "shortName": "corn",
@@ -1782,13 +2542,20 @@
       "org.telegram": "https://t.me/+upkPwAJwIz5iZDEx",
       "com.github": "https://github.com/usecorn",
       "avatar": "data/images/avatars/corn-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "21000001",
+    "caip2": "eip155:21000001",
     "label": "corn-testnet",
-    "chainName": "Corn Testnet",
-    "interoperableAddressHex": "0x000100000401406f4100",
+    "name": "Corn Testnet",
     "aliases": [],
+    "interoperableAddress": "0x000100000401406f4100",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:21000001",
       "isTestnet": "true",
@@ -1799,15 +2566,22 @@
       "org.telegram": "https://t.me/+upkPwAJwIz5iZDEx",
       "com.github": "https://github.com/usecorn",
       "avatar": "data/images/avatars/corn-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "168587773",
+    "caip2": "eip155:168587773",
     "label": "blast-sepolia",
-    "chainName": "Blast Sepolia",
-    "interoperableAddressHex": "0x00010000040a0c71fd00",
+    "name": "Blast Sepolia",
     "aliases": [
       "blastsepolia"
     ],
+    "interoperableAddress": "0x00010000040a0c71fd00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:168587773",
       "isTestnet": "true",
@@ -1819,87 +2593,136 @@
       "com.coinmarketcap": "https://coinmarketcap.com/currencies/blast/",
       "io.blast": "https://docs.blast.io/about-blast",
       "avatar": "data/images/avatars/blast-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "420420417",
+    "caip2": "eip155:420420417",
     "label": "paseohub",
-    "chainName": "PaseoHub",
-    "interoperableAddressHex": "0x0001000004190f1b4100",
+    "name": "PaseoHub",
     "aliases": [],
+    "interoperableAddress": "0x0001000004190f1b4100",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:420420417",
       "isTestnet": "true",
       "avatar": "data/images/avatars/paseohub-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "420420418",
+    "caip2": "eip155:420420418",
     "label": "kusama",
-    "chainName": "Kusama",
-    "interoperableAddressHex": "0x0001000004190f1b4200",
+    "name": "Kusama",
     "aliases": [],
+    "interoperableAddress": "0x0001000004190f1b4200",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:420420418",
       "avatar": "data/images/avatars/kusama-avatar.png"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "420420419",
+    "caip2": "eip155:420420419",
     "label": "ah",
-    "chainName": "Asset Hub",
-    "interoperableAddressHex": "0x0001000004190f1b4300",
+    "name": "Asset Hub",
     "aliases": [],
+    "interoperableAddress": "0x0001000004190f1b4300",
+    "isTestnet": false,
     "textRecords": {
       "chainId": "eip155:420420419",
       "shortName": "AH",
       "url": "https://polkadot.network",
       "avatar": "data/images/avatars/ah-avatar.png"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "420420421",
+    "caip2": "eip155:420420421",
     "label": "westend-asset-hub",
-    "chainName": "Westend Asset Hub",
-    "interoperableAddressHex": "0x0001000004190f1b4500",
+    "name": "Westend Asset Hub",
     "aliases": [
       "wst"
     ],
+    "interoperableAddress": "0x0001000004190f1b4500",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:420420421",
       "isTestnet": "true",
       "shortName": "wst",
       "url": "https://wiki.polkadot.network/docs/en/maintain-networks#westend-test-network",
       "avatar": "data/images/avatars/westend-asset-hub-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "531050104",
+    "caip2": "eip155:531050104",
     "label": "sophon-testnet",
-    "chainName": "Sophon Testnet",
-    "interoperableAddressHex": "0x00010000041fa72e7800",
+    "name": "Sophon Testnet",
     "aliases": [],
+    "interoperableAddress": "0x00010000041fa72e7800",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:531050104",
       "isTestnet": "true",
       "shortName": "sophon-testnet",
       "com.moralis": "https://moralis.com/chain/ethereum/token/price/0xba3948648e0ea493f70c53d9592ef0a140b2d914",
       "avatar": "data/images/avatars/sophon-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "531050204",
+    "caip2": "eip155:531050204",
     "label": "sophon-os-testnet",
-    "chainName": "Sophon OS Testnet",
-    "interoperableAddressHex": "0x00010000041fa72edc00",
+    "name": "Sophon OS Testnet",
     "aliases": [],
+    "interoperableAddress": "0x00010000041fa72edc00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:531050204",
       "isTestnet": "true",
       "avatar": "data/images/avatars/sophon-os-testnet-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   },
   {
+    "namespace": "eip155",
+    "reference": "999999999",
+    "caip2": "eip155:999999999",
     "label": "zora-sepolia",
-    "chainName": "Zora Sepolia",
-    "interoperableAddressHex": "0x00010000043b9ac9ff00",
+    "name": "Zora Sepolia",
     "aliases": [
       "zsep"
     ],
+    "interoperableAddress": "0x00010000043b9ac9ff00",
+    "isTestnet": true,
     "textRecords": {
       "chainId": "eip155:999999999",
       "isTestnet": "true",
@@ -1908,6 +2731,9 @@
       "com.x": "https://x.com/zora",
       "com.instagram": "https://www.instagram.com/our.zora/",
       "avatar": "data/images/avatars/zora-sepolia-avatar.svg"
-    }
+    },
+    "_sources": [
+      "routescan"
+    ]
   }
 ]

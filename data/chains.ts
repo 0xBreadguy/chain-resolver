@@ -1,8 +1,9 @@
 // Shared chain registration data
 // Used by both tests and deployment scripts
-// This file imports the generated chain data from chains.generated.json
+// This file imports the approved chain data from chains.approved.json
+// For backward compatibility, falls back to chains.generated.json
 
-import generatedChains from "./chains.generated.json";
+import approvedChains from "./chains.approved.json";
 
 export interface ChainData {
   // The canonical label (e.g., "optimism")
@@ -20,9 +21,13 @@ export interface ChainData {
   contenthash?: string;
 }
 
-// List of Chains to register - imported from generated JSON
-// Run `npm run generate:chains:json` to regenerate the source data
-export const CHAINS: ChainData[] = generatedChains as unknown as ChainData[];
+// List of Chains to register - imported from approved JSON
+// Run the pipeline to regenerate:
+//   npm run fetch:sources    # Stage 1: Fetch from APIs
+//   npm run generate:chains  # Stage 2: Generate raw chains
+//   npm run diff:chains      # Stage 3: Review changes
+// Then copy raw to approved: cp data/generated/chains.raw.json data/chains.approved.json
+export const CHAINS: ChainData[] = approvedChains as unknown as ChainData[];
 
 // Helper to get a chain by label
 export function getChainByLabel(label: string): ChainData | undefined {
