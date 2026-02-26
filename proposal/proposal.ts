@@ -1,6 +1,6 @@
 import { Contract, keccak256, toUtf8Bytes, Interface, namehash } from 'ethers';
-import { BASE_REGISTRAR_ABI, ENS_REGISTRY_ABI } from './utils/abis.js';
-import { BASE_REGISTRAR_ADDRESS, DAO_WALLET_ADDRESS, SENDER_ADDR, ENS_REGISTRY_ADDRESS, RESOLVER_ADDRESS } from './utils/addresses.js';
+import { BASE_REGISTRAR_ABI, ENS_REGISTRY_ABI, REGISTRAR_SECURITY_CONTROLLER_ABI } from './utils/abis.js';
+import { BASE_REGISTRAR_ADDRESS, DAO_WALLET_ADDRESS, SENDER_ADDR, ENS_REGISTRY_ADDRESS, RESOLVER_ADDRESS, REGISTRAR_SECURITY_CONTROLLER_ADDRESS } from './utils/addresses.js';
 import { init, assert, simulateTransactionBundle } from './utils/utils.js';
 
 // Check RESOLVER_ADDRESS is defined
@@ -25,6 +25,7 @@ console.log("✓ Resolver is a contract:", RESOLVER_ADDRESS);
 
 // Create contract instances for encoding calldata
 const baseRegistrarInterface = new Interface(BASE_REGISTRAR_ABI);
+const registrarSecurityControllerInterface = new Interface(REGISTRAR_SECURITY_CONTROLLER_ABI);
 const ensRegistryInterface = new Interface(ENS_REGISTRY_ABI);
 
 const baseRegistrar = new Contract(
@@ -63,22 +64,22 @@ if (!isController) {
   console.log("\n--- Transaction 1: Add DAO Wallet as Controller ---");
   
   const addControllerArgs = [DAO_WALLET_ADDRESS];
-  const addControllerCalldata = baseRegistrarInterface.encodeFunctionData("addController", addControllerArgs);
+  const addControllerCalldata = registrarSecurityControllerInterface.encodeFunctionData("addRegistrarController", addControllerArgs);
   
-  console.log("Target:", BASE_REGISTRAR_ADDRESS);
+  console.log("Target:", REGISTRAR_SECURITY_CONTROLLER_ADDRESS);
   console.log("Arguments:", addControllerArgs);
   console.log("Calldata:", addControllerCalldata);
   
   proposalTransactions.push({
-    to: BASE_REGISTRAR_ADDRESS,
+    to: REGISTRAR_SECURITY_CONTROLLER_ADDRESS,
     value: "0",
     calldata: addControllerCalldata,
-    description: "Add DAO Wallet as BaseRegistrar controller"
+    description: "Add DAO Wallet as BaseRegistrar controller through RegistarSecurityController"
   });
   
   // Execute via sendTransaction
   const addControllerTx = await impersonatedSigner.sendTransaction({
-    to: BASE_REGISTRAR_ADDRESS,
+    to: REGISTRAR_SECURITY_CONTROLLER_ADDRESS,
     data: addControllerCalldata,
   });
   await addControllerTx.wait();
@@ -205,17 +206,17 @@ if (registrationSucceeded) {
 
 // Step 5: Remove DAO wallet as controller (cleanup - only if we added it)
 if (addedController) {
-  console.log("\n--- Transaction 4: Remove DAO Wallet as Controller ---");
+  console.log("\n--- Transaction 4: Remove DAO Wallet as Controller through RegistrarSecurityController ---");
 
   const removeControllerArgs = [DAO_WALLET_ADDRESS];
-  const removeControllerCalldata = baseRegistrarInterface.encodeFunctionData("removeController", removeControllerArgs);
+  const removeControllerCalldata = registrarSecurityControllerInterface.encodeFunctionData("removeRegistrarController", removeControllerArgs);
 
-  console.log("Target:", BASE_REGISTRAR_ADDRESS);
+  console.log("Target:", REGISTRAR_SECURITY_CONTROLLER_ADDRESS);
   console.log("Arguments:", removeControllerArgs);
   console.log("Calldata:", removeControllerCalldata);
 
   proposalTransactions.push({
-    to: BASE_REGISTRAR_ADDRESS,
+    to: REGISTRAR_SECURITY_CONTROLLER_ADDRESS,
     value: "0",
     calldata: removeControllerCalldata,
     description: "Remove DAO Wallet as BaseRegistrar controller"
@@ -223,7 +224,7 @@ if (addedController) {
 
   // Execute via sendTransaction
   const removeControllerTx = await impersonatedSigner.sendTransaction({
-    to: BASE_REGISTRAR_ADDRESS,
+    to: REGISTRAR_SECURITY_CONTROLLER_ADDRESS,
     data: removeControllerCalldata,
   });
   await removeControllerTx.wait();
@@ -236,6 +237,7 @@ if (addedController) {
 } else {
   console.log("\n✓ Skipping removeController (was already a controller before proposal)");
 }
+
 
 // Output proposal summary
 console.log("\n========================================");

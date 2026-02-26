@@ -50,3 +50,21 @@ export const BASE_REGISTRAR_ABI = [
 	"function transferOwnership(address)"
 ]
 
+export const REGISTRAR_SECURITY_CONTROLLER_ABI = [
+	"constructor(address)",
+	"event ControllerChanged(address indexed,bool)",
+	"event OwnershipTransferred(address indexed,address indexed)",
+	"function addRegistrarController(address)",
+	"function controllers(address) view returns (bool)",
+	"function disableRegistrarController(address)",
+	"function owner() view returns (address)",
+	"function registrar() view returns (address)",
+	"function removeRegistrarController(address)",
+	"function renounceOwnership()",
+	"function setController(address,bool)",
+	"function setRegistrarResolver(address)",
+	"function supportsInterface(bytes4) view returns (bool)",
+	"function transferOwnership(address)",
+	"function transferRegistrarOwnership(address)"
+];
+
