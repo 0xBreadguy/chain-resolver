@@ -1,7 +1,7 @@
 {
   "label": "bnb",
   "chainName": "BNB Smart Chain",
-  "interoperableAddressHex": "0x0001000002e70800",
+  "interoperableAddressHex": "0x00010000013800",
   "aliases": [
     "bnb-chain",
     "bnb-smart-chain"
