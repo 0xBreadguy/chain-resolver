@@ -658,16 +658,14 @@
     const CONFIG = {
       // RPC endpoints
       rpc: {
-        mainnet: 'https://mainnet.infura.io/v3/e52f43f8dcb84a95823849ed676970eb',
-        sepolia: 'https://sepolia.infura.io/v3/e52f43f8dcb84a95823849ed676970eb',
+        mainnet: 'https://mainnet.infura.io/v3/e52f43f8dcb84a95823849ed676970eb'
       },
       // ChainResolver proxy addresses
       resolvers: {
-        mainnet: '0x52daD93beA9079e5a9144B7F79819Be4a34E118A',
-        sepolia: '0x48bC7811B4d4BFb3a06A176b8378Fde2013c461a',
+        mainnet: '0x2a9B5787207863cf2d63d20172ed1F7bB2c9487A',
       },
       // Default domain
-      defaultDomain: 'cid.eth',    
+      defaultDomain: 'on.eth',    
       // Default network
       defaultNetwork: 'mainnet',
     };
@@ -704,8 +702,6 @@
       'com.reddit': { icon: '🔴', label: 'Reddit', type: 'link' },
       'com.instagram': { icon: '📷', label: 'Instagram', type: 'link' },
       'com.linkedin': { icon: '💼', label: 'LinkedIn', type: 'link' },
-      'com.coingecko': { icon: '🦎', label: 'CoinGecko', type: 'link' },
-      'com.coinmarketcap': { icon: '📊', label: 'CoinMarketCap', type: 'link' },
       // Display fields - shown in header area
       'avatar': { type: 'avatar' },
       'header': { type: 'header' },
@@ -742,7 +738,7 @@
       
       // Pattern: optimism.on.eth.limo → optimism
       // Pattern: optimism.cid.eth.limo → optimism
-      const ethGatewayMatch = hostname.match(/^([^.]+)\.(on|cid)\.eth\.(limo|link|cc)$/);
+      const ethGatewayMatch = hostname.match(/^([^.]+)\.(on)\.eth\.(limo|link|cc)$/);
       if (ethGatewayMatch) {
         return ethGatewayMatch[1];
       }
@@ -1374,4 +1370,3 @@
   </script>
 </body>
 </html>
-
