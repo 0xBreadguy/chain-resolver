@@ -1,6 +1,13 @@
 name: Validate Chain Submissions
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/chains/*.json'
+      - 'scripts/validate-chains.ts'
+      - '.github/workflows/validate-chains.yml'
   pull_request:
     paths:
       - 'data/chains/*.json'
@@ -26,8 +33,13 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: Validate changed chain files
+      - name: Validate changed chain files (PR)
+        if: github.event_name == 'pull_request'
         run: bun run scripts/validate-chains.ts --changed --strict
+
+      - name: Validate all chain files (push to main)
+        if: github.event_name == 'push'
+        run: bun run scripts/validate-chains.ts --strict
 
   json-lint:
     name: JSON Syntax Check
