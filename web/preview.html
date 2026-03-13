@@ -668,10 +668,10 @@
   <script>
     // Configuration
     const CONFIG = {
-      dataUrl: '../data/chains.approved.json',
-      defaultDomain: 'cid.eth',
+      dataUrl: '/api/chains',
+      defaultDomain: 'on.eth',
       // Base URL for resolving relative image paths
-      imageBaseUrl: '../',
+      imageBaseUrl: '/',
     };
 
     // Global chain data
@@ -732,7 +732,7 @@
           </a>
         </div>
         <div class="powered-by">
-          Preview Mode - Data from <a href="${CONFIG.dataUrl}" target="_blank">chains.approved.json</a>
+          Preview Mode - Data from <a href="/api/chains" target="_blank">data/chains/*.json</a>
         </div>
       </div>
     `;
@@ -751,7 +751,7 @@
     function renderInputForm(errorMessage = null, inputValue = '') {
       document.getElementById('app').innerHTML = `
         <div class="preview-banner">
-          Preview Mode - Viewing data from chains.approved.json
+          Preview Mode - Viewing data from data/chains/*.json
         </div>
         <div class="input-form-container">
           <div class="input-form">
@@ -833,7 +833,7 @@
           <input type="text" class="search-input" id="searchInput" placeholder="Search chains..." value="${searchQuery}" />
         </div>
         <div class="chain-list-header">
-          <div class="chain-list-title">Generated Chains (${filteredChains.length})</div>
+          <div class="chain-list-title">Chains (${filteredChains.length})</div>
           <div class="chain-list-pagination">
             <button onclick="previousPage()" ${currentPage === 0 ? 'disabled' : ''}>← Prev</button>
             <span>Page ${currentPage + 1} of ${totalPages}</span>
@@ -1034,7 +1034,7 @@
 
       document.getElementById('app').innerHTML = `
         <div class="preview-banner">
-          Preview Mode - Viewing data from chains.approved.json
+          Preview Mode - Viewing data from data/chains/*.json
         </div>
         <button class="back-button" onclick="goBack()">
           ← Back
