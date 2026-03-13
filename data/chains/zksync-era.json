@@ -1,0 +1,18 @@
+{
+  "label": "zksync-era",
+  "chainName": "zkSync Era",
+  "interoperableAddressHex": "0x0001000002014400",
+  "aliases": [],
+  "textRecords": {
+    "chainId": "eip155:324",
+    "shortName": "zksync",
+    "url": "https://www.zksync.io/",
+    "com.x": "https://x.com/zksync",
+    "com.discord": "https://discord.gg/zksync",
+    "com.linkedin": "https://www.linkedin.com/company/zksync-network",
+    "com.github": "https://github.com/matter-labs",
+    "avatar": "ipfs://bafkreieyrh6zpenq2qcbx2tviiy2jhmbehs4zf36a7p77zjxstn43du4nm",
+    "brand": "https://www.zksync.io/brand",
+    "header": "ipfs://bafkreidysbiv62codmpaa6le3vufauvf54ovugdirhlevrjkfe67ms7g2u"
+  }
+}
