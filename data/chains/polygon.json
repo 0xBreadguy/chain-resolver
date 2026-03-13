@@ -1,0 +1,23 @@
+{
+  "label": "polygon",
+  "chainName": "Polygon",
+  "interoperableAddressHex": "0x00010000018900",
+  "aliases": [
+    "polygon-pos"
+  ],
+  "textRecords": {
+    "chainId": "eip155:137",
+    "url": "https://polygon.technology",
+    "com.x": "https://x.com/0xPolygon",
+    "com.discord": "https://discord.com/invite/0xPolygonCommunity",
+    "com.youtube": "https://www.youtube.com/@0xPolygon",
+    "com.linkedin": "https://www.linkedin.com/company/polygonlabs/",
+    "org.telegram": "https://t.me/PolygonHQ",
+    "com.instagram": "https://www.instagram.com/0xpolygon/",
+    "com.reddit": "https://www.reddit.com/r/0xPolygon/",
+    "com.github": "https://github.com/maticnetwork/",
+    "avatar": "ipfs://bafkreie4wufmoipfsieoxyxwqeefaosfaj34xetfa4i327c76ogg3x3dou",
+    "brand": "https://polygontechnology.notion.site/Polygon-Brand-Assets-2025-aa481b968f2e46c0a83f9da751e0aa17",
+    "header": "ipfs://bafkreieyl253pldu2tcmcvnk4egkmuhoeiixsc57u6ovu5jacburll33by"
+  }
+}
