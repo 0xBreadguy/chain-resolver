@@ -1,0 +1,16 @@
+{
+  "label": "taiko-alethia",
+  "chainName": "Taiko Alethia",
+  "interoperableAddressHex": "0x0001000003028c5800",
+  "aliases": [],
+  "textRecords": {
+    "chainId": "eip155:167000",
+    "url": "https://taiko.xyz/",
+    "com.x": "https://x.com/yourchain",
+    "com.discord": "https://discord.gg/yourchain",
+    "com.github": "https://github.com/yourchain",
+    "avatar": "ipfs://bafkreigewoazu32ttyoh5ekn3flskahc4sv4j5ia4vrzsgkj25jvapurjy",
+    "header": "ipfs://bafkreierof7fymy6dcjln2ej6jrtz36vu47mgerybdfq6qa4dwxftc73me",
+    "brand": "https://taiko.xyz/brand-assets"
+  }
+}
