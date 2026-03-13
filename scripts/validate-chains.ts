@@ -107,12 +107,31 @@ function validateChain(
     // Note: isValidBinaryAddress may fail for newer chain types not yet in the library
     try {
       const decoded = decodeAddress(chain.interoperableAddressHex);
-      const expectedChainId = `${decoded.chainType}:${decoded.chainReference}`;
+      const erc7930ChainId = `${decoded.chainType}:${decoded.chainReference}`;
+      const caip2ChainId = chain.textRecords?.chainId;
 
-      if (chain.textRecords?.chainId && chain.textRecords.chainId !== expectedChainId) {
-        errors.push(
-          `interoperableAddressHex mismatch: encodes "${expectedChainId}" but textRecords.chainId is "${chain.textRecords.chainId}"`
-        );
+      if (caip2ChainId) {
+        const [caip2Namespace, caip2Reference] = caip2ChainId.split(":");
+        const erc7930Namespace = decoded.chainType;
+        const erc7930Reference = decoded.chainReference;
+
+        // Namespaces where CAIP-2 truncates the reference but CAIP-350/ERC-7930 uses full
+        // Solana: CAIP-2 uses first 32 chars of 44-char base58btc genesis hash
+        const TRUNCATED_REFERENCE_NAMESPACES = ["solana"];
+
+        const namespaceMatch = caip2Namespace === erc7930Namespace;
+        let referenceMatch = caip2Reference === erc7930Reference;
+
+        // For known truncated namespaces, accept CAIP-2 as prefix of ERC-7930
+        if (!referenceMatch && TRUNCATED_REFERENCE_NAMESPACES.includes(caip2Namespace)) {
+          referenceMatch = erc7930Reference.startsWith(caip2Reference);
+        }
+
+        if (!namespaceMatch || !referenceMatch) {
+          errors.push(
+            `interoperableAddressHex mismatch: encodes "${erc7930ChainId}" but textRecords.chainId is "${caip2ChainId}"`
+          );
+        }
       }
     } catch (e) {
       const errMsg = (e as Error).message;
