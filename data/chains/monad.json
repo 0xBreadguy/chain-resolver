@@ -1,0 +1,19 @@
+{
+  "label": "monad",
+  "chainName": "Monad",
+  "interoperableAddressHex": "0x00010000018f00",
+  "aliases": [
+    "mon"
+  ],
+  "textRecords": {
+    "chainId": "eip155:143",
+    "url": "https://monad.xyz",
+    "com.x": "https://x.com/monad",
+    "com.discord": "https://discord.gg/monad",
+    "com.youtube": "https://www.youtube.com/@MonadFoundation",
+    "com.linkedin": "https://www.linkedin.com/company/monad-foundation",
+    "avatar": "ipfs://bafkreifnt7g3bnuujppfgc6ylm3swycun2pyqpvywsmjs5h4i26miahpci",
+    "brand": "https://www.monad.xyz/brand-and-media-kit",
+    "header": "ipfs://bafkreifnapqi73kqsw4jlv2fmlh63lw674dwm3ct7cdcsykhnwyhce6dcm"
+  }
+}
