@@ -1,0 +1,20 @@
+{
+  "label": "world",
+  "chainName": "World Chain",
+  "interoperableAddressHex": "0x000100000201e000",
+  "aliases": [],
+  "textRecords": {
+    "chainId": "eip155:480",
+    "url": "https://world.org",
+    "com.x": "https://x.com/worldcoin",
+    "com.discord": "https://discord.com/invite/worldnetwork",
+    "com.youtube": "https://youtube.com/@worldnetworkofficial",
+    "com.linkedin": "https://linkedin.com/company/worldofficial",
+    "org.telegram": "https://t.me/worldnetworkofficial",
+    "com.reddit": "https://www.reddit.com/r/worldid",
+    "com.instagram": "https://instagram.com/world",
+    "avatar": "ipfs://bafkreiakutsvvhxytl6sgjr7g3mb6zfyf2zpuegijnwtjjqwnby43fvzyi",
+    "brand": "https://world.org/brand",
+    "header": "ipfs://bafkreia5hdg7qxdm77tpupfuwz3f6pvx53hxr6atpfujjfsapdqmeapjli"
+  }
+}
